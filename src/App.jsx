@@ -1,7 +1,10 @@
+import Nav from "./components/Nav";
+
 function App() {
   return (
     <>
-      <p className="text-cyan-500 bg-slate-900 p-10">Hello World</p>
+      <Nav />
+      <div className="bg-indigo-600 w-full h-screen"></div>
     </>
   );
 }
