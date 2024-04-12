@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import { IonIcon } from "@ionic/react";
-import { menu } from "ionicons/icons";
 
 const Nav = () => {
   let links = [
@@ -20,7 +18,7 @@ const Nav = () => {
         className="absolute right-6 top-4 cursor-pointer md:hidden"
       >
         <span>
-          <IonIcon name={open ? "close" : "menu"}></IonIcon>
+          <ion-icon name={open ? "close" : "menu"} size="large"></ion-icon>
         </span>
       </div>
       <div className="bg-white md:p-0 p-2 pt-4 md:flex md:gap-4 md:justify-end absolute md:static md:z-auto z-[-1] left-0 w-full">
