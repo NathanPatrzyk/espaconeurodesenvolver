@@ -21,7 +21,11 @@ const Nav = () => {
           <ion-icon name={open ? "close" : "menu"} size="large"></ion-icon>
         </span>
       </div>
-      <div className="bg-white md:p-0 p-2 pt-4 md:flex md:gap-4 md:justify-end absolute md:static md:z-auto z-[-1] left-0 w-full">
+      <div
+        className={`bg-white md:p-0 p-2 pt-4 md:flex md:gap-4 md:justify-end absolute md:static md:z-auto z-[-1] left-0 w-full transition-all duration-500 ease-in ${
+          open ? "top-[64px]" : "top-[-490px]"
+        }`}
+      >
         {links.map((link) => (
           <div className="md:p-0 p-2 hover:opacity-80 focus:opacity-80 cursor-pointer duration-500">
             <a href={link.link}>{link.name}</a>
