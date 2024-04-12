@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
+import { IonIcon } from "@ionic/react";
+import { menu } from "ionicons/icons";
 
 const Nav = () => {
   let links = [
@@ -7,14 +9,23 @@ const Nav = () => {
     { name: "Sobre", link: "/" },
     { name: "Contato", link: "/" },
   ];
+  let [open, setOpen] = useState(false);
   return (
-    <div className="w-full md:flex md:px-8 items-center justify-between fixed top-0 left-0 bg-white">
-      <div className="flex w-2/5 p-4">
-        <div className="w-10 sm:w-72 h-10 bg-[url(./assets/logo-small.png)] sm:bg-[url(./assets/logo.png)] bg-no-repeat bg-center bg-contain cursor-pointer hover:opacity-80 focus:opacity-80 duration-500"></div>
+    <div className="bg-white md:px-8 px-4 py-3 w-full md:flex items-center fixed top-0 left-0 ">
+      <div className="flex items-center">
+        <div className="sm:w-72 w-10 h-10 bg-[url(./assets/logo-small.png)] sm:bg-[url(./assets/logo.png)] bg-no-repeat bg-center bg-contain cursor-pointer hover:opacity-80 focus:opacity-80 duration-500"></div>
       </div>
-      <div className="md:w-3/5 md:flex md:items-center gap-4 sm:justify-end text-lg md:pb-0 pb-4 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full">
+      <div
+        onClick={() => setOpen(!open)}
+        className="absolute right-6 top-4 cursor-pointer md:hidden"
+      >
+        <span>
+          <IonIcon name={open ? "close" : "menu"}></IonIcon>
+        </span>
+      </div>
+      <div className="bg-white md:p-0 p-2 pt-4 md:flex md:gap-4 md:justify-end absolute md:static md:z-auto z-[-1] left-0 w-full">
         {links.map((link) => (
-          <div className="pb-2 md:px-0 px-4 hover:opacity-80 focus:opacity-80 cursor-pointer duration-500">
+          <div className="md:p-0 p-2 hover:opacity-80 focus:opacity-80 cursor-pointer duration-500">
             <a href={link.link}>{link.name}</a>
           </div>
         ))}
