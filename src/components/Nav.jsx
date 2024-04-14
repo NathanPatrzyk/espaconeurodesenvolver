@@ -19,12 +19,12 @@ const Nav = () => {
         }`}
       ></div>
       <div
-        className={`bg-white md:bg-opacity-0 bg-opacity-70 md:p-0 p-2 pt-4 md:flex md:gap-4 md:justify-end absolute md:static md:z-auto z-[-1] left-0 w-full ${
+        className={`bg-white md:bg-opacity-0 bg-opacity-100 md:p-0 p-2 pt-4 md:flex md:gap-4 md:justify-end absolute md:static md:z-auto z-[-1] left-0 w-full ${
           open ? "top-[64px]" : "top-[-490px]"
         }`}
       >
         {links.map((link) => (
-          <div className="font-medium md:p-0 p-2 hover:opacity-80 focus:opacity-80 cursor-pointer duration-500">
+          <div className="text-dark-neuro font-medium md:p-0 p-2 hover:opacity-80 focus:opacity-80 cursor-pointer duration-500">
             <a href={link.link}>{link.name}</a>
           </div>
         ))}

@@ -1,10 +1,12 @@
 import Nav from "./components/Nav";
+import Main from "./components/Main";
 
 function App() {
   return (
     <>
       <Nav />
-      <div className="bg-light-cyan-neuro w-full h-screen"></div>
+      <Main />
+      <div className="h-96"></div>
     </>
   );
 }
