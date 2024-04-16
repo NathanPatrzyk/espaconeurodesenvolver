@@ -10,7 +10,7 @@ const Nav = () => {
   return (
     <div className="bg-white bg-opacity-90 px-8 py-3 w-full md:flex items-center fixed top-0 left-0">
       <div className="flex items-center">
-        <div className="sm:w-72 w-10 h-10 bg-[url(./assets/logo-small.webp)] sm:bg-[url(./assets/logo.webp)] bg-no-repeat bg-center bg-contain cursor-pointer hover:opacity-80 focus:opacity-80 duration-500"></div>
+        <div className="sm:w-72 w-10 h-10 bg-[url(./assets/logo-small.webp)] sm:bg-[url(./assets/logo.webp)] bg-no-repeat bg-center bg-contain cursor-pointer hover:opacity-80 duration-500"></div>
       </div>
       <div
         onClick={() => setOpen(!open)}
@@ -24,7 +24,7 @@ const Nav = () => {
         }`}
       >
         {links.map((link) => (
-          <div className="text-dark-neuro font-medium md:p-0 p-2 hover:opacity-80 focus:opacity-80 cursor-pointer duration-500">
+          <div className="text-dark-neuro font-medium md:p-0 p-2 hover:opacity-80 cursor-pointer duration-500">
             <a href={link.link}>{link.name}</a>
           </div>
         ))}
