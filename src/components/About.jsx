@@ -1,7 +1,7 @@
-const Section1 = () => {
+const About = () => {
   return (
-    <div className="flex md:flex-row flex-col gap-8 bg-light-neuro md:px-16 px-4 md:py-12 py-8">
-      <div className="px-8 py-4 border-4 border-dark-neuro border-opacity-20 rounded-lg">
+    <div id="sobre" className="flex md:flex-row flex-col gap-8 bg-light-neuro md:px-16 px-4 md:py-12 py-8">
+      <div className="px-8 py-4 border-4 border-dark-neuro hover:border-cyan-neuro border-opacity-20 rounded-lg">
         <svg
           className="mx-auto"
           xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@ const Section1 = () => {
           tecnologia.
         </p>
       </div>
-      <div className="px-8 py-4 border-4 border-dark-neuro border-opacity-20 rounded-lg">
+      <div className="px-8 py-4 border-4 border-dark-neuro hover:border-cyan-neuro border-opacity-20 rounded-lg">
         <svg
           className="mx-auto"
           xmlns="http://www.w3.org/2000/svg"
@@ -85,7 +85,7 @@ const Section1 = () => {
           adequado e equipamentos.
         </p>
       </div>
-      <div className="px-8 py-4 border-4 border-dark-neuro border-opacity-20 rounded-lg">
+      <div className="px-8 py-4 border-4 border-dark-neuro hover:border-cyan-neuro border-opacity-20 rounded-lg">
         <svg
           className="mx-auto"
           xmlns="http://www.w3.org/2000/svg"
@@ -135,4 +135,4 @@ const Section1 = () => {
   );
 };
 
-export default Section1;
+export default About;

@@ -2,11 +2,8 @@ import Button from "./Button";
 
 const Main = () => {
   return (
-    <main className="md:grid md:grid-cols-2 bg-light-cyan-neuro">
-      <div className="md:h-auto sm:h-[70vw] h-[95vw] md:px-16 md:py-12 md:pt-28 pt-24 py-8 bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro md:rounded-none md:rounded-bl-[800px] rounded-none md:order-last">
-        <div className="w-full h-full bg-[url(./assets/main.webp)] bg-contain bg-center bg-no-repeat"></div>
-      </div>
-      <div className="flex flex-col justify-center md:pt-48 md:pb-32 md:px-16 px-4 py-8">
+    <main className="flex md:flex-row flex-col-reverse gap-1 bg-light-cyan-neuro">
+      <div className="flex-1 flex flex-col justify-center md:pt-48 md:pb-32 md:px-16 px-4 py-8">
         <h1 className="text-dark-neuro text-3xl">
           Agende uma avaliação e venha{" "}
           <span className="font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text text-3xl">
@@ -40,6 +37,9 @@ const Main = () => {
             </Button>
           </a>
         </div>
+      </div>
+      <div className="flex-1  md:px-16 md:py-12 md:pt-28 pt-24 py-8 bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro md:rounded-none md:rounded-bl-[800px] rounded-none">
+        <div className="w-full md:h-full sm:h-[50vw] h-[80vw] max-h-[400px] bg-[url(./assets/main.webp)] bg-contain bg-center bg-no-repeat"></div>
       </div>
     </main>
   );

@@ -1,13 +1,14 @@
 import Nav from "./components/Nav";
 import Main from "./components/Main";
-import Section1 from "./components/Section1";
+import About from "./components/About";
 
 function App() {
   return (
     <>
       <Nav />
       <Main />
-      <Section1 />
+      <About />
+      <Speciality imageSource="" title="" description="" />
     </>
   );
 }

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Nav = () => {
   let links = [
     { name: "Especialidades", link: "/" },
-    { name: "Sobre", link: "/" },
+    { name: "Sobre", link: "#sobre" },
     { name: "Contato", link: "/" },
   ];
   let [open, setOpen] = useState(false);
