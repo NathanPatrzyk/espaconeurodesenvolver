@@ -9,7 +9,7 @@ function App() {
       <Nav />
       <Main />
       <About />
-      <Speciality imageSource='test' title='test' description='test' />
+      <Speciality image="pediasuit" title="test" description="test" />
     </>
   );
 }

@@ -1,4 +1,6 @@
-import Button from "./Button";
+import React from "react";
+import Button from "./Button"; 
+import Image from "../assets/main.webp"
 
 const Main = () => {
   return (
@@ -39,7 +41,7 @@ const Main = () => {
         </div>
       </div>
       <div className="flex-1  md:px-16 md:py-12 md:pt-28 pt-24 py-8 bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro md:rounded-none md:rounded-bl-[800px] rounded-none">
-        <div className="sm:size-[300px] size-[90vw] max-w-[300px] max-h-[300px] mx-auto bg-[url(./assets/main.webp)] bg-contain bg-center bg-no-repeat"></div>
+        <div className="sm:size-[300px] size-[90vw] max-w-[300px] max-h-[300px] mx-auto bg-main bg-contain bg-center bg-no-repeat"></div>
       </div>
     </main>
   );
