@@ -39,7 +39,7 @@ const Main = () => {
         </div>
       </div>
       <div className="flex-1  md:px-16 md:py-12 md:pt-28 pt-24 py-8 bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro md:rounded-none md:rounded-bl-[800px] rounded-none">
-        <div className="w-full md:h-full sm:h-[50vw] h-[80vw] max-h-[400px] bg-[url(./assets/main.webp)] bg-contain bg-center bg-no-repeat"></div>
+        <div className="sm:size-[300px] size-[90vw] max-w-[300px] max-h-[300px] mx-auto bg-[url(./assets/main.webp)] bg-contain bg-center bg-no-repeat"></div>
       </div>
     </main>
   );

@@ -1,6 +1,7 @@
 import Nav from "./components/Nav";
 import Main from "./components/Main";
 import About from "./components/About";
+import Speciality from "./components/Speciality";
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       <Nav />
       <Main />
       <About />
-      <Speciality imageSource="" title="" description="" />
+      <Speciality imageSource='test' title='test' description='test' />
     </>
   );
 }
