@@ -14,6 +14,19 @@ export default {
         'cyan-neuro': '#7AD2CA',
         'dark-cyan-neuro': '#54C5BB',
       },
+      keyframes: {
+        goback: {
+          '0%, 100%': {
+            transform: 'translateY(-10px)'
+          },
+          '50%': {
+            transform: 'translateY(10px)'
+          }
+        }
+      },
+      animation: {
+        goback: 'goback 8s linear infinite' 
+      }
     },
   },
   plugins: [],

@@ -4,7 +4,7 @@ import ImageMain from "../assets/main.webp";
 
 const Main = () => {
   return (
-    <main className="flex md:flex-row flex-col-reverse gap-1 bg-light-cyan-neuro">
+    <main className="flex md:flex-row flex-col-reverse bg-light-cyan-neuro">
       <div className="flex-1 flex flex-col justify-center md:pt-48 md:pb-32 md:px-16 px-4 py-8">
         <h1 className="text-dark-neuro text-3xl">
           Agende uma avaliação e venha{" "}
@@ -40,7 +40,7 @@ const Main = () => {
           </a>
         </div>
       </div>
-      <div className="flex-1 flex items-center justify-center md:px-16 md:py-12 md:pt-28 pt-24 py-8 bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro md:rounded-none md:rounded-bl-[800px] rounded-none">
+      <div className="flex-1 flex items-center justify-center md:px-16 md:py-12 md:pt-28 pt-24 py-8 md:bg-gradient-to-r md:from-dark-cyan-neuro md:to-cyan-neuro bg-gradient-to-r from-transparent to-transparent md:rounded-none md:rounded-bl-[800px] rounded-none">
         <img
           src={ImageMain}
           className="sm:size-[300px] size-[90vw] max-w-[300px] max-h-[300px]"
