@@ -12,6 +12,7 @@ import Nav from "./components/Nav";
 import Speciality from "./components/Speciality";
 import SpecialityAlternative from "./components/SpecialityAlternative";
 import SocialMedia from "./components/SocialMedia";
+import Location from "./components/Location"
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         title="Terapia Ocupacional"
         description="Às vezes, as maiores transformações na vida vêm de pequenos detalhes. A Terapia Ocupacional é um exemplo perfeito disso. Essa prática terapêutica foca em capacitar as pessoas a superar desafios diários, tornando pequenos passos em direção a uma vida mais plena e independente. Cada pequena vitória é um grande avanço."
       />
+      <Location />
       <Speciality
         image={ImageEstimulacaoVisual}
         title="Estimulação Visual"

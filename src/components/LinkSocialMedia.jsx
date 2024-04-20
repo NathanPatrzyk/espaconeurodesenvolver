@@ -2,7 +2,7 @@ import Button from "./Button";
 
 const LinkSocialMedia = (props) => {
   return (
-    <div className="pt-6">
+    <div>
       <a href={props.link}>
         <Button>
           <div><img className="mt-0.5" src={props.icon}></img></div>
