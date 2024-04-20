@@ -16,7 +16,7 @@ const Main = () => {
           <a href="https://api.whatsapp.com/send?phone=554299732535">
             <Button>
               <svg
-                className="m-0.5 me-4"
+                className="m-0.5"
                 xmlns="http://www.w3.org/2000/svg"
                 width="18"
                 height="20"
