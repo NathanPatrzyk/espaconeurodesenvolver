@@ -9,12 +9,10 @@ const Location = () => {
           📍 R. Conselheiro Zacarias, 156 Irati-PR, 84500-245
         </p>
       </div>
-      <div className="flex-1 flex items-center justify-center md:px-16 md:py-12 py-8">
+      <div className="flex-1 flex items-center justify-center">
         <iframe
+          className="w-full h-full min-h-[300px]"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.1925990864897!2d-50.646131325262985!3d-25.465243534285854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e7d54717ac8929%3A0x678e2ce721a7ad8b!2sEspa%C3%A7o%20Neurodesenvolver!5e0!3m2!1spt-BR!2sbr!4v1713653945793!5m2!1spt-BR!2sbr"
-          width="400"
-          height="300"
-          referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
     </section>

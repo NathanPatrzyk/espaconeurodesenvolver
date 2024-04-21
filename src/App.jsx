@@ -12,19 +12,26 @@ import Nav from "./components/Nav";
 import Speciality from "./components/Speciality";
 import SpecialityAlternative from "./components/SpecialityAlternative";
 import SocialMedia from "./components/SocialMedia";
-import Location from "./components/Location"
+import Location from "./components/Location";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
       <Main />
-      <About />
-      <Speciality
-        image={ImagePediasuit}
-        title="PediaSuit"
-        description="É uma abordagem revolucionária na neuroreabilitação infantil, projetada para crianças com desafios neuromotores. Descubra como esse protocolo funciona e como ele pode fazer a diferença na vida de nossos pequenos pacientes!"
-      />
-      <SocialMedia />
+      <div id="sobre">
+        <About />
+      </div>
+      <div id="especialidades">
+        <Speciality
+          image={ImagePediasuit}
+          title="PediaSuit"
+          description="É uma abordagem revolucionária na neuroreabilitação infantil, projetada para crianças com desafios neuromotores. Descubra como esse protocolo funciona e como ele pode fazer a diferença na vida de nossos pequenos pacientes!"
+        />
+      </div>
+      <div id="contato">
+        <SocialMedia />
+      </div>
       <Speciality
         image={ImageTerapiaOcupacional}
         title="Terapia Ocupacional"
@@ -45,6 +52,7 @@ function App() {
       <SpecialityAlternative image={ImagePsicologia} title="Psicologia" />
       <Speciality image={ImageFonoaudiologia} title="Fonoaudiologia" />
       <Nav />
+      <Footer />
     </>
   );
 }

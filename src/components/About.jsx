@@ -1,9 +1,6 @@
 const About = () => {
   return (
-    <div
-      id="sobre"
-      className="flex md:flex-row flex-col gap-8 bg-light-neuro md:px-16 px-4 md:py-12 py-8"
-    >
+    <section className="flex md:flex-row flex-col gap-8 bg-light-neuro md:px-16 px-4 md:py-12 py-8">
       <div className="px-8 py-4 border-4 border-dark-neuro hover:border-cyan-neuro border-opacity-20 rounded-lg">
         <svg
           className="mx-auto"
@@ -134,7 +131,7 @@ const About = () => {
           Respeito; Excelência; Melhoria contínua; Inovação; Responsabilidade.
         </p>
       </div>
-    </div>
+    </section>
   );
 };
 

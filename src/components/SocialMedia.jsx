@@ -8,7 +8,7 @@ import IconFacebook from "../assets/facebook.svg";
 
 const SocialMedia = () => {
   return (
-    <section className="flex md:flex-row flex-col-reverse bg-light-neuro">
+    <section id="contato" className="flex md:flex-row flex-col-reverse bg-light-neuro">
       <div className="flex-1 flex flex-col justify-center md:py-32 md:px-16 px-4 py-8 md:max-w-[50vw] max-w-none">
         <h2 className="font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text text-3xl">
           Redes Sociais
@@ -19,14 +19,10 @@ const SocialMedia = () => {
             link="https://api.whatsapp.com/send?phone=554299732535"
             name="WHATSAPP"
           />
-          <LinkSocialMedia
-            icon={IconEmail}
-            link="#"
-            name="EMAIL"
-          />
+          <LinkSocialMedia icon={IconEmail} link="#" name="EMAIL" />
         </div>
         <div className="flex md:flex-row flex-col gap-6 pt-6">
-        <LinkSocialMedia
+          <LinkSocialMedia
             icon={IconInstagram}
             link="https://www.instagram.com/espaconeurodesenvolver/"
             name="INSTAGRAM"

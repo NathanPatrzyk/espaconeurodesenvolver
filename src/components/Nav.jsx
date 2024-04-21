@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 
+import IconSeeMore from "../assets/see-more.svg";
+
 const Nav = () => {
   let links = [
-    { name: "Especialidades", link: "/" },
+    { name: "Especialidades", link: "#especialidades" },
     { name: "Sobre", link: "#sobre" },
-    { name: "Contato", link: "/" },
+    { name: "Contato", link: "#contato" },
   ];
   let [open, setOpen] = useState(false);
   return (
