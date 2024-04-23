@@ -17,15 +17,15 @@ export default {
       keyframes: {
         goback: {
           '0%, 100%': {
-            transform: 'translateY(-10px)'
+            transform: 'translateY(-15px)'
           },
           '50%': {
-            transform: 'translateY(10px)'
+            transform: 'translateY(15px)'
           }
         }
       },
       animation: {
-        goback: 'goback 8s linear infinite' 
+        goback: 'goback 10s linear infinite'
       }
     },
   },
