@@ -4,13 +4,14 @@ import IconWhatsapp from "../assets/whatsapp.svg";
 
 const Footer = () => {
   let links = [
+    { name: "Profissionais", link: "#"},
     { name: "Especialidades", link: "#especialidades" },
     { name: "Sobre", link: "#sobre" },
     { name: "Contato", link: "#contato" },
   ];
   return (
     <div>
-      <footer className="flex bg-cyan-neuro">
+      <footer className="flex bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro">
         <div className="flex flex-col gap-4 px-8 pt-8">
           {links.map((link) => (
             <a className="text-light-neuro font-medium" href={link.link}>
@@ -29,7 +30,6 @@ const Footer = () => {
           </p>
         </div>
       </footer>
-      <div className="bg-cyan-neuro text-center w-full pb-8"></div>
     </div>
   );
 };
