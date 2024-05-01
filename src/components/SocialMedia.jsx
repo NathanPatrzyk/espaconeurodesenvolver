@@ -22,7 +22,11 @@ const SocialMedia = () => {
             link="https://api.whatsapp.com/send?phone=554299732535"
             name="WHATSAPP"
           />
-          <LinkSocialMedia icon={IconEmail} link="#" name="EMAIL" />
+          <LinkSocialMedia
+            icon={IconEmail}
+            link="mailto:espaconeurodesenvolverirati@gmail.com"
+            name="EMAIL"
+          />
         </div>
         <div className="flex md:flex-row flex-col gap-6 pt-6">
           <LinkSocialMedia
