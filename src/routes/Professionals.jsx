@@ -1,7 +1,13 @@
+import Nav from "../components/Nav";
+import Footer from "../components/Footer";
+import Professional from "../components/Professional";
+
 function Professionals() {
   return (
     <div>
-        <h1>Profissionais</h1>
+      <Professional />
+      <Nav />
+      <Footer />
     </div>
   );
 }
