@@ -16,7 +16,7 @@ const SocialMedia = () => {
         <h2 className="font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text text-3xl">
           Redes Sociais
         </h2>
-        <div className="flex md:flex-row flex-col gap-6 pt-6">
+        <div className="flex md:flex-row flex-col gap-6 pt-6 sm:items-start items-center">
           <LinkSocialMedia
             icon={IconWhatsapp}
             link="https://api.whatsapp.com/send?phone=554299732535"
@@ -28,7 +28,7 @@ const SocialMedia = () => {
             name="EMAIL"
           />
         </div>
-        <div className="flex md:flex-row flex-col gap-6 pt-6">
+        <div className="flex md:flex-row flex-col gap-6 pt-6 sm:items-start items-center">
           <LinkSocialMedia
             icon={IconInstagram}
             link="https://www.instagram.com/espaconeurodesenvolver/"

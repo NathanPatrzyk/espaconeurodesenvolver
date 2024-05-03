@@ -14,9 +14,9 @@ const Main = () => {
         </h1>
         <div className="pt-6">
           <a href="https://api.whatsapp.com/send?phone=554299732535">
-            <Button>
+            <button className="flex align-center justify-start gap-2 text-light-neuro w-[70vw] sm:w-[218px] font-sm font-medium bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro py-[10px] px-[20px] rounded-md hover:opacity-80">
               <svg
-                className="m-0.5"
+                className="mt-0.5"
                 xmlns="http://www.w3.org/2000/svg"
                 width="18"
                 height="20"
@@ -36,7 +36,7 @@ const Main = () => {
                 </defs>
               </svg>
               ENTRE EM CONTATO
-            </Button>
+            </button>
           </a>
         </div>
       </div>

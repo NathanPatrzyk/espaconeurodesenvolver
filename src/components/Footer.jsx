@@ -8,7 +8,7 @@ import IconFacebookAlternative from "../assets/facebookAlternative.svg";
 
 const Footer = () => {
   let links = [
-    { name: "Profissionais", link: "#" },
+    { name: "Profissionais", link: "/profissionais" },
     { name: "Especialidades", link: "#especialidades" },
     { name: "Sobre", link: "#sobre" },
     { name: "Contato", link: "#contato" },

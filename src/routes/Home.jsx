@@ -1,24 +1,24 @@
-import ImageEstimulacaoVisual from "./assets/estimulacaovisual.webp";
-import ImagePediasuit from "./assets/pediasuit.webp";
-import ImageTerapiaOcupacional from "./assets/terapiaocupacional.webp";
-import ImageBobath from "./assets/bobath.webp";
-import ImagePsicomotricidade from "./assets/psicomotricidade.webp";
-import ImagePsicologia from "./assets/psicologia.webp";
-import ImageFonoaudiologia from "./assets/fonoaudiologia.webp";
+import ImageEstimulacaoVisual from "../assets/estimulacaovisual.webp";
+import ImagePediasuit from "../assets/pediasuit.webp";
+import ImageTerapiaOcupacional from "../assets/terapiaocupacional.webp";
+import ImageBobath from "../assets/bobath.webp";
+import ImagePsicomotricidade from "../assets/psicomotricidade.webp";
+import ImagePsicologia from "../assets/psicologia.webp";
+import ImageFonoaudiologia from "../assets/fonoaudiologia.webp";
 
-import About from "./components/About";
-import Main from "./components/Main";
-import Nav from "./components/Nav";
-import Speciality from "./components/Speciality";
-import SpecialityAlternative from "./components/SpecialityAlternative";
-import SocialMedia from "./components/SocialMedia";
-import Location from "./components/Location";
-import Professionals from "./components/Professionals"
-import Footer from "./components/Footer";
+import About from "../components/About";
+import Main from "../components/Main";
+import Nav from "../components/Nav";
+import Speciality from "../components/Speciality";
+import SpecialityAlternative from "../components/SpecialityAlternative";
+import SocialMedia from "../components/SocialMedia";
+import Location from "../components/Location";
+import Professionals from "../components/Professionals"
+import Footer from "../components/Footer";
 
-function App() {
+function Home() {
   return (
-    <>
+    <div>
       <Main />
       <div id="especialidades">
         <Speciality
@@ -55,8 +55,8 @@ function App() {
       <Speciality image={ImageFonoaudiologia} title="Fonoaudiologia" />
       <Nav />
       <Footer />
-    </>
+    </div>
   );
 }
 
-export default App;
+export default Home;
