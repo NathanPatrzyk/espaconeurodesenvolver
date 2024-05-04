@@ -1,0 +1,26 @@
+{
+  "pages": [
+    { "name": "Profissionais", "link": "/profissionais" },
+    { "name": "Especialidades", "link": "#especialidades" },
+    { "name": "Sobre", "link": "#sobre" },
+    { "name": "Contato", "link": "#contato" }
+  ],
+  "profissionals": [
+    {
+      "image": "/rafael.webp",
+      "name": "Rafael Alexandre Giliczynski",
+      "role": "Fisioterapeuta Responsável",
+      "description": "Crefito-8 275189-F",
+      "formations": [
+        { "name": "Pós-Graduado em Neurologia com ênfase em Neuropediatria" },
+        { "name": "Pós-Graduado em Fisioterapia Neurofuncional" },
+        { "name": "Pós Graduado em ABA (Análise do Comportamento Aplicada)" },
+        { "name": "Formação em PediaSuit Básico, PediaSuit Avançado e PediaSuit Baby" },
+        { "name": "Formação no Conceito Bobath" },
+        { "name": "Curso de Treinamento Locomotor na Paralisia Cerebral" },
+        { "name": "Curso Teórico/Prático de Estimulação Transcraniana por Corrente Contínua" },
+        { "name": "Curso de Psicomotricidade Básico e Avançado" }
+      ]
+    }
+  ]
+}

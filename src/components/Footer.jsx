@@ -1,4 +1,6 @@
 import React from "react";
+import json from "../data.json";
+
 import LinkSocialMediaAlternative from "./LinkSocialMediaAlternative";
 import LinkSocialMediaSmall from "./LinkSocialMediaSmall";
 import IconWhatsappAlternative from "../assets/whatsappAlternative.svg";
@@ -7,19 +9,13 @@ import IconInstagramAlternative from "../assets/instagramAlternative.svg";
 import IconFacebookAlternative from "../assets/facebookAlternative.svg";
 
 const Footer = () => {
-  let links = [
-    { name: "Profissionais", link: "/profissionais" },
-    { name: "Especialidades", link: "#especialidades" },
-    { name: "Sobre", link: "#sobre" },
-    { name: "Contato", link: "#contato" },
-  ];
   return (
     <footer className="bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro">
       <div className="flex sm:flex-row flex-col">
         <div className="flex flex-1 flex-col gap-4 md:px-16 px-4 py-8 sm:text-left text-center">
-          {links.map((link) => (
-            <a className="text-light-neuro font-medium hover:underline" href={link.link}>
-              {link.name}
+          {json.pages.map((page) => (
+            <a className="text-light-neuro font-medium hover:underline" href={page.link}>
+              {page.name}
             </a>
           ))}
         </div>
