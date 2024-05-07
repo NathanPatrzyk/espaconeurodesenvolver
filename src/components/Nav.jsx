@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import json from "../data.json";
 
-import IconSeeMore from "../assets/see-more.svg";
+import NavItem from "./NavItem";
 
 const Nav = () => {
   let [open, setOpen] = useState(false);
@@ -24,9 +24,7 @@ const Nav = () => {
         }`}
       >
         {json.pages.map((page) => (
-          <div className="text-dark-neuro font-medium md:p-0 p-2 hover:opacity-80 cursor-pointer duration-500">
-            <a href={page.link}>{page.name}</a>
-          </div>
+          <NavItem name={page.name} link={page.link} childrens={page.childrens} />
         ))}
       </div>
     </div>
