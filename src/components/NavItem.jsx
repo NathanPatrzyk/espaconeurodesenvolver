@@ -1,20 +1,62 @@
+import React, { useState } from "react";
 import IconSeeMore from "../assets/see-more.svg";
 
 const NavItem = (props) => {
-  if (props.childrens)
+  let [open, setOpen] = useState(false);
+  if (props.childrens) {
+    if (!open) {
+      return (
+        <div className="md:p-0 p-2">
+          <a
+            className="block text-dark-neuro font-medium hover:opacity-80 cursor-pointer"
+            href={props.link}
+            onClick={() => setOpen(!open)}
+          >
+            {props.name}
+            <img className="inline ps-2 pb-0.5" src={IconSeeMore} />
+          </a>
+        </div>
+      );
+    } else {
+      return (
+        <div>
+          <div className="md:p-0 p-2">
+            <a
+              className="block text-dark-neuro font-medium hover:opacity-80 cursor-pointer"
+              href={props.link}
+              onClick={() => setOpen(!open)}
+            >
+              {props.name}
+              <img
+                className={`inline pb-0.5 ${
+                  open ? "pe-2 rotate-180" : "ps-2 rotate-0"
+                }`}
+                src={IconSeeMore}
+              />
+            </a>
+          </div>
+          <div className="md:w-screen md:absolute right-0 top-[64px] md:bg-white md:bg-opacity-90 md:pb-3 md:p-0 px-4">
+            {props.childrens.map((children) => (
+              <a
+                className="block md:text-end text-dark-neuro hover:opacity-80 cursor-pointer md:mb-2 md:me-[221px] m-2"
+                href={children.link}
+              >
+                {children.name}
+              </a>
+            ))}
+          </div>
+        </div>
+      );
+    }
+  } else {
     return (
-      <div className="text-dark-neuro font-medium md:p-0 p-2 hover:opacity-80 cursor-pointer duration-500">
-        <a href={props.link}>{props.name}<img className="inline ps-2 pb-0.5" src={IconSeeMore} /></a>
-				{props.childrens.map((children) => (
-          <a href={children.link}>{children.name}</a>
-        ))}
-				{/* CONTINUAR SEGUINDO O VIDEO DO YOUTUBE PARA FAZER ABRIR E FECHAR O MENU DE CADA ITEM DA NAV ... */}
-      </div>
-    );
-  else {
-    return (
-      <div className="text-dark-neuro font-medium md:p-0 p-2 hover:opacity-80 cursor-pointer duration-500">
-        <a href={props.link}>{props.name}</a>
+      <div className="md:p-0 p-2">
+        <a
+          className="block text-dark-neuro font-medium hover:opacity-80 cursor-pointer"
+          href={props.link}
+        >
+          {props.name}
+        </a>
       </div>
     );
   }
