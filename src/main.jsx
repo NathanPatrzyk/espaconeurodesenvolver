@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Home from "./routes/Home";
 import Professionals from "./routes/Professionals";
+import PediaSuit from "./routes/PediaSuit";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
   {
     path: "profissionais",
     element: <Professionals />,
+  },
+  {
+    path: "especialidades/pediasuit",
+    element: <PediaSuit />,
   },
 ]);
 

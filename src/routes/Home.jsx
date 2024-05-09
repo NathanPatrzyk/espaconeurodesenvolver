@@ -28,6 +28,7 @@ function Home() {
           image={ImagePediasuit}
           title="PediaSuit"
           description="É uma abordagem revolucionária na neuroreabilitação infantil, projetada para crianças com desafios neuromotores. Descubra como esse protocolo funciona e como ele pode fazer a diferença na vida de nossos pequenos pacientes!"
+          link="especialidades/pediasuit"
         />
       </div>
       <div id="contato">

@@ -6,7 +6,7 @@ import LinkGoBack from "../components/LinkGoBack";
 function Professionals() {
   return (
     <div>
-      <LinkGoBack />
+      <LinkGoBack textColor="dark-cyan-neuro" />
       <Professional />
       <Nav />
       <Footer />
