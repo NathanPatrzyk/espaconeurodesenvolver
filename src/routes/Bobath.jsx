@@ -10,9 +10,15 @@ function Bobath() {
         <div className="flex-1 flex flex-col md:py-12 md:px-16 md:pt-4 py-8 px-4 pt-4">
           <h1 className="text-dark-neuro text-3xl pb-4">
             <span className="font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text text-3xl">
-              Bobath
-            </span>
+              Bobath:
+            </span>{" "}
+            Caminhos para a Reabilitação Neuromuscular e Independência do
+            Paciente
           </h1>
+          <p>
+            O Bobath é uma das certificações utilizada aqui na clínica a fim de
+            melhorias nos resultados dos nossos pacientes.
+          </p>
         </div>
       </main>
       <Nav />
