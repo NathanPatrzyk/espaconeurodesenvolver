@@ -1,7 +1,6 @@
-import React from "react";
-import ButtonAlternative from "./ButtonAlternative";
+import Link from "./Link";
 
-const Professionals = () => {
+const LinkGoToProfessionals = () => {
   return (
     <section className="bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro">
       <div className="flex sm:flex-row flex-col gap-8 md:p-16 xl:px-48 py-8 p-4">
@@ -11,15 +10,15 @@ const Professionals = () => {
             </h2>
         </div>
         <div className="sm:self-center mx-auto min-w-[128px]">
-            <a href="/profissionais">
-              <ButtonAlternative>
-                  <div>SAIBA MAIS</div>
-              </ButtonAlternative>
-            </a>
+          <Link
+            link="/profissionais"
+            name="SAIBA MAIS"
+            theme="light"
+          />
         </div>
       </div>
     </section>
   );
 };
 
-export default Professionals;
+export default LinkGoToProfessionals;

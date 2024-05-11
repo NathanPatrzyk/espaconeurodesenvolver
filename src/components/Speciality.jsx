@@ -1,6 +1,4 @@
-import React from "react";
-
-import ButtonAlternativeDark from "../components/ButtonAlternativeDark";
+import Link from "./Link";
 
 const Speciality = (props) => {
   if (props.link) {
@@ -17,11 +15,11 @@ const Speciality = (props) => {
             {props.title}
           </h2>
           <p className="text-dark-neuro py-6">{props.description}</p>
-          <a href={props.link}>
-              <ButtonAlternativeDark>
-                  <div>SAIBA MAIS</div>
-              </ButtonAlternativeDark>
-            </a>
+          <Link
+            link={props.link}
+            name="SAIBA MAIS"
+            theme="dark"
+          />
         </div>
       </section>
     );

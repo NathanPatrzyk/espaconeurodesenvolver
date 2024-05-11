@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./routes/Home";
 import Professionals from "./routes/Professionals";
 import PediaSuit from "./routes/PediaSuit";
+import Bobath from "./routes/Bobath";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "especialidades/pediasuit",
     element: <PediaSuit />,
+  },
+  {
+    path: "especialidades/bobath",
+    element: <Bobath />,
   },
 ]);
 

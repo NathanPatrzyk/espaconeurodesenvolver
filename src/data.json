@@ -10,6 +10,10 @@
         {
           "name": "PediaSuit",
           "link": "/especialidades/pediasuit"
+        },
+        {
+          "name": "Bobath",
+          "link": "/especialidades/bobath"
         }
       ]
     },

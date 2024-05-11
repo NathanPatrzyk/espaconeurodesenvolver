@@ -13,7 +13,7 @@ import Speciality from "../components/Speciality";
 import SpecialityAlternative from "../components/SpecialityAlternative";
 import SocialMedia from "../components/SocialMedia";
 import Location from "../components/Location";
-import LinkProfessionals from "../components/LinkProfessionals";
+import LinkGoToProfessionals from "../components/LinkGoToProfessionals";
 import Footer from "../components/Footer";
 
 function Home() {
@@ -38,6 +38,7 @@ function Home() {
         image={ImageBobath}
         title="Bobath"
         description="O Conceito Neuroevolutivo Bobath é uma abordagem terapêutica desenvolvida a fim de facilitar o individuo com limitação para participação no cotidiano, devido a danos motores, (incluindo tônus muscular e padrões de movimento) funções sensoriais, perceptivas e cognitivas, resultantes dos distúrbios do SNC – Sistema Nervoso Central."
+        link="especialidades/bobath"
       />
       <Location />
       <Speciality
@@ -45,7 +46,7 @@ function Home() {
         title="Terapia Ocupacional"
         description="Às vezes, as maiores transformações na vida vêm de pequenos detalhes. A Terapia Ocupacional é um exemplo perfeito disso. Essa prática terapêutica foca em capacitar as pessoas a superar desafios diários, tornando pequenos passos em direção a uma vida mais plena e independente. Cada pequena vitória é um grande avanço."
       />
-      <LinkProfessionals />
+      <LinkGoToProfessionals />
       <Speciality
         image={ImageEstimulacaoVisual}
         title="Estimulação Visual"
