@@ -3,7 +3,7 @@ import Link from "./Link";
 import IconWhatsapp from "../assets/whatsapp.svg";
 import ImageMain from "../assets/main.webp";
 
-const MainHome = () => {
+const Main = () => {
   return (
     <main className="flex md:flex-row flex-col-reverse bg-light-cyan-neuro">
       <div className="flex-1 flex flex-col justify-center md:pt-48 md:pb-32 md:px-16 px-4 py-8">
@@ -32,4 +32,4 @@ const MainHome = () => {
   );
 };
 
-export default MainHome;
+export default Main;

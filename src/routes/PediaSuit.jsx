@@ -10,6 +10,7 @@ import IconBiking from "../assets/biking.webp";
 import IconWalking from "../assets/walking.webp";
 import IconChampion from "../assets/champion.webp";
 import IconWhatsapp from "../assets/whatsapp.svg";
+
 import ImagePediasuit from "../assets/pediasuit.webp";
 
 function PediaSuit() {

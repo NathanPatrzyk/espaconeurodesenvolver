@@ -1,7 +1,7 @@
-import React from "react";
 import json from "../data.json";
 
 import Link from "./Link";
+
 import IconWhatsappAlternative from "../assets/whatsappAlternative.svg";
 import IconEmailAlternative from "../assets/emailAlternative.svg";
 import IconInstagramAlternative from "../assets/instagramAlternative.svg";

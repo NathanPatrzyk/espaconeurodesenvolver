@@ -1,3 +1,14 @@
+import Nav from "../components/Nav";
+import Footer from "../components/Footer";
+
+import LinkGoToProfessionals from "../components/LinkGoToProfessionals";
+
+import Main from "../components/Main";
+import About from "../components/About";
+import Speciality from "../components/Speciality";
+import SocialMedia from "../components/SocialMedia";
+import Location from "../components/Location";
+
 import ImageEstimulacaoVisual from "../assets/estimulacaovisual.webp";
 import ImagePediasuit from "../assets/pediasuit.webp";
 import ImageTerapiaOcupacional from "../assets/terapiaocupacional.webp";
@@ -6,34 +17,19 @@ import ImagePsicomotricidade from "../assets/psicomotricidade.webp";
 import ImagePsicologia from "../assets/psicologia.webp";
 import ImageFonoaudiologia from "../assets/fonoaudiologia.webp";
 
-import About from "../components/About";
-import MainHome from "../components/MainHome";
-import Nav from "../components/Nav";
-import Speciality from "../components/Speciality";
-import SocialMedia from "../components/SocialMedia";
-import Location from "../components/Location";
-import LinkGoToProfessionals from "../components/LinkGoToProfessionals";
-import Footer from "../components/Footer";
-
 function Home() {
   return (
     <div>
-      <MainHome />
-      <div id="sobre">
-        <About />
-      </div>
-      <div id="especialidades">
-        <Speciality
-          image={ImagePediasuit}
-          title="PediaSuit"
-          description="É uma abordagem revolucionária na neuroreabilitação infantil, projetada para crianças com desafios neuromotores. Descubra como esse protocolo funciona e como ele pode fazer a diferença na vida de nossos pequenos pacientes!"
-          link="especialidades/pediasuit"
-          theme="dark"
-        />
-      </div>
-      <div id="contato">
-        <SocialMedia />
-      </div>
+      <Main />
+      <About />
+      <Speciality
+        image={ImagePediasuit}
+        title="PediaSuit"
+        description="É uma abordagem revolucionária na neuroreabilitação infantil, projetada para crianças com desafios neuromotores. Descubra como esse protocolo funciona e como ele pode fazer a diferença na vida de nossos pequenos pacientes!"
+        link="especialidades/pediasuit"
+        theme="dark"
+      />
+      <SocialMedia />
       <Speciality
         image={ImageBobath}
         title="Bobath"
