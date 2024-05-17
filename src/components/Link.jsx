@@ -1,6 +1,6 @@
 import Button from "./Button";
 
-const LinkSocialMedia = ({ icon, link, name, theme }) => {
+const Link = ({ icon, link, name, theme }) => {
   if (name && theme == "dark") {
     return (
       <div className="flex">
@@ -46,4 +46,4 @@ const LinkSocialMedia = ({ icon, link, name, theme }) => {
   }
 };
 
-export default LinkSocialMedia;
+export default Link;

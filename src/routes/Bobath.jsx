@@ -2,7 +2,7 @@ import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 
 import Link from "../components/Link";
-import LinkGoBack from "../components/LinkGoBack";
+import LinkSmall from "../components/LinkSmall";
 import LinkGoToProfessionals from "../components/LinkGoToProfessionals";
 
 import IconDocument from "../assets/document.webp";
@@ -15,8 +15,14 @@ import ImageBobathAlternative from "../assets/bobathAlternative.png";
 
 function Bobath() {
   return (
-    <div className="bg-light-cyan-neuro">
-      <LinkGoBack textColor="dark-neuro" />
+    <div className="bg-light-cyan-neuro pt-16">
+      <div className="flex justify-between">
+        <LinkSmall
+          textColor="dark-neuro"
+          text="Anterior"
+          link="/especialidades/pediasuit"
+        />
+      </div>
       <main className="flex md:flex-row flex-col-reverse">
         <div className="flex-1 flex flex-col md:py-12 md:px-16 md:pt-4 py-8 px-4 pt-4">
           <h1 className="text-dark-neuro text-3xl pb-4">
@@ -76,29 +82,38 @@ function Bobath() {
           </p>
         </div>
       </section>
-      <section className="flex md:flex-row flex-col-reverse bg-light-cyan-neuro">
-        <div className="flex-1 flex flex-col justify-center md:py-32 md:px-16 px-4 py-8">
-          <h1 className="text-dark-neuro text-2xl">
-            O objetivo final do Bobath é melhorar a qualidade de vida e a
-            participação do indivíduo em suas atividades diárias. Agende uma
-            avaliação conosco!
-          </h1>
-          <div className="pt-6">
-            <Link
-              icon={IconWhatsapp}
-              link="https://api.whatsapp.com/send?phone=554299732535"
-              name="ENTRE EM CONTATO"
-              theme="dark"
-            />
+      <section className="bg-light-neuro">
+        <div className="flex md:flex-row flex-col-reverse bg-light-cyan-neuro">
+          <div className="flex-1 flex flex-col justify-center md:py-32 md:px-16 px-4 py-8">
+            <h1 className="text-dark-neuro text-2xl">
+              O objetivo final do Bobath é melhorar a qualidade de vida e a
+              participação do indivíduo em suas atividades diárias. Agende uma
+              avaliação conosco!
+            </h1>
+            <div className="pt-6">
+              <Link
+                icon={IconWhatsapp}
+                link="https://api.whatsapp.com/send?phone=554299732535"
+                name="ENTRE EM CONTATO"
+                theme="dark"
+              />
+            </div>
+          </div>
+          <div className="flex-1 flex items-center justify-center md:px-16 md:py-12 py-8 md:rounded-none md:rounded-bl-[800px] rounded-none">
+            <img
+              src={ImageBobath}
+              className="sm:size-[300px] size-[90vw] max-w-[300px] max-h-[300px]"
+            ></img>
           </div>
         </div>
-        <div className="flex-1 flex items-center justify-center md:px-16 md:py-12 py-8 md:rounded-none md:rounded-bl-[800px] rounded-none">
-          <img
-            src={ImageBobath}
-            className="sm:size-[300px] size-[90vw] max-w-[300px] max-h-[300px]"
-          ></img>
-        </div>
       </section>
+      <div className="flex justify-between">
+        <LinkSmall
+          textColor="dark-neuro"
+          text="Anterior"
+          link="/especialidades/pediasuit"
+        />
+      </div>
       <Nav />
       <Footer />
     </div>

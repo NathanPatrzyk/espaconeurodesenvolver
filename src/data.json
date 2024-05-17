@@ -9,11 +9,23 @@
       "childrens": [
         {
           "name": "PediaSuit",
-          "link": "/especialidades/pediasuit"
+          "link": "/especialidades/pediasuit",
+          "previous": {
+            "name": "Voltar",
+            "link": "/"
+          },
+          "next": {
+            "name": "Próximo",
+            "link": "/especialidades/bobath"
+          }
         },
         {
           "name": "Bobath",
-          "link": "/especialidades/bobath"
+          "link": "/especialidades/bobath",
+          "previous": {
+            "name": "Anterior",
+            "link": "/especialidades/pediasuit"
+          }
         }
       ]
     },

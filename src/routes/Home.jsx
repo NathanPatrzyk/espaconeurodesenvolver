@@ -8,14 +8,12 @@ import About from "../components/About";
 import Speciality from "../components/Speciality";
 import SocialMedia from "../components/SocialMedia";
 import Location from "../components/Location";
+import OtherSpecialities from "../components/OtherSpecialities";
 
 import ImageEstimulacaoVisual from "../assets/estimulacaovisual.webp";
 import ImagePediasuit from "../assets/pediasuit.webp";
 import ImageTerapiaOcupacional from "../assets/terapiaocupacional.webp";
 import ImageBobath from "../assets/bobath.webp";
-import ImagePsicomotricidade from "../assets/psicomotricidade.webp";
-import ImagePsicologia from "../assets/psicologia.webp";
-import ImageFonoaudiologia from "../assets/fonoaudiologia.webp";
 
 function Home() {
   return (
@@ -51,17 +49,7 @@ function Home() {
         description="É uma especialidade que visa desenvolver e melhorar a capacidade de acuidade visual por meio de atividades específicas que favorecem o sistema visual."
         theme="dark"
       />
-      <Speciality
-        image={ImagePsicomotricidade}
-        title="Psicomotricidade"
-        theme="light"
-      />
-      <Speciality image={ImagePsicologia} title="Psicologia" theme="dark" />
-      <Speciality
-        image={ImageFonoaudiologia}
-        title="Fonoaudiologia"
-        theme="light"
-      />
+      <OtherSpecialities />
       <Nav />
       <Footer />
     </div>

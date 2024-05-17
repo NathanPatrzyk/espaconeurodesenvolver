@@ -1,14 +1,13 @@
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 
-import LinkGoBack from "../components/LinkGoBack";
-
 import Professional from "../components/Professional";
+import LinkSmall from "../components/LinkSmall";
 
 function Professionals() {
   return (
-    <div>
-      <LinkGoBack textColor="dark-cyan-neuro" />
+    <div className="pt-16">
+      <LinkSmall textColor="dark-cyan-neuro" text="Voltar" link="/" />
       <Professional />
       <Nav />
       <Footer />
