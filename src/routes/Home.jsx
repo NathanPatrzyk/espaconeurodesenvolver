@@ -39,7 +39,8 @@ function Home() {
       <Speciality
         image={ImageTerapiaOcupacional}
         title="Terapia Ocupacional"
-        description="Às vezes, as maiores transformações na vida vêm de pequenos detalhes. A Terapia Ocupacional é um exemplo perfeito disso. Essa prática terapêutica foca em capacitar as pessoas a superar desafios diários, tornando pequenos passos em direção a uma vida mais plena e independente. Cada pequena vitória é um grande avanço."
+        description="Essa prática terapêutica foca em capacitar as pessoas a superar desafios diários."
+        link="especialidades/terapiaocupacional"
         theme="dark"
       />
       <LinkGoToProfessionals />

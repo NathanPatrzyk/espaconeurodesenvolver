@@ -25,6 +25,18 @@
           "previous": {
             "name": "Anterior",
             "link": "/especialidades/pediasuit"
+          },
+          "next": {
+            "name": "Próximo",
+            "link": "/especialidades/terapiaocupacional"
+          }
+        },
+        {
+          "name": "Terapia Ocupacional",
+          "link": "/especialidades/terapiaocupacional",
+          "previous": {
+            "name": "Anterior",
+            "link": "/especialidades/bobath"
           }
         }
       ]

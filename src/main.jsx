@@ -7,6 +7,7 @@ import Home from "./routes/Home";
 import Professionals from "./routes/Professionals";
 import PediaSuit from "./routes/PediaSuit";
 import Bobath from "./routes/Bobath";
+import TerapiaOcupacional from "./routes/TerapiaOcupacional";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: "especialidades/bobath",
     element: <Bobath />,
+  },
+  {
+    path: "especialidades/terapiaocupacional",
+    element: <TerapiaOcupacional />,
   },
 ]);
 
