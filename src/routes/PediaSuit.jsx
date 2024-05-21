@@ -1,8 +1,10 @@
+import json from "../data.json";
+
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 
 import Link from "../components/Link";
-import LinkSmall from "../components/LinkSmall";
+import LinksSmall from "../components/LinksSmall";
 import LinkGoToProfessionals from "../components/LinkGoToProfessionals";
 
 import IconPushups from "../assets/pushups.webp";
@@ -14,16 +16,16 @@ import IconWhatsapp from "../assets/whatsapp.svg";
 import ImagePediasuit from "../assets/pediasuit.webp";
 
 function PediaSuit() {
+  const name = "PediaSuit";
   return (
     <div className="bg-light-cyan-neuro pt-16">
-      <div className="flex justify-between">
-        <LinkSmall textColor="dark-neuro" text="Voltar" link="/" />
-        <LinkSmall
-          textColor="dark-neuro"
-          text="Próximo"
-          link="/especialidades/bobath"
-        />
-      </div>
+      {json.pages.map((page) => (page.childrens &&
+        page.childrens.map((children) =>
+          children.name == name ? (
+            <LinksSmall previous={children.previous} next={children.next} />
+          ) : null
+        )
+      ))}
       <main className="flex md:flex-row flex-col-reverse">
         <div className="flex-1 flex flex-col md:py-12 md:px-16 md:pt-4 py-8 px-4 pt-4">
           <h1 className="text-dark-neuro text-3xl pb-4">
@@ -102,14 +104,13 @@ function PediaSuit() {
           </div>
         </div>
       </section>
-      <div className="flex justify-between">
-        <LinkSmall textColor="dark-neuro" text="Voltar" link="/" />
-        <LinkSmall
-          textColor="dark-neuro"
-          text="Próximo"
-          link="/especialidades/bobath"
-        />
-      </div>
+      {json.pages.map((page) => (page.childrens &&
+        page.childrens.map((children) =>
+          children.name == name ? (
+            <LinksSmall previous={children.previous} next={children.next} />
+          ) : null
+        )
+      ))}
       <Nav />
       <Footer />
     </div>
