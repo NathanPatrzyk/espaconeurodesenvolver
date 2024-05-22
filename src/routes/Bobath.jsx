@@ -13,7 +13,7 @@ import IconGirl from "../assets/girl.webp";
 import IconWhatsapp from "../assets/whatsapp.svg";
 
 import ImageBobath from "../assets/bobath.webp";
-import ImageBobathAlternative from "../assets/bobathAlternative.png";
+import ImageBobathAlternative from "../assets/bobathAlternative.webp";
 
 function Bobath() {
   const name = "Bobath";
