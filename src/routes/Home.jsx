@@ -48,6 +48,7 @@ function Home() {
         image={ImageEstimulacaoVisual}
         title="Estimulação Visual"
         description="É uma especialidade que visa desenvolver e melhorar a capacidade de acuidade visual por meio de atividades específicas que favorecem o sistema visual."
+        link="especialidades/estimulacaovisual"
         theme="dark"
       />
       <OtherSpecialities />

@@ -37,6 +37,18 @@
           "previous": {
             "name": "Anterior",
             "link": "/especialidades/bobath"
+          },
+          "next": {
+            "name": "Próximo",
+            "link": "/especialidades/estimulacaovisual"
+          }
+        },
+        {
+          "name": "Estimulação Visual",
+          "link": "/especialidades/estimulacaovisual",
+          "previous": {
+            "name": "Anterior",
+            "link": "/especialidades/terapiaocupacional"
           }
         }
       ]
