@@ -7,7 +7,7 @@ import LinkSmall from "../components/LinkSmall";
 function Professionals() {
   return (
     <div className="pt-16">
-      <LinkSmall textColor="dark-cyan-neuro" text="Voltar" link="/" />
+      <LinkSmall textColor="dark-cyan-neuro" name="Voltar" link="/" />
       <Professional />
       <Nav />
       <Footer />
