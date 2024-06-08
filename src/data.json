@@ -50,6 +50,10 @@
             "name": "Anterior",
             "link": "/especialidades/terapiaocupacional"
           }
+        },
+        {
+          "name": "Outras Especialidades",
+          "link": "/#outrasespecialidades"
         }
       ]
     },
