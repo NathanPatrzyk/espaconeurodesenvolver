@@ -8,7 +8,8 @@ import Professionals from "./routes/Professionals";
 import PediaSuit from "./routes/PediaSuit";
 import Bobath from "./routes/Bobath";
 import TerapiaOcupacional from "./routes/TerapiaOcupacional";
-import EstimulacaoVisual from "./routes/EstimulacaoVisual"
+import EstimulacaoVisual from "./routes/EstimulacaoVisual";
+import Psicomotricidade from "./routes/Psicomotricidade";
 
 const router = createBrowserRouter([
   {
@@ -33,8 +34,12 @@ const router = createBrowserRouter([
   },
   {
     path: "especialidades/estimulacaovisual",
-    element: <EstimulacaoVisual />
-  }
+    element: <EstimulacaoVisual />,
+  },
+  {
+    path: "especialidades/psicomotricidade",
+    element: <Psicomotricidade />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

@@ -56,7 +56,7 @@ const Speciality = (props) => {
               <h2 className="font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text text-3xl">
                 {props.title}
               </h2>
-              <p className="text-dark-neuro pt-6">{props.description}</p>
+              <p className="text-dark-neuro py-6">{props.description}</p>
               <Link link={props.link} name="SAIBA MAIS" theme="dark" />
             </Motion>
           </div>

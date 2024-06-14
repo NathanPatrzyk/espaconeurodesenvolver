@@ -49,7 +49,20 @@
           "previous": {
             "name": "Anterior",
             "link": "/especialidades/terapiaocupacional"
+          },
+          "next": {
+            "name": "Próximo",
+            "link": "/especialidades/psicomotricidade"
           }
+        },
+        {
+          "name": "Psicomotricidade",
+          "link": "/especialidades/psicomotricidade",
+          "previous": {
+            "name": "Anterior",
+            "link": "/especialidades/estimulacaovisual"
+          }
+
         },
         {
           "name": "Outras Especialidades",

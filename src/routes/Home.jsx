@@ -14,6 +14,7 @@ import ImageEstimulacaoVisual from "../assets/estimulacaovisual.webp";
 import ImagePediasuit from "../assets/pediasuit.webp";
 import ImageTerapiaOcupacional from "../assets/terapiaocupacional.webp";
 import ImageBobath from "../assets/bobath.webp";
+import ImagePsicomotricidade from "../assets/psicomotricidade.webp";
 
 function Home() {
   return (
@@ -50,6 +51,13 @@ function Home() {
         description="É uma especialidade que visa desenvolver e melhorar a capacidade de acuidade visual por meio de atividades específicas que favorecem o sistema visual."
         link="especialidades/estimulacaovisual"
         theme="dark"
+      />
+      <Speciality
+        image={ImagePsicomotricidade}
+        title="Psicomotricidade"
+        description="A Psicomotricidade busca melhorar os movimentos do corpo, a noção de espaço onde se está, a coordenação motora, equilíbrio e também o ritmo."
+        link="especialidades/psicomotricidade"
+        theme="light"
       />
       <OtherSpecialities />
       <Nav />
