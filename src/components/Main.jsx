@@ -1,5 +1,5 @@
 import Motion from "./Motion";
-import Link from "./Link";
+import LinkButton from "./LinkButton";
 
 import IconWhatsapp from "../assets/whatsapp.svg";
 import ImageMain from "../assets/main.webp";
@@ -16,7 +16,7 @@ const Main = () => {
             </span>
           </h1>
           <div className="pt-6">
-            <Link
+            <LinkButton
               icon={IconWhatsapp}
               link="https://api.whatsapp.com/send?phone=554299732535"
               name="ENTRE EM CONTATO"

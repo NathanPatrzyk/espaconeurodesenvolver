@@ -1,7 +1,7 @@
 import json from "../data.json";
 
 import Motion from "./Motion";
-import Link from "./Link";
+import LinkButton from "./LinkButton";
 
 import IconWhatsappAlternative from "../assets/whatsappAlternative.svg";
 import IconEmailAlternative from "../assets/emailAlternative.svg";
@@ -47,7 +47,7 @@ const Footer = () => {
           </div>
           <div className="flex-col gap-4 md:px-16 px-4 sm:pt-8 pb-8">
             <div className="flex flex-1 pb-4 justify-start sm:justify-end">
-              <Link
+              <LinkButton
                 icon={IconWhatsappAlternative}
                 link="https://api.whatsapp.com/send?phone=554299732535"
                 name="WHATSAPP"
@@ -55,15 +55,15 @@ const Footer = () => {
               />
             </div>
             <div className="flex gap-4 justify-start md:justify-end">
-              <Link
+              <LinkButton
                 icon={IconEmailAlternative}
                 link="mailto:espaconeurodesenvolverirati@gmail.com"
               />
-              <Link
+              <LinkButton
                 icon={IconInstagramAlternative}
                 link="https://www.instagram.com/espaconeurodesenvolver/"
               />
-              <Link
+              <LinkButton
                 icon={IconFacebookAlternative}
                 link="https://m.facebook.com/people/Espa%C3%A7o-Neurodesenvolver/100071080340340/"
               />

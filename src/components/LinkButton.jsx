@@ -1,6 +1,6 @@
 import Button from "./Button";
 
-const Link = ({ icon, link, name, theme }) => {
+const LinkButton = ({ icon, link, name, theme }) => {
   if (name && theme == "dark") {
     return (
       <div className="flex">
@@ -46,4 +46,4 @@ const Link = ({ icon, link, name, theme }) => {
   }
 };
 
-export default Link;
+export default LinkButton;

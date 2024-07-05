@@ -1,5 +1,5 @@
 import Motion from "./Motion";
-import Link from "./Link";
+import LinkButton from "./LinkButton";
 
 const Speciality = (props) => {
   if (props.theme == "dark") {
@@ -20,7 +20,7 @@ const Speciality = (props) => {
                 {props.title}
               </h2>
               <p className="text-dark-neuro py-6">{props.description}</p>
-              <Link link={props.link} name="SAIBA MAIS" theme="dark" />
+              <LinkButton link={props.link} name="SAIBA MAIS" theme="dark" />
             </Motion>
           </div>
         </section>
@@ -57,7 +57,7 @@ const Speciality = (props) => {
                 {props.title}
               </h2>
               <p className="text-dark-neuro py-6">{props.description}</p>
-              <Link link={props.link} name="SAIBA MAIS" theme="dark" />
+              <LinkButton link={props.link} name="SAIBA MAIS" theme="dark" />
             </Motion>
           </div>
           <div className="flex-1 flex items-center justify-center md:px-16 md:py-12 py-8 md:bg-gradient-to-r md:from-light-cyan-neuro md:to-light-cyan-neuro md:rounded-none md:rounded-bl-[800px] rounded-none">

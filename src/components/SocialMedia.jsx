@@ -1,5 +1,5 @@
 import Motion from "./Motion";
-import Link from "./Link";
+import LinkButton from "./LinkButton";
 import BackgroundSocialMedia from "../assets/bgredesocial.webp";
 import ImageLogo from "../assets/logo-big.webp";
 import IconWhatsapp from "../assets/whatsapp.svg";
@@ -19,13 +19,13 @@ const SocialMedia = () => {
             Redes Sociais
           </h2>
           <div className="flex md:flex-row flex-col gap-6 pt-6 sm:items-start items-center">
-            <Link
+            <LinkButton
               icon={IconWhatsapp}
               link="https://api.whatsapp.com/send?phone=554299732535"
               name="WHATSAPP"
               theme="dark"
             />
-            <Link
+            <LinkButton
               icon={IconEmail}
               link="mailto:espaconeurodesenvolverirati@gmail.com"
               name="EMAIL"
@@ -33,13 +33,13 @@ const SocialMedia = () => {
             />
           </div>
           <div className="flex md:flex-row flex-col gap-6 pt-6 sm:items-start items-center">
-            <Link
+            <LinkButton
               icon={IconInstagram}
               link="https://www.instagram.com/espaconeurodesenvolver/"
               name="INSTAGRAM"
               theme="dark"
             />
-            <Link
+            <LinkButton
               icon={IconFacebook}
               link="https://m.facebook.com/people/Espa%C3%A7o-Neurodesenvolver/100071080340340/"
               name="FACEBOOK"

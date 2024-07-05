@@ -5,7 +5,7 @@ import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import GoToTop from "../components/GoToTop";
 
-import Link from "../components/Link";
+import LinkButton from "../components/LinkButton";
 import LinksSmall from "../components/LinksSmall";
 import LinkGoToProfessionals from "../components/LinkGoToProfessionals";
 
@@ -85,7 +85,7 @@ const Psicomotricidade = () => {
                 equipe multidisciplinar!
               </h1>
               <div className="pt-6">
-                <Link
+                <LinkButton
                   icon={IconWhatsapp}
                   link="https://api.whatsapp.com/send?phone=554299732535"
                   name="ENTRE EM CONTATO"
