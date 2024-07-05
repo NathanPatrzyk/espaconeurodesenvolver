@@ -1,5 +1,6 @@
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
+import GoToTop from "../components/GoToTop";
 
 import LinkGoToProfessionals from "../components/LinkGoToProfessionals";
 
@@ -62,6 +63,7 @@ function Home() {
       <OtherSpecialities />
       <Nav />
       <Footer />
+      <GoToTop />
     </div>
   );
 }

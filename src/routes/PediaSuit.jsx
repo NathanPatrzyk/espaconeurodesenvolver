@@ -3,6 +3,7 @@ import json from "../data.json";
 import Motion from "../components/Motion";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
+import GoToTop from "../components/GoToTop";
 
 import Link from "../components/Link";
 import LinksSmall from "../components/LinksSmall";
@@ -135,6 +136,7 @@ function PediaSuit() {
       </div>
       <Nav />
       <Footer />
+      <GoToTop />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
+import GoToTop from "../components/GoToTop";
 
 import Professional from "../components/Professional";
 import LinkSmall from "../components/LinkSmall";
@@ -11,6 +12,7 @@ function Professionals() {
       <Professional />
       <Nav />
       <Footer />
+      <GoToTop />
     </div>
   );
 }
