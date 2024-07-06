@@ -62,7 +62,6 @@
             "name": "Anterior",
             "link": "/especialidades/estimulacaovisual"
           }
-
         },
         {
           "name": "Outras Especialidades",
@@ -86,6 +85,9 @@
       "role": "Fisioterapeuta Responsável",
       "description": "Crefito-8 275189-F",
       "formations": [
+        {
+          "name": "Especialista Profissional em Fisioterapia Neurofuncional na criança e no adolescente pela ABRAFIN/COFFITO"
+        },
         { "name": "Pós-Graduado em Neurologia com ênfase em Neuropediatria" },
         { "name": "Pós-Graduado em Fisioterapia Neurofuncional" },
         { "name": "Pós Graduado em ABA (Análise do Comportamento Aplicada)" },
@@ -99,6 +101,40 @@
         },
         { "name": "Curso de Psicomotricidade Básico e Avançado" }
       ]
+    },
+    {
+      "image": "/marcieli.webp",
+      "name": "Marcieli Riskowski",
+      "role": "Fisioterapeuta",
+      "description": "Crefito-8 277273-F",
+      "formations": [
+        {
+          "name": "Especialista Profissional em Fisioterapia Neurofuncional na criança e no adolescente pela ABRAFIN/COFFITO"
+        }
+      ]
+    },
+    {
+      "image": "/flavia.webp",
+      "name": "Flávia Bobato Camargo",
+      "role": "Fisioterapeuta",
+      "description": "Crefito-8 340915-F",
+      "formations": [
+        {
+          "name": "Especialista Profissional em Fisioterapia Neurofuncional na criança e no adolescente pela ABRAFIN/COFFITO"
+        }
+      ]
+    },
+    {
+      "image": "/laiane.webp",
+      "name": "Laiane Stadler Senimbu Synderski",
+      "role": "Fisioterapeuta",
+      "description": "Crefito-8 408321-F"
+    },
+    {
+      "image": "/jaciara.webp",
+      "name": "Jaciara Bucco",
+      "role": "Fisioterapeuta",
+      "description": "Crefito-8 294748-F"
     }
   ]
 }
