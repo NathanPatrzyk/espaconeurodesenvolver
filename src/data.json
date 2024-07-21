@@ -135,6 +135,18 @@
       "name": "Jaciara Bucco",
       "role": "Fisioterapeuta",
       "description": "Crefito-8 294748-F"
+    },
+    {
+      "image": "/rafaellaroca.webp",
+      "name": "Rafael Laroca de Lima",
+      "role": "Fisioterapeuta",
+      "description": "Crefito-8 275037-F"
+    },
+    {
+      "image": "/thais.webp",
+      "name": "Thaís Aline Moreira dos Santos",
+      "role": "Fonoaudióloga",
+      "description": "CRFa-3 9918"
     }
   ]
 }
