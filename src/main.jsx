@@ -5,11 +5,15 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Home from "./routes/Home";
 import Professionals from "./routes/Professionals";
+
 import PediaSuit from "./routes/PediaSuit";
 import Bobath from "./routes/Bobath";
 import TerapiaOcupacional from "./routes/TerapiaOcupacional";
 import EstimulacaoVisual from "./routes/EstimulacaoVisual";
 import Psicomotricidade from "./routes/Psicomotricidade";
+
+import Sobre from "./routes/Sobre";
+import Contato from "./routes/Contato";
 
 const router = createBrowserRouter([
   {
@@ -39,6 +43,14 @@ const router = createBrowserRouter([
   {
     path: "especialidades/psicomotricidade",
     element: <Psicomotricidade />,
+  },
+  {
+    path: "sobre",
+    element: <Sobre />,
+  },
+  {
+    path: "contato",
+    element: <Contato />,
   },
 ]);
 

@@ -71,11 +71,11 @@
     },
     {
       "name": "Sobre",
-      "link": "/#sobre"
+      "link": "/sobre"
     },
     {
       "name": "Contato",
-      "link": "/#contato"
+      "link": "/contato"
     }
   ],
   "profissionals": [
