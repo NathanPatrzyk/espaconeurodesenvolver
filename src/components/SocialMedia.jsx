@@ -35,7 +35,7 @@ const SocialMedia = () => {
           <div className="flex md:flex-row flex-col gap-6 pt-6 sm:items-start items-center">
             <Link
               icon={IconInstagram}
-              link="https://www.instagram.com/espaconeurodesenvolver/"
+              link="https://www.instagram.com/espaconeurodesenvolver_imb/"
               name="INSTAGRAM"
               theme="dark"
             />
