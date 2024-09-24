@@ -61,7 +61,7 @@ const Footer = () => {
               />
               <Link
                 icon={IconInstagramAlternative}
-                link="https://www.instagram.com/espaconeurodesenvolver/"
+                link="https://www.instagram.com/espaconeurodesenvolver_imb/"
               />
               <Link
                 icon={IconFacebookAlternative}
