@@ -114,6 +114,24 @@
       ]
     },
     {
+      "image": "/laiane.webp",
+      "name": "Laiane Stadler Senimbu Synderski",
+      "role": "Fisioterapeuta",
+      "description": "Crefito-8 408321-F"
+    },
+    {
+      "image": "/rafaellaroca.webp",
+      "name": "Rafael Laroca de Lima",
+      "role": "Fisioterapeuta",
+      "description": "Crefito-8 275037-F"
+    },
+    {
+      "image": "/valeria.webp",
+      "name": "Valéria da Silva Peres",
+      "role": "Fisioterapeuta",
+      "description": "Crefito-9 259523-F"
+    },
+    {
       "image": "/flavia.webp",
       "name": "Flávia Bobato Camargo",
       "role": "Fisioterapeuta",
@@ -123,25 +141,7 @@
           "name": "Especialista Profissional em Fisioterapia Neurofuncional na criança e no adolescente pela ABRAFIN/COFFITO"
         }
       ]
-    },
-    {
-      "image": "/laiane.webp",
-      "name": "Laiane Stadler Senimbu Synderski",
-      "role": "Fisioterapeuta",
-      "description": "Crefito-8 408321-F"
-    },
-    {
-      "image": "/jaciara.webp",
-      "name": "Jaciara Bucco",
-      "role": "Fisioterapeuta",
-      "description": "Crefito-8 294748-F"
-    },
-    {
-      "image": "/rafaellaroca.webp",
-      "name": "Rafael Laroca de Lima",
-      "role": "Fisioterapeuta",
-      "description": "Crefito-8 275037-F"
-    },
+    }, 
     {
       "image": "/thais.webp",
       "name": "Thaís Aline Moreira dos Santos",
@@ -149,22 +149,22 @@
       "description": "CRFa-3 9918"
     },
     {
+      "image": "/ingrid.webp",
+      "name": "Ingrid Evellin Boava",
+      "role": "Fonoaudióloga Bobath",
+      "description": "CRFa-3 12067"
+    },
+    {
       "image": "/leslie.webp",
       "name": "Leslie Ritz",
       "role": "Terapeuta Ocupacional Responsável",
-      "description": "Crefito-8: 14210-TO"
+      "description": "Crefito-8 14210-TO"
     },
     {
       "image": "/jociele.webp",
       "name": "Jociele de Fátima Spivakoski",
       "role": "Terapeuta Ocupacional",
-      "description": "Crefito-8: 25598-TO"
-    },
-    {
-      "image": "/valeria.webp",
-      "name": "Valéria da Silva Peres",
-      "role": "Fisioterapeuta",
-      "description": "Crefito-9: 259523-F"
+      "description": "Crefito-8 25598-TO"
     }
   ]
 }
