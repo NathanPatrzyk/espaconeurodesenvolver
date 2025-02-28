@@ -124,13 +124,7 @@
       "name": "Rafael Laroca de Lima",
       "role": "Fisioterapeuta",
       "description": "Crefito-8 275037-F"
-    },
-    {
-      "image": "/valeria.webp",
-      "name": "Valéria da Silva Peres",
-      "role": "Fisioterapeuta",
-      "description": "Crefito-9 259523-F"
-    },
+    }, 
     {
       "image": "/flavia.webp",
       "name": "Flávia Bobato Camargo",
@@ -165,6 +159,12 @@
       "name": "Jociele de Fátima Spivakoski",
       "role": "Terapeuta Ocupacional",
       "description": "Crefito-8 25598-TO"
+    },
+    {
+      "image": "/valmir.webp",
+      "name": "Valmir da Silva Walker",
+      "role": "Terapeuta Ocupacional",
+      "description": "Crefito-8: 20605-TO"
     }
   ]
 }
