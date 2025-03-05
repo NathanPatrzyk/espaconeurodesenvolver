@@ -14,6 +14,7 @@ import Psicomotricidade from "./routes/Psicomotricidade";
 
 import Sobre from "./routes/Sobre";
 import Contato from "./routes/Contato";
+import FonoaudiologiaBobath from "./routes/FonoaudiologiaBobath";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "profissionais",
     element: <Professionals />,
+  },
+  {
+    path: "especialidades/fonoaudiologiabobath",
+    element: <FonoaudiologiaBobath />,
   },
   {
     path: "especialidades/pediasuit",
