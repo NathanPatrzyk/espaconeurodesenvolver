@@ -8,11 +8,23 @@
       "name": "Especialidades",
       "childrens": [
         {
+          "name": "Fonoaudiologia Bobath",
+          "link": "/especialidades/fonoaudiologiabobath",
+          "previous": {
+            "name": "Voltar",
+            "link": "/"
+          },
+          "next": {
+            "name": "Próximo",
+            "link": "/especialidades/pediasuit"
+          }
+        },
+        {
           "name": "PediaSuit",
           "link": "/especialidades/pediasuit",
           "previous": {
             "name": "Voltar",
-            "link": "/"
+            "link": "/especialidades/fonoaudiologiabobath"
           },
           "next": {
             "name": "Próximo",
@@ -62,11 +74,7 @@
             "name": "Anterior",
             "link": "/especialidades/estimulacaovisual"
           }
-        },
-        {
-          "name": "Outras Especialidades",
-          "link": "/#outrasespecialidades"
-        }
+        } 
       ]
     },
     {
@@ -124,7 +132,7 @@
       "name": "Rafael Laroca de Lima",
       "role": "Fisioterapeuta",
       "description": "Crefito-8 275037-F"
-    }, 
+    },
     {
       "image": "/flavia.webp",
       "name": "Flávia Bobato Camargo",
@@ -135,7 +143,7 @@
           "name": "Especialista Profissional em Fisioterapia Neurofuncional na criança e no adolescente pela ABRAFIN/COFFITO"
         }
       ]
-    }, 
+    },
     {
       "image": "/thais.webp",
       "name": "Thaís Aline Moreira dos Santos",
