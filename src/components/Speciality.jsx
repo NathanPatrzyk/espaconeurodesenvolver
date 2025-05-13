@@ -16,7 +16,11 @@ const Speciality = (props) => {
           </div>
           <div className="flex-1 flex flex-col justify-center md:py-32 md:px-16 px-4 py-8">
             <Motion>
-              {props.new && <p className="font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text">NOVIDADE</p>}
+              {props.new && (
+                <p className="font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text">
+                  NOVIDADE
+                </p>
+              )}
               <h2 className="font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text text-3xl">
                 {props.title}
               </h2>
@@ -39,7 +43,11 @@ const Speciality = (props) => {
           </div>
           <div className="flex-1 flex flex-col justify-center md:py-32 md:px-16 px-4 py-8">
             <Motion>
-              {props.new && <p className="font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text">NOVIDADE</p>}
+              {props.new && (
+                <p className="font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text">
+                  NOVIDADE
+                </p>
+              )}
               <h2 className="font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text text-3xl">
                 {props.title}
               </h2>
@@ -55,7 +63,11 @@ const Speciality = (props) => {
         <section className="flex md:flex-row flex-col-reverse bg-light-neuro">
           <div className="flex-1 flex flex-col justify-center md:py-32 md:px-16 px-4 py-8 ">
             <Motion>
-              {props.new && <p className="font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text">NOVIDADE</p>}
+              {props.new && (
+                <p className="font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text">
+                  NOVIDADE
+                </p>
+              )}
               <h2 className="font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text text-3xl">
                 {props.title}
               </h2>
@@ -78,7 +90,11 @@ const Speciality = (props) => {
         <section className="flex md:flex-row flex-col-reverse bg-light-neuro">
           <div className="flex-1 flex flex-col justify-center md:py-32 md:px-16 px-4 py-8 ">
             <Motion>
-              {props.new && <p className="font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text">NOVIDADE</p>}
+              {props.new && (
+                <p className="font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text">
+                  NOVIDADE
+                </p>
+              )}
               <h2 className="font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text text-3xl">
                 {props.title}
               </h2>

@@ -37,7 +37,7 @@ const Link = ({ icon, link, name, theme }) => {
         <a href={link}>
           <Button theme="light">
             <div>
-              <img className="mt-0.5" src={icon}></img>
+              <img className="py-1" src={icon}></img>
             </div>
           </Button>
         </a>
