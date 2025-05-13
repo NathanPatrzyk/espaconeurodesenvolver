@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import json from "../data.json";
 
 import NavItem from "./NavItem";
@@ -24,7 +24,11 @@ const Nav = () => {
         }`}
       >
         {json.pages.map((page) => (
-          <NavItem name={page.name} link={page.link} childrens={page.childrens} />
+          <NavItem
+            name={page.name}
+            link={page.link}
+            childrens={page.childrens}
+          />
         ))}
       </div>
     </div>

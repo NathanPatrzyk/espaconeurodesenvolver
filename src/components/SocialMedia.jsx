@@ -22,7 +22,7 @@ const SocialMedia = () => {
             href="https://api.whatsapp.com/send?phone=554299732535"
             target="_blank"
           >
-            <div className="flex items-center md:gap-4 gap-2 md:p-3 p-2 hover:bg-light-neuro hover:bg-opacity-25 active:bg-light-neuro active:bg-opacity-25 rounded-md">
+            <div className="duration-300 flex items-center md:gap-4 gap-2 md:p-3 p-2 hover:bg-light-neuro hover:bg-opacity-25 active:bg-light-neuro active:bg-opacity-25 rounded-md">
               <img
                 className="size-12 p-2 bg-white rounded-md"
                 src={IconWhatsappAlternative}
@@ -33,8 +33,11 @@ const SocialMedia = () => {
               </div>
             </div>
           </a>
-          <a href="mailto:espaconeurodesenvolverirati@gmail.com">
-            <div className="flex items-center md:gap-4 gap-2 md:p-3 p-2 hover:bg-light-neuro hover:bg-opacity-25 active:bg-light-neuro active:bg-opacity-25 rounded-md">
+          <a
+            href="mailto:espaconeurodesenvolverirati@gmail.com"
+            target="_blank"
+          >
+            <div className="duration-300 flex items-center md:gap-4 gap-2 md:p-3 p-2 hover:bg-light-neuro hover:bg-opacity-25 active:bg-light-neuro active:bg-opacity-25 rounded-md">
               <img
                 className="size-12 p-2 bg-white rounded-md"
                 src={IconEmailAlternative}
@@ -47,26 +50,36 @@ const SocialMedia = () => {
               </div>
             </div>
           </a>
-          <div className="flex items-center md:gap-4 gap-2 md:p-3 p-2 hover:bg-light-neuro hover:bg-opacity-25 active:bg-light-neuro active:bg-opacity-25 rounded-md">
-            <img
-              className="size-12 p-2 bg-white rounded-md"
-              src={IconInstagramAlternative}
-            />
-            <div className="text-white">
-              <p className="text-xl font-bold">Instagram:</p>
-              <p className="break-all">@espaconeurodesenvolver</p>
+          <a
+            href="https://www.instagram.com/espaconeurodesenvolver/"
+            target="_blank"
+          >
+            <div className="duration-300 flex items-center md:gap-4 gap-2 md:p-3 p-2 hover:bg-light-neuro hover:bg-opacity-25 active:bg-light-neuro active:bg-opacity-25 rounded-md">
+              <img
+                className="size-12 p-2 bg-white rounded-md"
+                src={IconInstagramAlternative}
+              />
+              <div className="text-white">
+                <p className="text-xl font-bold">Instagram:</p>
+                <p className="break-all">@espaconeurodesenvolver</p>
+              </div>
             </div>
-          </div>
-          <div className="flex items-center md:gap-4 gap-2 md:p-3 p-2 hover:bg-light-neuro hover:bg-opacity-25 active:bg-light-neuro active:bg-opacity-25 rounded-md">
-            <img
-              className="size-12 p-2 bg-white rounded-md"
-              src={IconFacebookAlternative}
-            />
-            <div className="text-white">
-              <p className="text-xl font-bold">Facebook:</p>
-              <p>Espaço Neurodesenvolver</p>
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=61573420109403"
+            target="_blank"
+          >
+            <div className="duration-300 flex items-center md:gap-4 gap-2 md:p-3 p-2 hover:bg-light-neuro hover:bg-opacity-25 active:bg-light-neuro active:bg-opacity-25 rounded-md">
+              <img
+                className="size-12 p-2 bg-white rounded-md"
+                src={IconFacebookAlternative}
+              />
+              <div className="text-white">
+                <p className="text-xl font-bold">Facebook:</p>
+                <p>Espaço Neurodesenvolver</p>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
       </Motion>
       <Motion>
@@ -81,7 +94,7 @@ const SocialMedia = () => {
             href="https://api.whatsapp.com/send?phone=554299375807"
             target="_blank"
           >
-            <div className="flex items-center md:gap-4 gap-2 md:p-3 p-2 hover:bg-light-neuro hover:bg-opacity-25 active:bg-light-neuro active:bg-opacity-25 rounded-md">
+            <div className="duration-300 flex items-center md:gap-4 gap-2 md:p-3 p-2 hover:bg-light-neuro hover:bg-opacity-25 active:bg-light-neuro active:bg-opacity-25 rounded-md">
               <img
                 className="size-12 p-2 bg-white rounded-md"
                 src={IconWhatsappAlternative}
@@ -92,8 +105,11 @@ const SocialMedia = () => {
               </div>
             </div>
           </a>
-          <a href="mailto:espaconeurodesenvolverimbituva@gmail.com">
-            <div className="flex items-center md:gap-4 gap-2 md:p-3 p-2 hover:bg-light-neuro hover:bg-opacity-25 active:bg-light-neuro active:bg-opacity-25 rounded-md">
+          <a
+            href="mailto:espaconeurodesenvolverimbituva@gmail.com"
+            target="_blank"
+          >
+            <div className="duration-300 flex items-center md:gap-4 gap-2 md:p-3 p-2 hover:bg-light-neuro hover:bg-opacity-25 active:bg-light-neuro active:bg-opacity-25 rounded-md">
               <img
                 className="size-12 p-2 bg-white rounded-md"
                 src={IconEmailAlternative}
@@ -106,26 +122,36 @@ const SocialMedia = () => {
               </div>
             </div>
           </a>
-          <div className="flex items-center md:gap-4 gap-2 md:p-3 p-2 hover:bg-light-neuro hover:bg-opacity-25 active:bg-light-neuro active:bg-opacity-25 rounded-md">
-            <img
-              className="size-12 p-2 bg-white rounded-md"
-              src={IconInstagramAlternative}
-            />
-            <div className="text-white">
-              <p className="text-xl font-bold">Instagram:</p>
-              <p className="break-all">@espaconeurodesenvolver_imb</p>
+          <a
+            href="https://www.instagram.com/espaconeurodesenvolver_imb/"
+            target="_blank"
+          >
+            <div className="duration-300 flex items-center md:gap-4 gap-2 md:p-3 p-2 hover:bg-light-neuro hover:bg-opacity-25 active:bg-light-neuro active:bg-opacity-25 rounded-md">
+              <img
+                className="size-12 p-2 bg-white rounded-md"
+                src={IconInstagramAlternative}
+              />
+              <div className="text-white">
+                <p className="text-xl font-bold">Instagram:</p>
+                <p className="break-all">@espaconeurodesenvolver_imb</p>
+              </div>
             </div>
-          </div>
-          <div className="flex items-center md:gap-4 gap-2 md:p-3 p-2 hover:bg-light-neuro hover:bg-opacity-25 active:bg-light-neuro active:bg-opacity-25 rounded-md">
-            <img
-              className="size-12 p-2 bg-white rounded-md"
-              src={IconFacebookAlternative}
-            />
-            <div className="text-white">
-              <p className="text-xl font-bold">Facebook:</p>
-              <p>Espaço Neurodesenvolver</p>
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=61573420109403"
+            target="_blank"
+          >
+            <div className="duration-300 flex items-center md:gap-4 gap-2 md:p-3 p-2 hover:bg-light-neuro hover:bg-opacity-25 active:bg-light-neuro active:bg-opacity-25 rounded-md">
+              <img
+                className="size-12 p-2 bg-white rounded-md"
+                src={IconFacebookAlternative}
+              />
+              <div className="text-white">
+                <p className="text-xl font-bold">Facebook:</p>
+                <p>Espaço Neurodesenvolver</p>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
       </Motion>
     </section>

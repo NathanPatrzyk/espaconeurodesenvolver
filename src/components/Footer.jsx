@@ -12,8 +12,8 @@ const Footer = () => {
   return (
     <footer className="bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro">
       <Motion>
-        <div className="flex sm:flex-row flex-col">
-          <div className="flex flex-1 md:px-16 px-4 py-8 gap-8 text-start">
+        <div className="flex md:flex-row flex-col md:items-start items-center">
+          <div className="flex flex-1 md:flex-row flex-col md:px-16 px-4 py-8 gap-8 md:text-start text-center">
             <div className="flex-1 flex flex-col gap-4">
               {json.pages.map(
                 (page) =>
@@ -27,7 +27,7 @@ const Footer = () => {
                   )
               )}
             </div>
-            <div className="flex-1 flex flex-col gap-4 text-start">
+            <div className="flex-1 flex flex-col gap-4 md:text-start text-center">
               {json.pages.map(
                 (page) =>
                   page.childrens &&
@@ -45,19 +45,37 @@ const Footer = () => {
               )}
             </div>
           </div>
-          <div className="flex-col gap-4 md:px-16 px-4 sm:pt-8 pb-8">
-            <div className="flex flex-1 pb-4 justify-start sm:justify-end">
+          <div className="flex flex-col gap-4 md:px-16 px-4 sm:pt-8 pb-8">
+            <p className="text-white text-lg font-semibold">Unidade Irati</p>
+            <div className="flex gap-4 justify-start md:justify-end">
               <Link
                 icon={IconWhatsappAlternative}
                 link="https://api.whatsapp.com/send?phone=554299732535"
-                name="WHATSAPP"
                 theme="light"
               />
-            </div>
-            <div className="flex gap-4 justify-start md:justify-end">
               <Link
                 icon={IconEmailAlternative}
                 link="mailto:espaconeurodesenvolverirati@gmail.com"
+              />
+              <Link
+                icon={IconInstagramAlternative}
+                link="https://www.instagram.com/espaconeurodesenvolver/"
+              />
+              <Link
+                icon={IconFacebookAlternative}
+                link="https://www.facebook.com/profile.php?id=61573420109403"
+              />
+            </div>
+            <p className="text-white text-lg font-semibold">Unidade Imbituva</p>
+            <div className="flex gap-4 justify-start md:justify-end">
+              <Link
+                icon={IconWhatsappAlternative}
+                link="https://api.whatsapp.com/send?phone=554299375807"
+                theme="light"
+              />
+              <Link
+                icon={IconEmailAlternative}
+                link="mailto:espaconeurodesenvolverimbituva@gmail.com"
               />
               <Link
                 icon={IconInstagramAlternative}
@@ -65,7 +83,7 @@ const Footer = () => {
               />
               <Link
                 icon={IconFacebookAlternative}
-                link="https://m.facebook.com/people/Espa%C3%A7o-Neurodesenvolver/100071080340340/"
+                link="https://www.facebook.com/profile.php?id=61573420109403"
               />
             </div>
           </div>
@@ -79,7 +97,7 @@ const Footer = () => {
             href="https://www.instagram.com/nwp.software/"
             target="_blank"
           >
-            NWP Software 2024
+            NWP Software {new Date().getFullYear()}
           </a>
         </p>
       </Motion>
