@@ -1,12 +1,13 @@
 import Motion from "./Motion";
 import Link from "./Link";
+import { Info } from "lucide-react";
 
 const Speciality = (props) => {
   if (props.theme == "dark") {
     if (props.link) {
       return (
         <section className="flex md:flex-row flex-col bg-light-cyan-neuro">
-          <div className="flex-1 flex items-center justify-center md:px-16 md:py-12 py-8 md:bg-gradient-to-r md:from-dark-cyan-neuro md:to-cyan-neuro bg-gradient-to-r from-transparent to-transparent md:rounded-none md:rounded-tr-[800px] rounded-none">
+          <div className="flex-1 flex items-center justify-center md:px-16 md:py-12 py-8">
             <Motion>
               <img
                 src={props.image}
@@ -16,16 +17,13 @@ const Speciality = (props) => {
           </div>
           <div className="flex-1 flex flex-col justify-center md:py-32 md:px-16 px-4 py-8">
             <Motion>
-              {props.new && (
-                <p className="font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text">
-                  NOVIDADE
-                </p>
-              )}
-              <h2 className="font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text text-3xl">
+              <h2 className="font-decoration font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text text-3xl">
                 {props.title}
               </h2>
               <p className="text-dark-neuro py-6">{props.description}</p>
-              <Link link={props.link} name="SAIBA MAIS" theme="dark" />
+              <Link link={props.link} name="SAIBA MAIS" theme="dark">
+                <Info />
+              </Link>
             </Motion>
           </div>
         </section>
@@ -33,7 +31,7 @@ const Speciality = (props) => {
     } else {
       return (
         <section className="flex md:flex-row flex-col bg-light-cyan-neuro">
-          <div className="flex-1 flex items-center justify-center md:px-16 md:py-12 py-8 md:bg-gradient-to-r md:from-dark-cyan-neuro md:to-cyan-neuro bg-gradient-to-r from-transparent to-transparent md:rounded-none md:rounded-tr-[800px] rounded-none">
+          <div className="flex-1 flex items-center justify-center md:px-16 md:py-12 py-8">
             <Motion>
               <img
                 src={props.image}
@@ -43,12 +41,7 @@ const Speciality = (props) => {
           </div>
           <div className="flex-1 flex flex-col justify-center md:py-32 md:px-16 px-4 py-8">
             <Motion>
-              {props.new && (
-                <p className="font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text">
-                  NOVIDADE
-                </p>
-              )}
-              <h2 className="font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text text-3xl">
+              <h2 className="font-decoration font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text text-3xl">
                 {props.title}
               </h2>
               <p className="text-dark-neuro pt-6">{props.description}</p>
@@ -63,19 +56,16 @@ const Speciality = (props) => {
         <section className="flex md:flex-row flex-col-reverse bg-light-neuro">
           <div className="flex-1 flex flex-col justify-center md:py-32 md:px-16 px-4 py-8 ">
             <Motion>
-              {props.new && (
-                <p className="font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text">
-                  NOVIDADE
-                </p>
-              )}
-              <h2 className="font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text text-3xl">
+              <h2 className="font-decoration font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text text-3xl">
                 {props.title}
               </h2>
               <p className="text-dark-neuro py-6">{props.description}</p>
-              <Link link={props.link} name="SAIBA MAIS" theme="dark" />
+              <Link link={props.link} name="SAIBA MAIS" theme="dark">
+                <Info />
+              </Link>
             </Motion>
           </div>
-          <div className="flex-1 flex items-center justify-center md:px-16 md:py-12 py-8 md:bg-gradient-to-r md:from-light-cyan-neuro md:to-light-cyan-neuro md:rounded-none md:rounded-bl-[800px] rounded-none">
+          <div className="flex-1 flex items-center justify-center md:px-16 md:py-12 py-8">
             <Motion>
               <img
                 src={props.image}
@@ -90,18 +80,13 @@ const Speciality = (props) => {
         <section className="flex md:flex-row flex-col-reverse bg-light-neuro">
           <div className="flex-1 flex flex-col justify-center md:py-32 md:px-16 px-4 py-8 ">
             <Motion>
-              {props.new && (
-                <p className="font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text">
-                  NOVIDADE
-                </p>
-              )}
-              <h2 className="font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text text-3xl">
+              <h2 className="font-decoration font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text text-3xl">
                 {props.title}
               </h2>
               <p className="text-dark-neuro pt-6">{props.description}</p>
             </Motion>
           </div>
-          <div className="flex-1 flex items-center justify-center md:px-16 md:py-12 py-8 md:bg-gradient-to-r md:from-light-cyan-neuro md:to-light-cyan-neuro md:rounded-none md:rounded-bl-[800px] rounded-none">
+          <div className="flex-1 flex items-center justify-center md:px-16 md:py-12 py-8">
             <Motion>
               <img
                 src={props.image}

@@ -19,7 +19,7 @@ const Footer = () => {
                 (page) =>
                   page.link && (
                     <a
-                      className="block text-light-neuro font-medium hover:underline"
+                      className="block text-light-neuro font-medium hover:underline font-semibold"
                       href={page.link}
                     >
                       {page.name}
@@ -35,7 +35,7 @@ const Footer = () => {
                     (children) =>
                       children.link && (
                         <a
-                          className="block text-light-neuro font-medium hover:underline"
+                          className="block text-light-neuro font-medium hover:underline font-semibold"
                           href={children.link}
                         >
                           {children.name}
@@ -90,7 +90,7 @@ const Footer = () => {
         </div>
       </Motion>
       <Motion>
-        <p className="text-light-neuro text-center pb-4">
+        <p className="text-light-neuro text-center pb-4 font-semibold">
           ©{" "}
           <a
             className="underline"
