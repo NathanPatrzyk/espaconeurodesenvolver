@@ -3,16 +3,12 @@ import Link from "./Link";
 
 import IconWhatsappAlternative from "../assets/whatsappAlternative.svg";
 
-import Cloud from "../assets/cloud.svg";
 import ImageLogo from "../assets/logo-big.webp";
 
 const Main = () => {
   return (
     <div>
-      <main
-        className="bg-dark-cyan-neuro flex md:flex-row flex-col justify-center items-center pt-16 md:gap-8 bg-no-repeat bg-cover bg-bottom"
-        style={{ backgroundImage: `url(${Cloud})` }}
-      >
+      <main className="bg-dark-cyan-neuro flex md:flex-row flex-col justify-center items-center pt-16 md:gap-8 bg-no-repeat bg-cover bg-bottom bg-[url('/cloud.svg')]">
         <div className="md:w-[50vw] flex flex-col md:py-12 md:px-16 py-8 px-4">
           <Motion>
             <h1 className="max-w-[980px] text-white text-3xl">
