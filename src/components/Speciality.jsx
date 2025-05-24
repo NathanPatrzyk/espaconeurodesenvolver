@@ -17,7 +17,7 @@ const Speciality = (props) => {
           </div>
           <div className="flex-1 flex flex-col justify-center md:py-32 md:px-16 px-4 py-8">
             <Motion>
-              <h2 className="font-decoration font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text text-3xl">
+              <h2 className="font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text text-3xl">
                 {props.title}
               </h2>
               <p className="text-dark-neuro py-6">{props.description}</p>
@@ -41,7 +41,7 @@ const Speciality = (props) => {
           </div>
           <div className="flex-1 flex flex-col justify-center md:py-32 md:px-16 px-4 py-8">
             <Motion>
-              <h2 className="font-decoration font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text text-3xl">
+              <h2 className="font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text text-3xl">
                 {props.title}
               </h2>
               <p className="text-dark-neuro pt-6">{props.description}</p>
@@ -56,7 +56,7 @@ const Speciality = (props) => {
         <section className="flex md:flex-row flex-col-reverse bg-light-neuro">
           <div className="flex-1 flex flex-col justify-center md:py-32 md:px-16 px-4 py-8 ">
             <Motion>
-              <h2 className="font-decoration font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text text-3xl">
+              <h2 className="font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text text-3xl">
                 {props.title}
               </h2>
               <p className="text-dark-neuro py-6">{props.description}</p>
@@ -80,7 +80,7 @@ const Speciality = (props) => {
         <section className="flex md:flex-row flex-col-reverse bg-light-neuro">
           <div className="flex-1 flex flex-col justify-center md:py-32 md:px-16 px-4 py-8 ">
             <Motion>
-              <h2 className="font-decoration font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text text-3xl">
+              <h2 className="font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text text-3xl">
                 {props.title}
               </h2>
               <p className="text-dark-neuro pt-6">{props.description}</p>
