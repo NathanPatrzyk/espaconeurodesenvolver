@@ -7,7 +7,6 @@ import Main from "../components/Main";
 import About from "../components/About";
 import Speciality from "../components/Speciality";
 import SocialMedia from "../components/SocialMedia";
-import Location from "../components/Location"; 
 
 import ImageEstimulacaoVisual from "../assets/estimulacaovisual.webp";
 import ImagePediasuit from "../assets/pediasuit.webp";
@@ -27,8 +26,7 @@ function Home() {
         description="O método Bobath é uma abordagem terapêutica voltada para a habilitação e reabilitação motora, auxiliando no tratamento de pessoas com diversas condições neurológicas."
         link="especialidades/fonoaudiologiabobath"
         theme="dark"
-        new
-      /> 
+      />
       <SocialMedia />
       <Speciality
         image={ImagePediasuit}
@@ -36,8 +34,8 @@ function Home() {
         description="É uma abordagem revolucionária na neuroreabilitação infantil, projetada para crianças com desafios neuromotores. Descubra como esse protocolo funciona e como ele pode fazer a diferença na vida de nossos pequenos pacientes!"
         link="especialidades/pediasuit"
         theme="dark"
-      /> 
-      <Location />
+      />
+      <LinkGoToProfessionals />
       <Speciality
         image={ImageBobath}
         title="Bobath"
@@ -45,28 +43,27 @@ function Home() {
         link="especialidades/bobath"
         theme="dark"
       />
-      <LinkGoToProfessionals />
       <Speciality
         image={ImageTerapiaOcupacional}
         title="Terapia Ocupacional"
         description="Essa prática terapêutica foca em capacitar as pessoas a superar desafios diários."
         link="especialidades/terapiaocupacional"
-        theme="dark"
+        theme="light"
       />
       <Speciality
         image={ImageEstimulacaoVisual}
         title="Estimulação Visual"
         description="É uma especialidade que visa desenvolver e melhorar a capacidade de acuidade visual por meio de atividades específicas que favorecem o sistema visual."
         link="especialidades/estimulacaovisual"
-        theme="light"
+        theme="dark"
       />
       <Speciality
         image={ImagePsicomotricidade}
         title="Psicomotricidade"
         description="A Psicomotricidade busca melhorar os movimentos do corpo, a noção de espaço onde se está, a coordenação motora, equilíbrio e também o ritmo."
         link="especialidades/psicomotricidade"
-        theme="dark"
-      /> 
+        theme="light"
+      />
       <Nav />
       <Footer />
     </div>

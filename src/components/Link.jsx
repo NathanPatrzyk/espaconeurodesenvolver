@@ -1,14 +1,15 @@
 import Button from "./Button";
 
-const Link = ({ icon, link, name, theme }) => {
+const Link = ({ icon, link, name, theme, children }) => {
   if (name && theme == "dark") {
     return (
       <div className="flex md:justify-start justify-center">
         <a href={link}>
           <Button theme="dark">
-            <div className="flex gap-1">
+            <div className="flex gap-1 items-center">
               <div>
-                <img className="mt-0.5" src={icon}></img>
+                <img src={icon}></img>
+                {children}
               </div>
               <div>{name}</div>
             </div>
@@ -21,9 +22,10 @@ const Link = ({ icon, link, name, theme }) => {
       <div className="flex md:justify-start justify-center">
         <a href={link}>
           <Button theme="light">
-            <div className="flex gap-1">
+            <div className="flex gap-1 items-center">
               <div>
-                <img className="mt-0.5" src={icon}></img>
+                <img src={icon}></img>
+                {children}
               </div>
               <div>{name}</div>
             </div>
