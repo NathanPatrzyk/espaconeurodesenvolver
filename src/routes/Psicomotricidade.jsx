@@ -1,12 +1,12 @@
 import json from "../data.json";
 
 import Motion from "../components/Motion";
-import Nav from "../components/Nav";
+import Nav from "../components/nav/Nav";
 import Footer from "../components/Footer";
 
-import Link from "../components/Link";
-import LinksSmall from "../components/LinksSmall";
-import LinkGoToProfessionals from "../components/LinkGoToProfessionals";
+import Link from "../components/link/Link";
+import LinksSmall from "../components/link/LinksSmall";
+import LinkGoToProfessionals from "../components/link/LinkGoToProfessionals";
 
 import IconTalk from "../assets/talk.webp";
 import IconRules from "../assets/rules.webp";

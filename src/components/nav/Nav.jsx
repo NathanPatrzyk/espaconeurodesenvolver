@@ -1,5 +1,5 @@
 import { useState } from "react";
-import json from "../data.json";
+import json from "../../data.json";
 
 import NavItem from "./NavItem";
 

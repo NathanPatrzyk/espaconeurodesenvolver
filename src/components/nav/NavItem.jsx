@@ -1,5 +1,5 @@
 import { useState } from "react";
-import IconSeeMore from "../assets/see-more.svg";
+import IconSeeMore from "../../assets/see-more.svg";
 
 const NavItem = (props) => {
   let [open, setOpen] = useState(false);
@@ -13,7 +13,7 @@ const NavItem = (props) => {
             onClick={() => setOpen(!open)}
           >
             {props.name}
-            <img className="inline ps-2 pb-0.5" src={IconSeeMore} />
+            <img className="inline pb-0.5 ps-2" src={IconSeeMore} />
           </a>
         </div>
       );
@@ -22,7 +22,7 @@ const NavItem = (props) => {
         <div>
           <div className="md:p-0 p-2">
             <a
-              className="block text-dark-neuro font-medium hover:opacity-80 cursor-pointer"
+              className="block font-medium text-dark-neuro hover:opacity-80 cursor-pointer"
               href={props.link}
               onClick={() => setOpen(!open)}
             >

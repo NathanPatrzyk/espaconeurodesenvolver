@@ -1,4 +1,4 @@
-import LinkSmall from "../components/LinkSmall";
+import LinkSmall from "./LinkSmall";
 
 const LinksSmall = (props) => {
   if (props.next) {

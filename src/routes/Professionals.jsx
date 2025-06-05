@@ -1,8 +1,8 @@
-import Nav from "../components/Nav";
+import Nav from "../components/nav/Nav";
 import Footer from "../components/Footer";
 
 import Professional from "../components/Professional";
-import LinkSmall from "../components/LinkSmall";
+import LinkSmall from "../components/link/LinkSmall";
 
 function Professionals() {
   return (

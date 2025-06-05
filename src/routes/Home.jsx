@@ -1,7 +1,7 @@
-import Nav from "../components/Nav";
+import Nav from "../components/nav/Nav";
 import Footer from "../components/Footer";
 
-import LinkGoToProfessionals from "../components/LinkGoToProfessionals";
+import LinkGoToProfessionals from "../components/link/LinkGoToProfessionals";
 
 import Main from "../components/Main";
 import About from "../components/About";

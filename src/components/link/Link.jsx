@@ -1,4 +1,4 @@
-import Button from "./Button";
+import Button from "../Button";
 
 const Link = ({ icon, link, name, theme, children }) => {
   if (name && theme == "dark") {

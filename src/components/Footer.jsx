@@ -1,7 +1,7 @@
 import json from "../data.json";
 
 import Motion from "./Motion";
-import Link from "./Link";
+import Link from "./link/Link";
 
 import IconWhatsappAlternative from "../assets/whatsappAlternative.svg";
 import IconEmailAlternative from "../assets/emailAlternative.svg";

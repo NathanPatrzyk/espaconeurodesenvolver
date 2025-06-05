@@ -1,4 +1,4 @@
-import Motion from "./Motion";
+import Motion from "../Motion";
 
 const LinkSmall = ({ textColor, name, link }) => {
   return (

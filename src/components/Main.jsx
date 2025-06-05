@@ -1,5 +1,5 @@
 import Motion from "./Motion";
-import Link from "./Link";
+import Link from "./link/Link";
 
 import IconWhatsappAlternative from "../assets/whatsappAlternative.svg";
 
@@ -29,13 +29,13 @@ const Main = () => {
         </div>
         <div className="md:w-[50vw] flex justify-center items-center md:rounded-none md:rounded-bl-[800px] rounded-none md:ps-16 px-4 md:px-0">
           <div className="flex-1 flex items-center justify-center md:px-16 md:py-12 py-8">
-            <div className="relative top-0 left-0">
+            <div className="relative top-0 left-0 hover:scale-105 active:scale-105 duration-500">
               <Motion>
-                <div className="bg-transparent size-[300px] min-w-[300px] min-h-[300px] rounded-[60px] mx-auto"></div>
+                <div className="bg-transparent size-[300px] min-w-[300px] min-h-[300px] rounded-[60px] mx-auto "></div>
                 <div className="absolute top-0 left-0">
                   <img
                     src={ImageLogo}
-                    className="size-[300px] min-w-[300px] min-h-[300px] rounded-[60px] mx-auto animate-goback"
+                    className="size-[300px] min-w-[300px] min-h-[300px] rounded-[60px] mx-auto animate-goback "
                   ></img>
                 </div>
               </Motion>

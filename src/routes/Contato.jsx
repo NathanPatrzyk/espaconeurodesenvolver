@@ -1,9 +1,9 @@
-import Nav from "../components/Nav";
+import Nav from "../components/nav/Nav";
 import Footer from "../components/Footer";
 
 import SocialMedia from "../components/SocialMedia";
 
-function Sobre() {
+function Contato() {
   return (
     <div className="pt-16">
       <SocialMedia />
@@ -13,4 +13,4 @@ function Sobre() {
   );
 }
 
-export default Sobre;
+export default Contato;

@@ -1,4 +1,4 @@
-import Motion from "./Motion";
+import Motion from "../Motion";
 import Link from "./Link";
 import { Info } from "lucide-react";
 

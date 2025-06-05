@@ -1,12 +1,12 @@
 import json from "../data.json";
 
 import Motion from "../components/Motion";
-import Nav from "../components/Nav";
+import Nav from "../components/nav/Nav";
 import Footer from "../components/Footer";
 
-import Link from "../components/Link";
-import LinksSmall from "../components/LinksSmall";
-import LinkGoToProfessionals from "../components/LinkGoToProfessionals";
+import Link from "../components/link/Link";
+import LinksSmall from "../components/link/LinksSmall";
+import LinkGoToProfessionals from "../components/link/LinkGoToProfessionals";
 
 import IconZoom from "../assets/zoom.webp";
 import IconCamera from "../assets/camera.webp";
@@ -41,8 +41,8 @@ const EstimulacaoVisual = () => {
               Potencializando o Desenvolvimento Global da Visão
             </h1>
             <p>
-              É a especialidade responsável pela melhora na capacidade de acuidade
-              visual, ou seja, a nitidez da visão no dia a dia.
+              É a especialidade responsável pela melhora na capacidade de
+              acuidade visual, ou seja, a nitidez da visão no dia a dia.
             </p>
           </Motion>
         </div>
@@ -65,8 +65,8 @@ const EstimulacaoVisual = () => {
           <div className="flex-1 px-8 py-4 border-4 border-dark-neuro hover:border-cyan-neuro border-opacity-20 rounded-lg">
             <img className="mx-auto w-20 h-20" src={IconGlasses} />
             <p className="text-dark-neuro pt-4">
-              Indicada para qualquer indivíduo, independente da idade ou alteração
-              visual apresentada.
+              Indicada para qualquer indivíduo, independente da idade ou
+              alteração visual apresentada.
             </p>
           </div>
         </section>
@@ -107,7 +107,8 @@ const EstimulacaoVisual = () => {
           <div className="flex-1 flex flex-col justify-center md:py-32 md:px-16 px-4 py-8">
             <Motion>
               <h1 className="text-dark-neuro text-2xl">
-              O Espaço Neurodesenvolver disponibiliza as melhores metodologias no processo de fisioterapia e reabilitação. Venha conhecer!
+                O Espaço Neurodesenvolver disponibiliza as melhores metodologias
+                no processo de fisioterapia e reabilitação. Venha conhecer!
               </h1>
               <div className="pt-6">
                 <Link

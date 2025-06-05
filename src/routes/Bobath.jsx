@@ -1,12 +1,12 @@
 import json from "../data.json";
 
 import Motion from "../components/Motion";
-import Nav from "../components/Nav";
+import Nav from "../components/nav/Nav";
 import Footer from "../components/Footer";
 
-import Link from "../components/Link";
-import LinksSmall from "../components/LinksSmall";
-import LinkGoToProfessionals from "../components/LinkGoToProfessionals";
+import Link from "../components/link/Link";
+import LinksSmall from "../components/link/LinksSmall";
+import LinkGoToProfessionals from "../components/link/LinkGoToProfessionals";
 
 import IconDocument from "../assets/document.webp";
 import IconBoy from "../assets/boy.webp";
@@ -21,13 +21,15 @@ function Bobath() {
   return (
     <div className="pt-16">
       <div className="bg-light-cyan-neuro">
-        {json.pages.map((page) => (page.childrens &&
-          page.childrens.map((children) =>
-            children.name == name ? (
-              <LinksSmall previous={children.previous} next={children.next} />
-            ) : null
-          )
-        ))}
+        {json.pages.map(
+          (page) =>
+            page.childrens &&
+            page.childrens.map((children) =>
+              children.name == name ? (
+                <LinksSmall previous={children.previous} next={children.next} />
+              ) : null
+            )
+        )}
       </div>
       <main className="flex md:flex-row flex-col-reverse bg-light-cyan-neuro">
         <div className="flex-1 flex flex-col md:py-12 md:px-16 md:pt-4 py-8 px-4 pt-4">
@@ -40,8 +42,8 @@ function Bobath() {
               Paciente
             </h1>
             <p>
-              O Bobath é uma das certificações utilizada aqui na clínica a fim de
-              melhorias nos resultados dos nossos pacientes.
+              O Bobath é uma das certificações utilizada aqui na clínica a fim
+              de melhorias nos resultados dos nossos pacientes.
             </p>
           </Motion>
         </div>
@@ -63,8 +65,8 @@ function Bobath() {
             </div>
             <p className="text-dark-neuro pt-4">
               A abordagem é altamente individualizada e se baseia na análise
-              minuciosa das habilidades motoras e na identificação de estratégias
-              para melhorar a função e a independência do paciente.
+              minuciosa das habilidades motoras e na identificação de
+              estratégias para melhorar a função e a independência do paciente.
             </p>
           </div>
         </section>
@@ -126,13 +128,15 @@ function Bobath() {
         </div>
       </section>
       <div className="bg-light-cyan-neuro">
-        {json.pages.map((page) => (page.childrens &&
-          page.childrens.map((children) =>
-            children.name == name ? (
-              <LinksSmall previous={children.previous} next={children.next} />
-            ) : null
-          )
-        ))}
+        {json.pages.map(
+          (page) =>
+            page.childrens &&
+            page.childrens.map((children) =>
+              children.name == name ? (
+                <LinksSmall previous={children.previous} next={children.next} />
+              ) : null
+            )
+        )}
       </div>
       <Nav />
       <Footer />
