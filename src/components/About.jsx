@@ -10,7 +10,7 @@ const About = () => {
       >
         <div className="flex-1 px-8 py-4">
           <Puzzle className="mx-auto size-14 text-light-neuro bg-dark-cyan-neuro p-2 rounded-md" />
-          <h2 className="py-4 text-center font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text text-3xl">
+          <h2 className="py-4 text-center font-decoration text-dark-cyan-neuro text-4xl">
             Missão
           </h2>
           <p className="text-dark-neuro text-center">
@@ -21,7 +21,7 @@ const About = () => {
         </div>
         <div className="flex-1 px-8 py-4">
           <Eye className="mx-auto size-14 text-light-neuro bg-dark-cyan-neuro p-2  rounded-md" />
-          <h2 className="py-4 text-center font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text text-3xl">
+          <h2 className="py-4 text-center font-decoration text-dark-cyan-neuro text-4xl">
             Visão
           </h2>
           <p className="text-dark-neuro text-center">
@@ -32,7 +32,7 @@ const About = () => {
         </div>
         <div className="flex-1 px-8 py-4">
           <Star className="mx-auto size-14 text-light-neuro bg-dark-cyan-neuro p-2  rounded-md" />
-          <h2 className="py-4 text-center font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text text-3xl">
+          <h2 className="py-4 text-center font-decoration text-dark-cyan-neuro text-4xl">
             Valores
           </h2>
           <p className="text-dark-neuro text-center">

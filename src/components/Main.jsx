@@ -13,7 +13,9 @@ const Main = () => {
           <Motion>
             <h1 className="max-w-[980px] text-white text-3xl">
               Agende uma avaliação e venha{" "}
-              <span className="font-bold">conhecer nosso espaço!</span>
+              <span className="font-decoration text-4xl">
+                conhecer nosso espaço!
+              </span>
             </h1>
             <div className="pt-6">
               <Link
