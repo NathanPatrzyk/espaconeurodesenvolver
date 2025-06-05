@@ -7,7 +7,7 @@ const Button = ({ children, theme }) => {
     );
   } else if (theme == "dark") {
     return (
-      <button className="font-semibold text-light-neuro bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro flex align-center md:justify-start justify-center font-sm py-2 px-3 rounded-md hover:opacity-80">
+      <button className="font-semibold text-light-neuro bg-dark-cyan-neuro flex align-center md:justify-start justify-center font-sm py-2 px-3 rounded-md hover:opacity-80">
         {children}
       </button>
     );

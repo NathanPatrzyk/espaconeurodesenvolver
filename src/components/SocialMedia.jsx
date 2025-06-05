@@ -16,7 +16,7 @@ const SocialMedia = () => {
           className="from-dark-cyan-neuro to-cyan-neuro bg-gradient-to-r p-4
         rounded-xl flex flex-col"
         >
-          <h2 className="font-bold text-white text-3xl px-2 pb-2">
+          <h2 className="font-decoration text-white text-4xl px-2 pb-2">
             Unidade Irati
           </h2>
           <a
@@ -103,7 +103,7 @@ const SocialMedia = () => {
           className="from-dark-cyan-neuro to-cyan-neuro bg-gradient-to-r p-4
         rounded-xl flex flex-col"
         >
-          <h2 className="font-bold text-white text-3xl px-2 pb-2">
+          <h2 className="font-decoration text-white text-4xl px-2 pb-2">
             Unidade Imbituva
           </h2>
           <a
