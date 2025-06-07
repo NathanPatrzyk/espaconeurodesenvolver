@@ -12,22 +12,22 @@ const Footer = () => {
   return (
     <footer className="bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro">
       <Motion>
-        <div className="flex md:flex-row flex-col md:items-start items-center">
-          <div className="flex flex-1 md:flex-row flex-col md:px-16 px-4 py-8 gap-8 md:text-start text-center">
-            <div className="flex-1 flex flex-col gap-4">
+        <div className="flex flex-col items-center md:flex-row md:items-start">
+          <div className="flex flex-1 flex-col gap-8 px-4 py-8 text-center md:flex-row md:px-16 md:text-start">
+            <div className="flex flex-1 flex-col gap-4">
               {json.pages.map(
                 (page) =>
                   page.link && (
                     <a
-                      className="block text-light-neuro font-medium hover:underline font-semibold"
+                      className="block font-medium font-semibold text-light-neuro hover:underline"
                       href={page.link}
                     >
                       {page.name}
                     </a>
-                  )
+                  ),
               )}
             </div>
-            <div className="flex-1 flex flex-col gap-4 md:text-start text-center">
+            <div className="flex flex-1 flex-col gap-4 text-center md:text-start">
               {json.pages.map(
                 (page) =>
                   page.childrens &&
@@ -35,19 +35,21 @@ const Footer = () => {
                     (children) =>
                       children.link && (
                         <a
-                          className="block text-light-neuro font-medium hover:underline font-semibold"
+                          className="block font-medium font-semibold text-light-neuro hover:underline"
                           href={children.link}
                         >
                           {children.name}
                         </a>
-                      )
-                  )
+                      ),
+                  ),
               )}
             </div>
           </div>
-          <div className="flex flex-col gap-4 md:px-16 px-4 sm:pt-8 pb-8">
-            <p className="text-white text-lg font-semibold">Unidade Irati</p>
-            <div className="flex gap-4 justify-start md:justify-end">
+          <div className="flex flex-col gap-4 px-4 pb-8 sm:pt-8 md:px-16">
+            <p className="text-center text-lg font-semibold text-white md:text-left">
+              Unidade Irati
+            </p>
+            <div className="flex justify-start gap-4 md:justify-end">
               <Link
                 icon={IconWhatsappAlternative}
                 link="https://api.whatsapp.com/send?phone=554299732535"
@@ -66,8 +68,10 @@ const Footer = () => {
                 link="https://www.facebook.com/profile.php?id=61573420109403"
               />
             </div>
-            <p className="text-white text-lg font-semibold">Unidade Imbituva</p>
-            <div className="flex gap-4 justify-start md:justify-end">
+            <p className="text-center text-lg font-semibold text-white md:text-left">
+              Unidade Imbituva
+            </p>
+            <div className="flex justify-start gap-4 md:justify-end">
               <Link
                 icon={IconWhatsappAlternative}
                 link="https://api.whatsapp.com/send?phone=554299375807"
@@ -90,7 +94,7 @@ const Footer = () => {
         </div>
       </Motion>
       <Motion>
-        <p className="text-light-neuro text-center pb-4 font-semibold">
+        <p className="pb-4 text-center font-semibold text-light-neuro">
           ©{" "}
           <a
             className="underline"

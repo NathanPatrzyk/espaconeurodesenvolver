@@ -3,10 +3,10 @@ import Button from "../Button";
 const Link = ({ icon, link, name, theme, children }) => {
   if (name && theme == "dark") {
     return (
-      <div className="flex md:justify-start justify-center">
-        <a href={link}>
+      <div className="flex justify-center md:justify-start">
+        <a href={link} className="w-full sm:w-auto">
           <Button theme="dark">
-            <div className="flex gap-1 items-center">
+            <div className="flex items-center gap-1">
               <div>
                 <img src={icon}></img>
                 {children}
@@ -19,10 +19,10 @@ const Link = ({ icon, link, name, theme, children }) => {
     );
   } else if (name && theme == "light") {
     return (
-      <div className="flex md:justify-start justify-center">
-        <a href={link}>
+      <div className="flex justify-center md:justify-start">
+        <a href={link} className="w-full sm:w-auto">
           <Button theme="light">
-            <div className="flex gap-1 items-center">
+            <div className="flex items-center gap-1">
               <div>
                 <img src={icon}></img>
                 {children}
@@ -35,8 +35,8 @@ const Link = ({ icon, link, name, theme, children }) => {
     );
   } else if (!name) {
     return (
-      <div className="flex md:justify-start justify-center">
-        <a href={link}>
+      <div className="flex w-full justify-center md:justify-start">
+        <a href={link} className="w-full">
           <Button theme="light">
             <div>
               <img className="py-1" src={icon}></img>

@@ -2,16 +2,16 @@ import Motion from "./Motion";
 import Link from "./link/Link";
 
 import IconWhatsappAlternative from "../assets/whatsappAlternative.svg";
-
 import ImageLogo from "../assets/logo-big.webp";
+import Flex from "./layout/Flex";
 
 const Main = () => {
   return (
-    <div>
-      <main className="bg-dark-cyan-neuro flex md:flex-row flex-col justify-center items-center pt-16 md:gap-8 bg-no-repeat bg-cover bg-bottom bg-[url('/cloud.svg')]">
-        <div className="md:w-[50vw] flex flex-col md:py-12 md:px-16 py-8 px-4">
+    <main>
+      <Flex className="bg-dark-cyan-neuro bg-[url('/cloud.svg')] bg-cover bg-bottom bg-no-repeat pt-16">
+        <div className="flex flex-col px-4 py-8 md:px-16 md:py-12">
           <Motion>
-            <h1 className="max-w-[980px] text-white text-3xl">
+            <h1 className="text-center text-3xl text-white md:text-left">
               Agende uma avaliação e venha{" "}
               <span className="font-decoration text-4xl">
                 conhecer nosso espaço!
@@ -27,23 +27,18 @@ const Main = () => {
             </div>
           </Motion>
         </div>
-        <div className="md:w-[50vw] flex justify-center items-center md:rounded-none md:rounded-bl-[800px] rounded-none md:ps-16 px-4 md:px-0">
-          <div className="flex-1 flex items-center justify-center md:px-16 md:py-12 py-8">
-            <div className="relative top-0 left-0 hover:scale-105 active:scale-105 duration-500">
-              <Motion>
-                <div className="bg-transparent size-[300px] min-w-[300px] min-h-[300px] rounded-[60px] mx-auto "></div>
-                <div className="absolute top-0 left-0">
-                  <img
-                    src={ImageLogo}
-                    className="size-[300px] min-w-[300px] min-h-[300px] rounded-[60px] mx-auto animate-goback "
-                  ></img>
-                </div>
-              </Motion>
+        <div className="flex items-center justify-center px-4 py-8 duration-500 hover:scale-105 active:scale-105 md:px-16 md:py-12">
+          <Motion>
+            <div className="mx-auto size-[300px] rounded-[60px] bg-transparent">
+              <img
+                src={ImageLogo}
+                className="mx-auto size-[300px] animate-goback"
+              ></img>{" "}
             </div>
-          </div>
+          </Motion>
         </div>
-      </main>
-    </div>
+      </Flex>
+    </main>
   );
 };
 

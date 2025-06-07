@@ -41,28 +41,28 @@ function Home() {
         title="Bobath"
         description="O Conceito Neuroevolutivo Bobath é uma abordagem terapêutica desenvolvida a fim de facilitar o individuo com limitação para participação no cotidiano, devido a danos motores, (incluindo tônus muscular e padrões de movimento) funções sensoriais, perceptivas e cognitivas, resultantes dos distúrbios do SNC – Sistema Nervoso Central."
         link="especialidades/bobath"
-        theme="dark"
+        theme="light"
       />
       <Speciality
         image={ImageTerapiaOcupacional}
         title="Terapia Ocupacional"
         description="Essa prática terapêutica foca em capacitar as pessoas a superar desafios diários."
         link="especialidades/terapiaocupacional"
-        theme="light"
+        theme="dark"
       />
       <Speciality
         image={ImageEstimulacaoVisual}
         title="Estimulação Visual"
         description="É uma especialidade que visa desenvolver e melhorar a capacidade de acuidade visual por meio de atividades específicas que favorecem o sistema visual."
         link="especialidades/estimulacaovisual"
-        theme="dark"
+        theme="light"
       />
       <Speciality
         image={ImagePsicomotricidade}
         title="Psicomotricidade"
         description="A Psicomotricidade busca melhorar os movimentos do corpo, a noção de espaço onde se está, a coordenação motora, equilíbrio e também o ritmo."
         link="especialidades/psicomotricidade"
-        theme="light"
+        theme="dark"
       />
       <Nav />
       <Footer />

@@ -17,10 +17,12 @@ const Speciality = (props) => {
           </div>
           <div className="flex flex-1 flex-col justify-center px-4 py-8 md:px-16 md:py-32">
             <Motion>
-              <h2 className="font-decoration text-4xl text-dark-cyan-neuro">
+              <h2 className="text-center font-decoration text-4xl text-dark-cyan-neuro md:text-left">
                 {props.title}
               </h2>
-              <p className="py-6 text-dark-neuro">{props.description}</p>
+              <p className="py-6 text-center text-dark-neuro md:text-left">
+                {props.description}
+              </p>
               <Link link={props.link} name="SAIBA MAIS" theme="dark">
                 <Info />
               </Link>
@@ -41,10 +43,12 @@ const Speciality = (props) => {
           </div>
           <div className="flex flex-1 flex-col justify-center px-4 py-8 md:px-16 md:py-32">
             <Motion>
-              <h2 className="font-decoration text-4xl text-dark-cyan-neuro">
+              <h2 className="text-center font-decoration text-4xl text-dark-cyan-neuro md:text-left">
                 {props.title}
               </h2>
-              <p className="pt-6 text-dark-neuro">{props.description}</p>
+              <p className="pt-6 text-center text-dark-neuro md:text-left">
+                {props.description}
+              </p>
             </Motion>
           </div>
         </section>
@@ -56,10 +60,12 @@ const Speciality = (props) => {
         <section className="flex flex-col-reverse bg-light-neuro md:flex-row">
           <div className="flex flex-1 flex-col justify-center px-4 py-8 md:px-16 md:py-32">
             <Motion>
-              <h2 className="font-decoration text-4xl text-dark-cyan-neuro">
+              <h2 className="text-center font-decoration text-4xl text-dark-cyan-neuro md:text-left">
                 {props.title}
               </h2>
-              <p className="py-6 text-dark-neuro">{props.description}</p>
+              <p className="py-6 text-center text-dark-neuro md:text-left">
+                {props.description}
+              </p>
               <Link link={props.link} name="SAIBA MAIS" theme="dark">
                 <Info />
               </Link>
