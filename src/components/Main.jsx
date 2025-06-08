@@ -9,7 +9,7 @@ const Main = () => {
   return (
     <main>
       <Flex className="bg-dark-cyan-neuro bg-[url('/cloud.svg')] bg-cover bg-bottom bg-no-repeat pt-16">
-        <div className="flex flex-col px-4 py-8 md:px-16 md:py-12">
+        <div className="flex flex-col p-4 md:p-12">
           <Motion>
             <h1 className="text-center text-3xl text-white md:text-left">
               Agende uma avaliação e venha{" "}
@@ -27,7 +27,7 @@ const Main = () => {
             </div>
           </Motion>
         </div>
-        <div className="flex items-center justify-center px-4 py-8 duration-500 hover:scale-105 active:scale-105 md:px-16 md:py-12">
+        <div className="flex items-center justify-center p-4 duration-500 hover:scale-105 active:scale-105 md:p-12">
           <Motion>
             <div className="mx-auto size-[300px] rounded-[60px] bg-transparent">
               <img

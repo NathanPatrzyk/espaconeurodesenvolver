@@ -6,36 +6,36 @@ const About = () => {
     <Motion>
       <section
         id="sobre"
-        className="grid md:grid-cols-3 grid-cols-1 gap-4 md:px-16 px-4 md:py-12 py-8"
+        className="grid grid-cols-1 gap-4 px-4 py-8 md:grid-cols-3 md:px-16 md:py-12"
       >
-        <div className="flex-1 px-8 py-4">
-          <Puzzle className="mx-auto size-14 text-light-neuro bg-dark-cyan-neuro p-2 rounded-md" />
-          <h2 className="py-4 text-center font-decoration text-dark-cyan-neuro text-4xl">
+        <div className="flex-1 p-4">
+          <Puzzle className="mx-auto size-14 rounded-md bg-dark-cyan-neuro p-2 text-light-neuro" />
+          <h2 className="py-4 text-center font-decoration text-4xl text-dark-cyan-neuro">
             Missão
           </h2>
-          <p className="text-dark-neuro text-center">
+          <p className="text-center text-dark-neuro">
             Proporcionar ao paciente a potencialização de suas habilidades,
             através de intervenções baseadas em evidências científicas, inovação
             e tecnologia.
           </p>
         </div>
-        <div className="flex-1 px-8 py-4">
-          <Eye className="mx-auto size-14 text-light-neuro bg-dark-cyan-neuro p-2  rounded-md" />
-          <h2 className="py-4 text-center font-decoration text-dark-cyan-neuro text-4xl">
+        <div className="flex-1 p-4">
+          <Eye className="mx-auto size-14 rounded-md bg-dark-cyan-neuro p-2 text-light-neuro" />
+          <h2 className="py-4 text-center font-decoration text-4xl text-dark-cyan-neuro">
             Visão
           </h2>
-          <p className="text-dark-neuro text-center">
+          <p className="text-center text-dark-neuro">
             Ser um espaço de referência na reabilitação, oferecendo atendimentos
             com profissionais capacitados, terapias especializadas, além de
             espaço adequado e equipamentos.
           </p>
         </div>
-        <div className="flex-1 px-8 py-4">
-          <Star className="mx-auto size-14 text-light-neuro bg-dark-cyan-neuro p-2  rounded-md" />
-          <h2 className="py-4 text-center font-decoration text-dark-cyan-neuro text-4xl">
+        <div className="flex-1 p-4">
+          <Star className="mx-auto size-14 rounded-md bg-dark-cyan-neuro p-2 text-light-neuro" />
+          <h2 className="py-4 text-center font-decoration text-4xl text-dark-cyan-neuro">
             Valores
           </h2>
-          <p className="text-dark-neuro text-center">
+          <p className="text-center text-dark-neuro">
             Proatividade; Comprometimento; Motivação; Trabalho em Equipe; Ética
             e Respeito; Excelência; Melhoria contínua; Inovação;
             Responsabilidade.
