@@ -1,7 +1,7 @@
-const Flex = ({ children, className }) => {
+const Flex = ({ className, children }) => {
   return (
     <div
-      className={`flex flex-col items-center justify-center gap-4 md:flex-row ${className}`}
+      className={`flex w-full max-w-7xl items-center justify-center gap-4 ${className}`}
     >
       {children}
     </div>

@@ -7,8 +7,8 @@ import Flex from "./layout/Flex";
 
 const Main = () => {
   return (
-    <main>
-      <Flex className="bg-dark-cyan-neuro bg-[url('/cloud.svg')] bg-cover bg-bottom bg-no-repeat pt-16">
+    <main className="flex w-screen justify-center bg-dark-cyan-neuro bg-[url('/cloud.svg')] bg-cover bg-bottom bg-no-repeat pt-16">
+      <Flex className="flex-col md:flex-row">
         <div className="flex flex-col p-4 md:p-12">
           <Motion>
             <h1 className="text-center text-3xl text-white md:text-left">
