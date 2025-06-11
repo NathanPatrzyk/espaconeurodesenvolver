@@ -4,10 +4,23 @@ import Link from "./link/Link";
 import IconWhatsappAlternative from "../assets/whatsappAlternative.svg";
 import ImageLogo from "../assets/logo-big.webp";
 import Flex from "./layout/Flex";
+import { useState, useEffect } from "react";
 
 const Main = () => {
+  const [loaded, setLoaded] = useState(true);
+
+  const bgImage = "bg-[url('/cloud.svg')]";
+
+  useEffect(() => {
+    const img = new Image();
+    img.src = "/cloud.svg";
+    img.onload = () => setLoaded(false);
+  }, []);
+
   return (
-    <main className="flex w-screen justify-center bg-dark-cyan-neuro bg-[url('/cloud.svg')] bg-cover bg-bottom bg-no-repeat pt-16">
+    <main
+      className={`flex w-screen justify-center bg-dark-cyan-neuro bg-[url('/cloud.svg')] bg-cover bg-bottom bg-no-repeat pt-16 ${loaded ? "bg-dark-cyan-neuro" : bgImage}`}
+    >
       <Flex className="flex-col md:flex-row">
         <div className="flex flex-col p-4 md:p-12">
           <Motion>

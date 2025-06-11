@@ -5,30 +5,30 @@ import Motion from "./Motion";
 const Professional = () => {
   return (
     <Motion>
-      <section className="flex flex-col gap-12 md:pb-12 pb-8 md:px-16 px-4 pt-0">
+      <section className="flex flex-col gap-12 px-4 pb-8 pt-0 md:px-16 md:pb-12">
         {json.profissionals.map((profissional) => (
-          <div className="flex-1 flex flex-col md:flex-row gap-6 p-4 md:p-8 border-4 border-dark-neuro hover:border-cyan-neuro border-opacity-20 rounded-lg">
-            <figure className="size-[80%] max-w-[200px] max-h-[200px] mx-auto">
+          <div className="flex flex-1 flex-col gap-6 rounded-lg border-4 border-dark-neuro border-opacity-20 p-4 hover:border-cyan-neuro md:flex-row md:p-8">
+            <figure className="mx-auto size-[80%] max-h-[200px] max-w-[200px]">
               <img
-                className="size-[100%] max-w-[200px] max-h-[200px]"
+                className="size-[100%] max-h-[200px] max-w-[200px]"
                 src={profissional.image}
                 alt={profissional.name}
               />
             </figure>
-            <div className="flex-1 md:text-left text-center">
-              <h2 className="font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text text-3xl">
+            <div className="flex-1 text-center md:text-left">
+              <h2 className="bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro bg-clip-text text-3xl font-bold text-transparent">
                 {profissional.name}
               </h2>
-              <p className="font-bold text-dark-neuro text-2xl pt-2">
+              <p className="pt-2 text-2xl font-bold text-dark-neuro">
                 {profissional.role}
               </p>
-              <p className="text-dark-neuro text-2xl pb-4">
+              <p className="pb-4 text-2xl text-dark-neuro">
                 {profissional.description}
               </p>
-              <div className="flex md:block flex-col">
+              <div className="flex flex-col md:block">
                 {profissional.formations &&
                   profissional.formations.map((formation) => (
-                    <p className="text-dark-neuro inline-block px-3 py-0.5 m-1 md:mx-1 mx-auto bg-light-cyan-neuro rounded-full border-cyan-neuro border-[3px]">
+                    <p className="m-1 mx-auto inline-block rounded-full border-[3px] border-cyan-neuro bg-light-cyan-neuro px-3 py-0.5 text-dark-neuro md:mx-1">
                       {formation.name}
                     </p>
                   ))}

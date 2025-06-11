@@ -74,7 +74,7 @@
             "name": "Anterior",
             "link": "/especialidades/estimulacaovisual"
           }
-        } 
+        }
       ]
     },
     {
@@ -92,22 +92,24 @@
       "name": "Rafael Alexandre Giliczynski",
       "role": "Fisioterapeuta Responsável",
       "description": "Crefito-8 275189-F",
+      "principalFormation": {
+        "name": "Pós-graduação"
+      },
       "formations": [
         {
-          "name": "Especialista Profissional em Fisioterapia Neurofuncional na criança e no adolescente pela ABRAFIN/COFFITO"
+          "name": "Neurospicomotricidade"
         },
-        { "name": "Pós-Graduado em Neurologia com ênfase em Neuropediatria" },
-        { "name": "Pós-Graduado em Fisioterapia Neurofuncional" },
-        { "name": "Pós Graduado em ABA (Análise do Comportamento Aplicada)" },
         {
-          "name": "Formação em PediaSuit Básico, PediaSuit Avançado e PediaSuit Baby"
+          "name": "Psicomotricidade Institucional Clínica e TGD TEA"
         },
-        { "name": "Formação no Conceito Bobath" },
-        { "name": "Curso de Treinamento Locomotor na Paralisia Cerebral" },
         {
-          "name": "Curso Teórico/Prático de Estimulação Transcraniana por Corrente Contínua"
+          "name": "Fisioterapia Traumato Ortopédica"
         },
-        { "name": "Curso de Psicomotricidade Básico e Avançado" }
+        { "name": "Fisioterapia Respiratória" },
+        { "name": "TGD TEA Comunicação Alternativa" },
+        { "name": "Psicomotricidade" },
+        { "name": "Estimulação Visual" },
+        { "name": "RTA" }
       ]
     },
     {
