@@ -92,24 +92,75 @@
       "name": "Rafael Alexandre Giliczynski",
       "role": "Fisioterapeuta Responsável",
       "description": "Crefito-8 275189-F",
-      "principalFormation": {
-        "name": "Pós-graduação"
-      },
       "formations": [
         {
-          "name": "Neurospicomotricidade"
+          "title": "Especialista Profissional em:",
+          "items": [
+            {
+              "item": "Fisioterapia Neurofuncional na Criança e no Adolescente – ABRAFIN/COFFITO"
+            }
+          ]
         },
         {
-          "name": "Psicomotricidade Institucional Clínica e TGD TEA"
+          "title": "Pós-Graduado em:",
+          "items": [
+            {
+              "item": "Análise do Comportamento Aplicada (ABA)"
+            },
+            {
+              "item": "Fisioterapia Neurofuncional"
+            },
+            {
+              "item": "Neurologia com Ênfase em Neuropediatria"
+            }
+          ]
         },
         {
-          "name": "Fisioterapia Traumato Ortopédica"
+          "title": "Formação em:",
+          "items": [
+            {
+              "item": "Conceito Bobath"
+            },
+            {
+              "item": "PediaSuit Básico, Avançado e Baby"
+            }
+          ]
         },
-        { "name": "Fisioterapia Respiratória" },
-        { "name": "TGD TEA Comunicação Alternativa" },
-        { "name": "Psicomotricidade" },
-        { "name": "Estimulação Visual" },
-        { "name": "RTA" }
+        {
+          "title": "Pós-Graduado em:",
+          "items": [
+            {
+              "item": "Comunicação Alternativa para TGD/TEA"
+            },
+            {
+              "item": "Estimulação Transcraniana por Corrente Contínua"
+            },
+            {
+              "item": "Estimulação Visual"
+            },
+            {
+              "item": "Fisioterapia Respiratória"
+            },
+            {
+              "item": "Fisioterapia Traumato-Ortopédica"
+            },
+            {
+              "item": "Neuropsicomotricidade"
+            },
+            {
+              "item": "Psicomotricidade Básica e Avançada"
+            },
+            {
+              "item": "Psicomotricidade Institucional, Clínica e TGD/TEA"
+            },
+            {
+              "item": "Reequilíbrio Tóraco-Abdominal (RTA)"
+            },
+            {
+              "item": "Treinamento Locomotor na Paralisia Cerebral"
+            }
+          ]
+        }
       ]
     },
     {
@@ -119,7 +170,12 @@
       "description": "Crefito-8 277273-F",
       "formations": [
         {
-          "name": "Especialista Profissional em Fisioterapia Neurofuncional na criança e no adolescente pela ABRAFIN/COFFITO"
+          "title": "Especialista Profissional em:",
+          "items": [
+            {
+              "item": "Fisioterapia Neurofuncional na Criança e no Adolescente – ABRAFIN/COFFITO"
+            }
+          ]
         }
       ]
     },
@@ -142,7 +198,12 @@
       "description": "Crefito-8 340915-F",
       "formations": [
         {
-          "name": "Especialista Profissional em Fisioterapia Neurofuncional na criança e no adolescente pela ABRAFIN/COFFITO"
+          "title": "Especialista Profissional em:",
+          "items": [
+            {
+              "item": "Fisioterapia Neurofuncional na Criança e no Adolescente – ABRAFIN/COFFITO"
+            }
+          ]
         }
       ]
     },
