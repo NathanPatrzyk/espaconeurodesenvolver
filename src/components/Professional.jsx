@@ -15,6 +15,8 @@ const Professional = () => {
     "/valmir.png": "bg-[url('/valmir.png')]",
   };
 
+  //
+
   return (
     <Motion>
       <div className="flex w-screen justify-center">
