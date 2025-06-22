@@ -74,7 +74,7 @@
             "name": "Anterior",
             "link": "/especialidades/estimulacaovisual"
           }
-        } 
+        }
       ]
     },
     {
@@ -88,88 +88,151 @@
   ],
   "profissionals": [
     {
-      "image": "/rafael.webp",
+      "image": "/rafael.png",
       "name": "Rafael Alexandre Giliczynski",
       "role": "Fisioterapeuta Responsável",
       "description": "Crefito-8 275189-F",
       "formations": [
         {
-          "name": "Especialista Profissional em Fisioterapia Neurofuncional na criança e no adolescente pela ABRAFIN/COFFITO"
+          "title": "Especialista Profissional em:",
+          "items": [
+            {
+              "item": "Fisioterapia Neurofuncional na Criança e no Adolescente – ABRAFIN/COFFITO"
+            }
+          ]
         },
-        { "name": "Pós-Graduado em Neurologia com ênfase em Neuropediatria" },
-        { "name": "Pós-Graduado em Fisioterapia Neurofuncional" },
-        { "name": "Pós Graduado em ABA (Análise do Comportamento Aplicada)" },
         {
-          "name": "Formação em PediaSuit Básico, PediaSuit Avançado e PediaSuit Baby"
+          "title": "Pós-Graduado em:",
+          "items": [
+            {
+              "item": "Análise do Comportamento Aplicada (ABA)"
+            },
+            {
+              "item": "Fisioterapia Neurofuncional"
+            },
+            {
+              "item": "Neurologia com Ênfase em Neuropediatria"
+            }
+          ]
         },
-        { "name": "Formação no Conceito Bobath" },
-        { "name": "Curso de Treinamento Locomotor na Paralisia Cerebral" },
         {
-          "name": "Curso Teórico/Prático de Estimulação Transcraniana por Corrente Contínua"
+          "title": "Formação em:",
+          "items": [
+            {
+              "item": "Conceito Bobath"
+            },
+            {
+              "item": "PediaSuit Básico, Avançado e Baby"
+            }
+          ]
         },
-        { "name": "Curso de Psicomotricidade Básico e Avançado" }
+        {
+          "title": "Pós-Graduado em:",
+          "items": [
+            {
+              "item": "Comunicação Alternativa para TGD/TEA"
+            },
+            {
+              "item": "Estimulação Transcraniana por Corrente Contínua"
+            },
+            {
+              "item": "Estimulação Visual"
+            },
+            {
+              "item": "Fisioterapia Respiratória"
+            },
+            {
+              "item": "Fisioterapia Traumato-Ortopédica"
+            },
+            {
+              "item": "Neuropsicomotricidade"
+            },
+            {
+              "item": "Psicomotricidade Básica e Avançada"
+            },
+            {
+              "item": "Psicomotricidade Institucional, Clínica e TGD/TEA"
+            },
+            {
+              "item": "Reequilíbrio Tóraco-Abdominal (RTA)"
+            },
+            {
+              "item": "Treinamento Locomotor na Paralisia Cerebral"
+            }
+          ]
+        }
       ]
     },
     {
-      "image": "/marcieli.webp",
+      "image": "/marcieli.png",
       "name": "Marcieli Riskowski",
       "role": "Fisioterapeuta",
       "description": "Crefito-8 277273-F",
       "formations": [
         {
-          "name": "Especialista Profissional em Fisioterapia Neurofuncional na criança e no adolescente pela ABRAFIN/COFFITO"
+          "title": "Especialista Profissional em:",
+          "items": [
+            {
+              "item": "Fisioterapia Neurofuncional na Criança e no Adolescente – ABRAFIN/COFFITO"
+            }
+          ]
         }
       ]
     },
     {
-      "image": "/laiane.webp",
+      "image": "/laiane.png",
       "name": "Laiane Stadler Senimbu Synderski",
       "role": "Fisioterapeuta",
       "description": "Crefito-8 408321-F"
     },
     {
-      "image": "/rafaellaroca.webp",
+      "image": "/rafaellaroca.png",
       "name": "Rafael Laroca de Lima",
       "role": "Fisioterapeuta",
       "description": "Crefito-8 275037-F"
     },
     {
-      "image": "/flavia.webp",
+      "image": "/flavia.png",
       "name": "Flávia Bobato Camargo",
       "role": "Fisioterapeuta",
       "description": "Crefito-8 340915-F",
       "formations": [
         {
-          "name": "Especialista Profissional em Fisioterapia Neurofuncional na criança e no adolescente pela ABRAFIN/COFFITO"
+          "title": "Especialista Profissional em:",
+          "items": [
+            {
+              "item": "Fisioterapia Neurofuncional na Criança e no Adolescente – ABRAFIN/COFFITO"
+            }
+          ]
         }
       ]
     },
     {
-      "image": "/thais.webp",
+      "image": "/thais.png",
       "name": "Thaís Aline Moreira dos Santos",
       "role": "Fonoaudióloga",
       "description": "CRFa-3 9918"
     },
     {
-      "image": "/ingrid.webp",
+      "image": "/ingrid.png",
       "name": "Ingrid Evellin Boava",
       "role": "Fonoaudióloga Bobath",
       "description": "CRFa-3 12067"
     },
     {
-      "image": "/leslie.webp",
+      "image": "/leslie.png",
       "name": "Leslie Ritz",
       "role": "Terapeuta Ocupacional Responsável",
       "description": "Crefito-8 14210-TO"
     },
     {
-      "image": "/jociele.webp",
+      "image": "/jociele.png",
       "name": "Jociele de Fátima Spivakoski",
       "role": "Terapeuta Ocupacional",
       "description": "Crefito-8 25598-TO"
     },
     {
-      "image": "/valmir.webp",
+      "image": "/valmir.png",
       "name": "Valmir da Silva Walker",
       "role": "Terapeuta Ocupacional",
       "description": "Crefito-8: 20605-TO"

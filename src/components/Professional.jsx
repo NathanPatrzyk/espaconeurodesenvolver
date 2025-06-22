@@ -1,42 +1,63 @@
 import json from "../data.json";
-
 import Motion from "./Motion";
 
 const Professional = () => {
+  const imageClasses = {
+    "/rafael.png": "bg-[url('/rafael.png')]",
+    "/marcieli.png": "bg-[url('/marcieli.png')]",
+    "/laiane.png": "bg-[url('/laiane.png')]",
+    "/rafaellaroca.png": "bg-[url('/rafaellaroca.png')]",
+    "/flavia.png": "bg-[url('/flavia.png')]",
+    "/thais.png": "bg-[url('/thais.png')]",
+    "/ingrid.png": "bg-[url('/ingrid.png')]",
+    "/leslie.png": "bg-[url('/leslie.png')]",
+    "/jociele.png": "bg-[url('/jociele.png')]",
+    "/valmir.png": "bg-[url('/valmir.png')]",
+  };
+
   return (
     <Motion>
-      <section className="flex flex-col gap-12 md:pb-12 pb-8 md:px-16 px-4 pt-0">
-        {json.profissionals.map((profissional) => (
-          <div className="flex-1 flex flex-col md:flex-row gap-6 p-4 md:p-8 border-4 border-dark-neuro hover:border-cyan-neuro border-opacity-20 rounded-lg">
-            <figure className="size-[80%] max-w-[200px] max-h-[200px] mx-auto">
-              <img
-                className="size-[100%] max-w-[200px] max-h-[200px]"
-                src={profissional.image}
-                alt={profissional.name}
-              />
-            </figure>
-            <div className="flex-1 md:text-left text-center">
-              <h2 className="font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text text-3xl">
-                {profissional.name}
-              </h2>
-              <p className="font-bold text-dark-neuro text-2xl pt-2">
-                {profissional.role}
-              </p>
-              <p className="text-dark-neuro text-2xl pb-4">
-                {profissional.description}
-              </p>
-              <div className="flex md:block flex-col">
-                {profissional.formations &&
-                  profissional.formations.map((formation) => (
-                    <p className="text-dark-neuro inline-block px-3 py-0.5 m-1 md:mx-1 mx-auto bg-light-cyan-neuro rounded-full border-cyan-neuro border-[3px]">
-                      {formation.name}
+      <div className="flex w-screen justify-center">
+        <section className="flex w-full max-w-7xl flex-wrap gap-4 p-4 md:p-12">
+          {json.profissionals.map((profissional) => (
+            <Motion
+              className="flex w-full flex-1 flex-col items-center rounded-md bg-light-cyan-neuro sm:min-w-96"
+              key={profissional.name}
+            >
+              <div
+                className={`h-64 w-full bg-light-cyan-neuro ${imageClasses[profissional.image]} bg-contain bg-bottom bg-no-repeat`}
+              ></div>
+              <div className="p-8">
+                <h2 className="text-center font-decoration text-3xl text-dark-cyan-neuro">
+                  {profissional.name}
+                </h2>
+                <p className="pt-2 text-center text-lg font-bold uppercase text-dark-neuro">
+                  {profissional.role}
+                </p>
+                <p className="text-center text-lg uppercase text-dark-neuro">
+                  {profissional.description}
+                </p>
+                {profissional.formations?.map((formation) => (
+                  <div key={formation.title} className="mt-4 w-full">
+                    <p className="text-center font-bold text-dark-neuro">
+                      {formation.title}
                     </p>
-                  ))}
+                    <p className="flex flex-wrap justify-center break-words text-center text-dark-neuro">
+                      {formation.items && (
+                        <p className="break-words text-center text-dark-neuro">
+                          {formation.items
+                            .map((itemObj) => itemObj.item)
+                            .join(" • ")}
+                        </p>
+                      )}
+                    </p>
+                  </div>
+                ))}
               </div>
-            </div>
-          </div>
-        ))}
-      </section>
+            </Motion>
+          ))}
+        </section>
+      </div>
     </Motion>
   );
 };
