@@ -286,6 +286,54 @@
       ]
     },
     {
+      "name": "Simone de Oliveira",
+      "role": "Terapeuta Ocupacional",
+      "formations": [
+        {
+          "title": "Graduada em:",
+          "items": [
+            {
+              "item": "Licenciatura em Pedagogia"
+            }
+          ]
+        },
+        {
+          "title": "Pós-Graduada em:",
+          "items": [
+            {
+              "item": "Educação Especial e Inclusiva"
+            }
+          ]
+        },
+        {
+          "title": "Cursos de:",
+          "items": [
+            {
+              "item": "Certificado Edu-TO"
+            },
+            {
+              "item": "Neurociência Aplicada à Educação"
+            },
+            {
+              "item": "Oficina de Práticas Inclusivas para Crianças com TOD e TDC"
+            },
+            {
+              "item": "Evento Jornada Prática Neuropsicomotricidade em Sala de Aula"
+            },
+            {
+              "item": "Integração Sensorial: da Teoria à Intervenção 2.0"
+            },
+            {
+              "item": "Jornada da Terapia ABA no TEA"
+            },
+            {
+              "item": "Seletividade Alimentar para Profissionais"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "image": "/valmir.png",
       "name": "Valmir da Silva Walker",
       "role": "Terapeuta Ocupacional",
