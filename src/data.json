@@ -127,7 +127,7 @@
           ]
         },
         {
-          "title": "Pós-Graduado em:",
+          "title": "Cursos de:",
           "items": [
             {
               "item": "Comunicação Alternativa para TGD/TEA"
@@ -229,7 +229,61 @@
       "image": "/jociele.png",
       "name": "Jociele de Fátima Spivakoski",
       "role": "Terapeuta Ocupacional",
-      "description": "Crefito-8 25598-TO"
+      "description": "Crefito-8 25598-TO",
+      "formations": [
+        {
+          "title": "Pós-Graduada em:",
+          "items": [
+            {
+              "item": "Intervenção ABA para Autismo e Deficiência Intelectual (Em Andamento)"
+            },
+            {
+              "item": "Terapia Ocupacional na Reabilitação Neuropediátrica (Em Andamento)"
+            }
+          ]
+        },
+        {
+          "title": "Cursos de:",
+          "items": [
+            {
+              "item": "Reabilitação no Pós AVC: da Avaliação a Intervenção Terapêutica Ocupacional"
+            },
+            {
+              "item": "Desenvolvimento Infantil de 0 a 06 Anos: Avaliação e Intervenção na Perspectiva da Terapia Ocupacional"
+            },
+            {
+              "item": "Bandagem Neuromuscular"
+            },
+            {
+              "item": "Introdução a Prematuridade: Fundamentos e Conceitos Básicos"
+            },
+            {
+              "item": "Curso Seletividade Alimentar para Profissionais"
+            },
+            {
+              "item": "Curso Desfralde e Seletividade Alimentar"
+            },
+            {
+              "item": "Shantala"
+            },
+            {
+              "item": "Desenvolvimento da Pessoa com Síndrome de Down"
+            },
+            {
+              "item": "Terapia Ocupacional e a Escola"
+            },
+            {
+              "item": "Transtorno do Espectro Autista"
+            },
+            {
+              "item": "Marcos do Desenvolvimento e Intervenção Precoce"
+            },
+            {
+              "item": "Integração Sensorial (Básico)"
+            }
+          ]
+        }
+      ]
     },
     {
       "image": "/valmir.png",

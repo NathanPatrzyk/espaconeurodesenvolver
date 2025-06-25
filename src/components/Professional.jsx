@@ -15,15 +15,13 @@ const Professional = () => {
     "/valmir.png": "bg-[url('/valmir.png')]",
   };
 
-  //
-
   return (
     <Motion>
       <div className="flex w-screen justify-center">
         <section className="flex w-full max-w-7xl flex-wrap gap-4 p-4 md:p-12">
           {json.profissionals.map((profissional) => (
             <Motion
-              className="flex w-full flex-1 flex-col items-center rounded-md bg-light-cyan-neuro sm:min-w-96"
+              className="flex min-w-full flex-1 flex-col items-center rounded-md bg-light-cyan-neuro sm:min-w-96"
               key={profissional.name}
             >
               <div
