@@ -24,9 +24,11 @@ const Professional = () => {
               className="flex min-w-full flex-1 flex-col items-center rounded-md bg-light-cyan-neuro sm:min-w-96"
               key={profissional.name}
             >
-              <div
-                className={`h-64 w-full bg-light-cyan-neuro ${imageClasses[profissional.image]} bg-contain bg-bottom bg-no-repeat`}
-              ></div>
+              {profissional.image && (
+                <div
+                  className={`h-64 w-full bg-light-cyan-neuro ${imageClasses[profissional.image]} bg-contain bg-bottom bg-no-repeat`}
+                ></div>
+              )}
               <div className="p-8">
                 <h2 className="text-center font-decoration text-3xl text-dark-cyan-neuro">
                   {profissional.name}
