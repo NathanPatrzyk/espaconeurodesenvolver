@@ -1,18 +1,18 @@
 import { useState } from "react";
 import IconSeeMore from "../../assets/see-more.svg";
 
-const NavItem = (props) => {
+const NavItem = ({ childrens, link, name }) => {
   let [open, setOpen] = useState(false);
-  if (props.childrens) {
+  if (childrens) {
     if (!open) {
       return (
-        <div className="md:p-0 p-2">
+        <div className="p-2 md:p-0">
           <a
-            className="block text-dark-neuro font-medium hover:opacity-80 cursor-pointer"
-            href={props.link}
+            className="block cursor-pointer font-medium text-dark-neuro hover:opacity-80"
+            href={link}
             onClick={() => setOpen(!open)}
           >
-            {props.name}
+            {name}
             <img className="inline pb-0.5 ps-2" src={IconSeeMore} />
           </a>
         </div>
@@ -20,25 +20,26 @@ const NavItem = (props) => {
     } else {
       return (
         <div>
-          <div className="md:p-0 p-2">
+          <div className="p-2 md:p-0">
             <a
-              className="block font-medium text-dark-neuro hover:opacity-80 cursor-pointer"
-              href={props.link}
+              className="block cursor-pointer font-medium text-dark-neuro hover:opacity-80"
+              href={link}
               onClick={() => setOpen(!open)}
             >
-              {props.name}
+              {name}
               <img
                 className={`inline pb-0.5 ${
-                  open ? "pe-2 rotate-180" : "ps-2 rotate-0"
+                  open ? "rotate-180 pe-2" : "rotate-0 ps-2"
                 }`}
                 src={IconSeeMore}
               />
             </a>
           </div>
-          <div className="md:absolute right-[109px] top-[64px] md:bg-white md:bg-opacity-90 pb-2">
-            {props.childrens.map((children) => (
+          <div className="right-[109px] top-[64px] pb-2 md:absolute md:bg-white md:bg-opacity-90">
+            {childrens.map((children) => (
               <a
-                className="block text-dark-neuro hover:opacity-80 cursor-pointer my-2 mx-6"
+                key={children.link}
+                className="mx-6 my-2 block cursor-pointer text-dark-neuro hover:opacity-80"
                 href={children.link}
               >
                 {children.name}
@@ -50,12 +51,12 @@ const NavItem = (props) => {
     }
   } else {
     return (
-      <div className="md:p-0 p-2">
+      <div className="p-2 md:p-0">
         <a
-          className="block text-dark-neuro font-medium hover:opacity-80 cursor-pointer"
-          href={props.link}
+          className="block cursor-pointer font-medium text-dark-neuro hover:opacity-80"
+          href={link}
         >
-          {props.name}
+          {name}
         </a>
       </div>
     );

@@ -7,7 +7,7 @@ import { MapPin } from "lucide-react";
 
 const SocialMedia = () => {
   return (
-    <div className="flex w-screen justify-center bg-light-neuro">
+    <div className="flex w-full justify-center bg-light-neuro">
       <section
         id="contato"
         className="grid w-full max-w-7xl grid-cols-1 gap-4 p-4 md:grid-cols-2 md:gap-16 md:p-12"

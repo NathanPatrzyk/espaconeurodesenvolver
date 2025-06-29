@@ -4,28 +4,15 @@ import Footer from "../components/Footer";
 import Professional from "../components/Professional";
 import Motion from "../components/Motion";
 import LinkSmall from "../components/link/LinkSmall";
-import { useState, useEffect } from "react";
 
 function Professionals() {
-  const [loaded, setLoaded] = useState(true);
-
-  const bgImage = "bg-[url('/cloud.svg')]";
-
-  useEffect(() => {
-    const img = new Image();
-    img.src = "/cloud.svg";
-    img.onload = () => setLoaded(false);
-  }, []);
-
   return (
     <div>
-      <div
-        className={`flex w-screen flex-col justify-center bg-cover bg-bottom bg-no-repeat pt-16 ${loaded ? "bg-dark-cyan-neuro" : bgImage}`}
-      >
+      <div className="flex w-full flex-col justify-center bg-dark-cyan-neuro bg-[url('/cloud.svg')] bg-cover bg-bottom bg-no-repeat pt-16">
         <LinkSmall textColor="white" name="Voltar" link="/" />
-        <div className="flex h-full min-h-40 justify-center p-4 md:p-8">
+        <div className="flex h-full justify-center p-4 md:p-8">
           <Motion>
-            <h1 className="text-center font-decoration text-4xl text-white md:text-left">
+            <h1 className="pb-14 text-center font-decoration text-4xl text-white md:text-left">
               Nossos Profissionais
             </h1>
           </Motion>

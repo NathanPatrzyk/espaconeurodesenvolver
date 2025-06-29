@@ -17,7 +17,7 @@ const Professional = () => {
 
   return (
     <Motion>
-      <div className="flex w-screen justify-center">
+      <div className="flex w-full justify-center">
         <section className="flex w-full max-w-7xl flex-wrap gap-4 p-4 md:p-12">
           {json.profissionals.map((profissional) => (
             <Motion

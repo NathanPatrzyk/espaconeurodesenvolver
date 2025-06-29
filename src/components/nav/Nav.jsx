@@ -6,8 +6,8 @@ import NavItem from "./NavItem";
 const Nav = () => {
   let [open, setOpen] = useState(false);
   return (
-    <nav className="fixed left-0 top-0 flex w-screen justify-center bg-white bg-opacity-90">
-      <div className="flex w-full max-w-7xl items-center px-8 py-3">
+    <nav className="fixed left-0 top-0 flex w-full justify-center bg-white bg-opacity-90">
+      <div className="flex w-full max-w-7xl items-center px-4 py-3 md:px-12">
         <div className="flex items-center">
           <a href="/">
             <div className="h-10 w-10 cursor-pointer bg-[url(./assets/logo-small.webp)] bg-contain bg-center bg-no-repeat duration-500 hover:opacity-80 sm:w-72 sm:bg-[url(./assets/logo.webp)]"></div>
@@ -28,6 +28,7 @@ const Nav = () => {
         >
           {json.pages.map((page) => (
             <NavItem
+              key={page.link}
               name={page.name}
               link={page.link}
               childrens={page.childrens}

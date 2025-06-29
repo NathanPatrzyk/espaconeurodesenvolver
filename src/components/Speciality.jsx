@@ -3,16 +3,16 @@ import Flex from "./layout/Flex";
 import Link from "./link/Link";
 import { Info } from "lucide-react";
 
-const Speciality = (props) => {
-  if (props.theme == "dark") {
-    if (props.link) {
+const Speciality = ({ theme, link, image, title, description }) => {
+  if (theme == "dark") {
+    if (link) {
       return (
-        <section className="flex w-screen justify-center bg-light-cyan-neuro">
+        <section className="flex w-full justify-center bg-light-cyan-neuro">
           <Flex className="flex-col md:flex-row">
             <div className="flex items-center justify-center p-4 md:p-12">
               <Motion>
                 <img
-                  src={props.image}
+                  src={image}
                   className="size-[90vw] max-h-[300px] max-w-[300px] duration-500 hover:scale-105 active:scale-105 sm:size-[300px]"
                 ></img>
               </Motion>
@@ -20,12 +20,12 @@ const Speciality = (props) => {
             <div className="flex flex-1 flex-col justify-center p-4 md:p-12">
               <Motion>
                 <h2 className="text-center font-decoration text-4xl text-dark-cyan-neuro md:text-left">
-                  {props.title}
+                  {title}
                 </h2>
                 <p className="py-6 text-center text-dark-neuro md:text-left">
-                  {props.description}
+                  {description}
                 </p>
-                <Link link={props.link} name="SAIBA MAIS" theme="dark">
+                <Link link={link} name="SAIBA MAIS" theme="dark">
                   <Info />
                 </Link>
               </Motion>
@@ -35,12 +35,12 @@ const Speciality = (props) => {
       );
     } else {
       return (
-        <section className="flex w-screen justify-center bg-light-cyan-neuro">
+        <section className="flex w-full justify-center bg-light-cyan-neuro">
           <Flex className="flex-col md:flex-row">
             <div className="flex items-center justify-center p-4 md:p-12">
               <Motion>
                 <img
-                  src={props.image}
+                  src={image}
                   className="size-[90vw] max-h-[300px] max-w-[300px] duration-500 hover:scale-105 active:scale-105 sm:size-[300px]"
                 ></img>
               </Motion>
@@ -48,10 +48,10 @@ const Speciality = (props) => {
             <div className="flex flex-1 flex-col justify-center p-4 md:p-12">
               <Motion>
                 <h2 className="text-center font-decoration text-4xl text-dark-cyan-neuro md:text-left">
-                  {props.title}
+                  {title}
                 </h2>
                 <p className="pt-6 text-center text-dark-neuro md:text-left">
-                  {props.description}
+                  {description}
                 </p>
               </Motion>
             </div>
@@ -59,20 +59,20 @@ const Speciality = (props) => {
         </section>
       );
     }
-  } else if (props.theme == "light") {
-    if (props.link) {
+  } else if (theme == "light") {
+    if (link) {
       return (
-        <section className="flex w-screen justify-center bg-light-neuro">
+        <section className="flex w-full justify-center bg-light-neuro">
           <Flex className="flex-col-reverse md:flex-row">
             <div className="flex flex-1 flex-col justify-center p-4 md:p-12">
               <Motion>
                 <h2 className="text-center font-decoration text-4xl text-dark-cyan-neuro md:text-left">
-                  {props.title}
+                  {title}
                 </h2>
                 <p className="py-6 text-center text-dark-neuro md:text-left">
-                  {props.description}
+                  {description}
                 </p>
-                <Link link={props.link} name="SAIBA MAIS" theme="dark">
+                <Link link={link} name="SAIBA MAIS" theme="dark">
                   <Info />
                 </Link>
               </Motion>
@@ -80,7 +80,7 @@ const Speciality = (props) => {
             <div className="flex items-center justify-center p-4 md:p-12">
               <Motion>
                 <img
-                  src={props.image}
+                  src={image}
                   className="size-[90vw] max-h-[300px] max-w-[300px] duration-500 hover:scale-105 active:scale-105 sm:size-[300px]"
                 ></img>
               </Motion>
@@ -90,20 +90,20 @@ const Speciality = (props) => {
       );
     } else {
       return (
-        <section className="flex w-screen justify-center bg-light-neuro">
+        <section className="flex w-full justify-center bg-light-neuro">
           <Flex className="flex-col-reverse md:flex-row">
             <div className="flex flex-1 flex-col justify-center p-4 md:p-12">
               <Motion>
                 <h2 className="font-decoration text-4xl text-dark-cyan-neuro">
-                  {props.title}
+                  {title}
                 </h2>
-                <p className="pt-6 text-dark-neuro">{props.description}</p>
+                <p className="pt-6 text-dark-neuro">{description}</p>
               </Motion>
             </div>
             <div className="flex items-center justify-center p-4 md:p-12">
               <Motion>
                 <img
-                  src={props.image}
+                  src={image}
                   className="size-[90vw] max-h-[300px] max-w-[300px] duration-500 hover:scale-105 active:scale-105 sm:size-[300px]"
                 ></img>
               </Motion>
