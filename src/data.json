@@ -208,6 +208,57 @@
       ]
     },
     {
+      "name": "Gabrieli Stefani L. de Melo",
+      "role": "Fisioterapeuta",
+      "formations": [
+        {
+          "title": "Pós-Graduada em:",
+          "items": [
+            {
+              "item": "Fisioterapia Pélvica Funcional"
+            }
+          ]
+        },
+        {
+          "title": "Formação em:",
+          "items": [
+            {
+              "item": "Pilates"
+            }
+          ]
+        },
+        {
+          "title": "Cursos de:",
+          "items": [
+            {
+              "item": "Avaliação do Assoalho Pélvico"
+            },
+            {
+              "item": "Drenagem Linfática Manual"
+            },
+            {
+              "item": "Cinesioterapia na Saúde da Mulher"
+            },
+            {
+              "item": "Bandagem Elástica Funcional"
+            },
+            {
+              "item": "Bandagem Neuromuscular em Ortopedia"
+            },
+            {
+              "item": "Aprimoramento de Fisioterapia no Autismo"
+            },
+            {
+              "item": "Reabilitação Vestibular"
+            },
+            {
+              "item": "ABA"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "image": "/thais.png",
       "name": "Thaís Aline Moreira dos Santos",
       "role": "Fonoaudióloga",
@@ -258,10 +309,10 @@
               "item": "Introdução a Prematuridade: Fundamentos e Conceitos Básicos"
             },
             {
-              "item": "Curso Seletividade Alimentar para Profissionais"
+              "item": "Seletividade Alimentar para Profissionais"
             },
             {
-              "item": "Curso Desfralde e Seletividade Alimentar"
+              "item": "Desfralde e Seletividade Alimentar"
             },
             {
               "item": "Shantala"
