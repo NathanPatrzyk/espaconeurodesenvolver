@@ -164,6 +164,31 @@
       ]
     },
     {
+      "name": "Adriele Santos Sobutka",
+      "role": "Fisioterapeuta",
+      "formations": [
+        {
+          "title": "Pós-Graduada em:",
+          "items": [
+            {
+              "item": "Fisioterapia em Terapia Intensiva e Neonatal"
+            },
+            {
+              "item": "Fisioterapia Neuropediátrica"
+            }
+          ]
+        },
+        {
+          "title": "Formação em:",
+          "items": [
+            {
+              "item": "PediaSuit Básico"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "image": "/marcieli.png",
       "name": "Marcieli Riskowski",
       "role": "Fisioterapeuta",
@@ -174,6 +199,72 @@
           "items": [
             {
               "item": "Fisioterapia Neurofuncional na Criança e no Adolescente – ABRAFIN/COFFITO"
+            }
+          ]
+        },
+        {
+          "title": "Pós-Graduado em:",
+          "items": [
+            {
+              "item": "Fisioterapia Traumato-Ortopédica Funcional"
+            },
+            {
+              "item": "Fisioterapia Neurofuncional"
+            }
+          ]
+        },
+        {
+          "title": "Formação em:",
+          "items": [
+            {
+              "item": "Método Pilates"
+            }
+          ]
+        },
+        {
+          "title": "Cursos de:",
+          "items": [
+            {
+              "item": "Tratamento Fisioterapêutico nas Disfunções Neurológicas e Ortopédicas"
+            },
+            {
+              "item": "Dry Needling"
+            },
+            {
+              "item": "Neurofisiologia"
+            },
+            {
+              "item": "Auriculoterapia"
+            },
+            {
+              "item": "Pediasuit Protocol e Terapia Intensiva com a Gaiola de Habilidades"
+            },
+            {
+              "item": "Capacitação em Análise do Comportamento Aplicada (ABA) Voltada ao Transtorno do Espectro do Autismo (TEA) para Pais, Cuidadores e Educadores"
+            },
+            {
+              "item": "Psicomotricidade"
+            },
+            {
+              "item": "Atualidades na Terapia Intensiva, Neurologia e Autismo"
+            },
+            {
+              "item": "ABA: Análise Comportamental do Espectro Autista"
+            },
+            {
+              "item": "Estimulação Transcraniana por Corrente Contínua"
+            },
+            {
+              "item": "Classificação Internacional de Funcionalidade, Incapacidade e Saúde"
+            },
+            {
+              "item": "Transtorno do Espectro Autista e Proposta de Intervenção"
+            },
+            {
+              "item": "Suporte Básico de Vidas"
+            },
+            {
+              "item": "Atualizações em Fisioterapia Pediatrica"
             }
           ]
         }
