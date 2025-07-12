@@ -349,6 +349,30 @@
             },
             {
               "item": "Atualizações em Fisioterapia Pediátrica: Ênfase na Cintura Escapular"
+            },
+            {
+              "item": "Conceitos e Aplicação da Terapia de Restrição e Indução do Movimento"
+            },
+            {
+              "item": "Envelhecimento e Saúde: em Defesa do SUS e da Democracia"
+            },
+            {
+              "item": "Psicomotricidade"
+            },
+            {
+              "item": "Fisioterapia Vestibular"
+            },
+            {
+              "item": "PediaSuit Protocolo e Terapia Intensiva com a Gaiola de Habilidades"
+            },
+            {
+              "item": "Técnicas Funcionais de Aplicação das Bandagens Elásticas Terapêuticas"
+            },
+            {
+              "item": "Ariculoacupuntura e Cranioacupuntura"
+            },
+            {
+              "item": "Fisioterapia na Síndrome Pós-Covid-19"
             }
           ]
         }
@@ -535,7 +559,42 @@
       "image": "/valmir.png",
       "name": "Valmir da Silva Walker",
       "role": "Terapeuta Ocupacional",
-      "description": "Crefito-8: 20605-TO"
+      "description": "Crefito-8: 20605-TO",
+      "formations": [
+        {
+          "title": "Pós-Graduado em:",
+          "items": [
+            {
+              "item": "Análise do Comportamento (ABA)"
+            },
+            {
+              "item": "MBA Trabalho e Ergonomia"
+            }
+          ]
+        },
+        {
+          "title": "Formação em:",
+          "items": [
+            {
+              "item": "Integração Sensorial"
+            },
+            {
+              "item": "Pilates Clássico"
+            }
+          ]
+        },
+        {
+          "title": "Cursos de:",
+          "items": [
+            {
+              "item": "ABA no TEA Aplicador ABA"
+            },
+            {
+              "item": "Aplicador ABA no Autismo"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
