@@ -28,6 +28,7 @@ const Nav = () => {
         >
           {json.pages.map((page) => (
             <NavItem
+              key={page.link}
               name={page.name}
               link={page.link}
               childrens={page.childrens}

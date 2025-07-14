@@ -6,9 +6,9 @@ const NavItem = (props) => {
   if (props.childrens) {
     if (!open) {
       return (
-        <div className="md:p-0 p-2">
+        <div className="p-2 md:p-0">
           <a
-            className="block text-dark-neuro font-medium hover:opacity-80 cursor-pointer"
+            className="block cursor-pointer font-medium text-dark-neuro hover:opacity-80"
             href={props.link}
             onClick={() => setOpen(!open)}
           >
@@ -20,25 +20,26 @@ const NavItem = (props) => {
     } else {
       return (
         <div>
-          <div className="md:p-0 p-2">
+          <div className="p-2 md:p-0">
             <a
-              className="block font-medium text-dark-neuro hover:opacity-80 cursor-pointer"
+              className="block cursor-pointer font-medium text-dark-neuro hover:opacity-80"
               href={props.link}
               onClick={() => setOpen(!open)}
             >
               {props.name}
               <img
                 className={`inline pb-0.5 ${
-                  open ? "pe-2 rotate-180" : "ps-2 rotate-0"
+                  open ? "rotate-180 pe-2" : "rotate-0 ps-2"
                 }`}
                 src={IconSeeMore}
               />
             </a>
           </div>
-          <div className="md:absolute right-[109px] top-[64px] md:bg-white md:bg-opacity-90 pb-2">
+          <div className="left-0 top-[64px] w-screen pb-2 md:absolute md:bg-white md:bg-opacity-90">
             {props.childrens.map((children) => (
               <a
-                className="block text-dark-neuro hover:opacity-80 cursor-pointer my-2 mx-6"
+                key={children.link}
+                className="mx-6 my-2 block cursor-pointer text-dark-neuro hover:opacity-80"
                 href={children.link}
               >
                 {children.name}
@@ -50,9 +51,9 @@ const NavItem = (props) => {
     }
   } else {
     return (
-      <div className="md:p-0 p-2">
+      <div className="p-2 md:p-0">
         <a
-          className="block text-dark-neuro font-medium hover:opacity-80 cursor-pointer"
+          className="block cursor-pointer font-medium text-dark-neuro hover:opacity-80"
           href={props.link}
         >
           {props.name}
