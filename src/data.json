@@ -164,6 +164,31 @@
       ]
     },
     {
+      "name": "Adriele Santos Sobutka",
+      "role": "Fisioterapeuta",
+      "formations": [
+        {
+          "title": "Pós-Graduada em:",
+          "items": [
+            {
+              "item": "Fisioterapia em Terapia Intensiva e Neonatal"
+            },
+            {
+              "item": "Fisioterapia Neuropediátrica"
+            }
+          ]
+        },
+        {
+          "title": "Formação em:",
+          "items": [
+            {
+              "item": "PediaSuit Básico"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "image": "/marcieli.png",
       "name": "Marcieli Riskowski",
       "role": "Fisioterapeuta",
@@ -174,6 +199,81 @@
           "items": [
             {
               "item": "Fisioterapia Neurofuncional na Criança e no Adolescente – ABRAFIN/COFFITO"
+            }
+          ]
+        },
+        {
+          "title": "Pós-Graduado em:",
+          "items": [
+            {
+              "item": "Fisioterapia Traumato-Ortopédica Funcional"
+            },
+            {
+              "item": "Fisioterapia Neurofuncional"
+            }
+          ]
+        },
+        {
+          "title": "Formação em:",
+          "items": [
+            {
+              "item": "Método Pilates"
+            },
+            {
+              "item": "Programa em Formação Avançado de Formação Profissional de Fisioterapia na Oculomotricidade"
+            },
+            {
+              "item": "Conceito Neuroevolutivo Bobath"
+            }
+          ]
+        },
+        {
+          "title": "Cursos de:",
+          "items": [
+            {
+              "item": "Tratamento Fisioterapêutico nas Disfunções Neurológicas e Ortopédicas"
+            },
+            {
+              "item": "Dry Needling"
+            },
+            {
+              "item": "Neurofisiologia"
+            },
+            {
+              "item": "Auriculoterapia"
+            },
+            {
+              "item": "Pediasuit Protocol e Terapia Intensiva com a Gaiola de Habilidades"
+            },
+            {
+              "item": "Capacitação em Análise do Comportamento Aplicada (ABA) Voltada ao Transtorno do Espectro do Autismo (TEA) para Pais, Cuidadores e Educadores"
+            },
+            {
+              "item": "Psicomotricidade"
+            },
+            {
+              "item": "Atualidades na Terapia Intensiva, Neurologia e Autismo"
+            },
+            {
+              "item": "ABA: Análise Comportamental do Espectro Autista"
+            },
+            {
+              "item": "Estimulação Transcraniana por Corrente Contínua"
+            },
+            {
+              "item": "Classificação Internacional de Funcionalidade, Incapacidade e Saúde"
+            },
+            {
+              "item": "Transtorno do Espectro Autista e Proposta de Intervenção"
+            },
+            {
+              "item": "Suporte Básico de Vidas"
+            },
+            {
+              "item": "Atualizações em Fisioterapia Pediatrica: Ênfase na Cintura Escapular, Pélvica, Torcicolo Congênito e Assimetria Craniana"
+            },
+            {
+              "item": "Estimulação Visual Básico, Intermediário e Avançado"
             }
           ]
         }
@@ -189,7 +289,31 @@
       "image": "/rafaellaroca.png",
       "name": "Rafael Laroca de Lima",
       "role": "Fisioterapeuta",
-      "description": "Crefito-8 275037-F"
+      "description": "Crefito-8 275037-F",
+      "formations": [
+        {
+          "title": "Pós-Graduado em:",
+          "items": [
+            {
+              "item": "Fisioterapia em Neuropediatria"
+            }
+          ]
+        },
+        {
+          "title": "Cursos de:",
+          "items": [
+            {
+              "item": "Especialização em Equoterapia"
+            },
+            {
+              "item": "PediaSuit e Terapia Intensiva com Gaiola de Habilidades"
+            },
+            {
+              "item": "Atualização em Traumato-Ortopedia"
+            }
+          ]
+        }
+      ]
     },
     {
       "image": "/flavia.png",
@@ -202,6 +326,53 @@
           "items": [
             {
               "item": "Fisioterapia Neurofuncional na Criança e no Adolescente – ABRAFIN/COFFITO"
+            }
+          ]
+        },
+        {
+          "title": "Cursos de:",
+          "items": [
+            {
+              "item": "Especialização em Fisioterapia"
+            },
+            {
+              "item": "Traumatoortopédica em Ênfase em Terapias Manuais e Posturais"
+            },
+            {
+              "item": "Especialização em Fisioterapia Neurofuncional Adulto e Pediátrica"
+            },
+            {
+              "item": "Reabilitação Visual Básico, Intermediário e Avançado"
+            },
+            {
+              "item": "Reequilíbrio Tóraco-Abdominal (RTA)"
+            },
+            {
+              "item": "Atualizações em Fisioterapia Pediátrica: Ênfase na Cintura Escapular"
+            },
+            {
+              "item": "Conceitos e Aplicação da Terapia de Restrição e Indução do Movimento"
+            },
+            {
+              "item": "Envelhecimento e Saúde: em Defesa do SUS e da Democracia"
+            },
+            {
+              "item": "Psicomotricidade"
+            },
+            {
+              "item": "Fisioterapia Vestibular"
+            },
+            {
+              "item": "PediaSuit Protocolo e Terapia Intensiva com a Gaiola de Habilidades"
+            },
+            {
+              "item": "Técnicas Funcionais de Aplicação das Bandagens Elásticas Terapêuticas"
+            },
+            {
+              "item": "Ariculoacupuntura e Cranioacupuntura"
+            },
+            {
+              "item": "Fisioterapia na Síndrome Pós-Covid-19"
             }
           ]
         }
@@ -388,7 +559,42 @@
       "image": "/valmir.png",
       "name": "Valmir da Silva Walker",
       "role": "Terapeuta Ocupacional",
-      "description": "Crefito-8: 20605-TO"
+      "description": "Crefito-8: 20605-TO",
+      "formations": [
+        {
+          "title": "Pós-Graduado em:",
+          "items": [
+            {
+              "item": "Análise do Comportamento (ABA)"
+            },
+            {
+              "item": "MBA Trabalho e Ergonomia"
+            }
+          ]
+        },
+        {
+          "title": "Formação em:",
+          "items": [
+            {
+              "item": "Integração Sensorial"
+            },
+            {
+              "item": "Pilates Clássico"
+            }
+          ]
+        },
+        {
+          "title": "Cursos de:",
+          "items": [
+            {
+              "item": "ABA no TEA Aplicador ABA"
+            },
+            {
+              "item": "Aplicador ABA no Autismo"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
