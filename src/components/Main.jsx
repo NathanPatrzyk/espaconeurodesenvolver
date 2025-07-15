@@ -19,7 +19,7 @@ const Main = () => {
 
   return (
     <main
-      className={`flex w-screen justify-center bg-dark-cyan-neuro bg-[url('/cloud.svg')] bg-cover bg-bottom bg-no-repeat pt-16 ${loaded ? "bg-dark-cyan-neuro" : bgImage}`}
+      className={`flex w-full justify-center bg-dark-cyan-neuro bg-[url('/cloud.svg')] bg-cover bg-bottom bg-no-repeat pt-16 ${loaded ? "bg-dark-cyan-neuro" : bgImage}`}
     >
       <Flex className="flex-col md:flex-row">
         <div className="flex flex-col p-4 md:p-12">

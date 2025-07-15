@@ -6,7 +6,7 @@ import NavItem from "./NavItem";
 const Nav = () => {
   let [open, setOpen] = useState(false);
   return (
-    <nav className="fixed left-0 top-0 flex w-screen justify-center bg-white bg-opacity-90">
+    <nav className="fixed left-0 top-0 flex w-full justify-center bg-white bg-opacity-90">
       <div className="flex w-full max-w-7xl items-center px-8 py-3">
         <div className="flex items-center">
           <a href="/">
@@ -28,6 +28,7 @@ const Nav = () => {
         >
           {json.pages.map((page) => (
             <NavItem
+              key={page.link}
               name={page.name}
               link={page.link}
               childrens={page.childrens}
