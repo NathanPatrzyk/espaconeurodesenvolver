@@ -7,6 +7,8 @@ const Nav = () => {
   let [open, setOpen] = useState(false);
   return (
     <nav className="fixed left-0 top-0 flex w-full justify-center bg-white bg-opacity-90">
+      <div className="flex w-full max-w-7xl items-center px-8 py-3">
+    <nav className="fixed left-0 top-0 flex w-full justify-center bg-white bg-opacity-90">
       <div className="flex w-full max-w-7xl items-center px-4 py-3 md:px-12">
         <div className="flex items-center">
           <a href="/">
