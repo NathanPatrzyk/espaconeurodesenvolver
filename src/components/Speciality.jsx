@@ -7,7 +7,7 @@ const Speciality = (props) => {
   if (props.theme == "dark") {
     if (props.link) {
       return (
-        <section className="flex w-screen justify-center bg-light-cyan-neuro">
+        <section className="flex w-full justify-center bg-light-cyan-neuro">
           <Flex className="flex-col md:flex-row">
             <div className="flex items-center justify-center p-4 md:p-12">
               <Motion>
@@ -35,7 +35,7 @@ const Speciality = (props) => {
       );
     } else {
       return (
-        <section className="flex w-screen justify-center bg-light-cyan-neuro">
+        <section className="flex w-full justify-center bg-light-cyan-neuro">
           <Flex className="flex-col md:flex-row">
             <div className="flex items-center justify-center p-4 md:p-12">
               <Motion>
@@ -62,7 +62,7 @@ const Speciality = (props) => {
   } else if (props.theme == "light") {
     if (props.link) {
       return (
-        <section className="flex w-screen justify-center bg-light-neuro">
+        <section className="flex w-full justify-center bg-light-neuro">
           <Flex className="flex-col-reverse md:flex-row">
             <div className="flex flex-1 flex-col justify-center p-4 md:p-12">
               <Motion>
@@ -90,7 +90,7 @@ const Speciality = (props) => {
       );
     } else {
       return (
-        <section className="flex w-screen justify-center bg-light-neuro">
+        <section className="flex w-full justify-center bg-light-neuro">
           <Flex className="flex-col-reverse md:flex-row">
             <div className="flex flex-1 flex-col justify-center p-4 md:p-12">
               <Motion>

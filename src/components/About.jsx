@@ -4,7 +4,7 @@ import Motion from "./Motion";
 const About = () => {
   return (
     <Motion>
-      <div className="flex w-screen justify-center">
+      <div className="flex w-full justify-center">
         <section
           id="sobre"
           className="grid w-full max-w-7xl grid-cols-1 gap-4 p-4 md:grid-cols-3 md:p-12"

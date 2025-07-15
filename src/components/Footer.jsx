@@ -10,7 +10,7 @@ import IconFacebookAlternative from "../assets/facebookAlternative.svg";
 
 const Footer = () => {
   return (
-    <footer className="flex w-screen justify-center bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro">
+    <footer className="flex w-full justify-center bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro">
       <div className="w-full max-w-7xl">
         <Motion>
           <div className="flex flex-col items-center md:flex-row md:items-start">
@@ -20,7 +20,8 @@ const Footer = () => {
                   (page) =>
                     page.link && (
                       <a
-                        className="block font-medium font-semibold text-light-neuro hover:underline"
+                        key={page.link}
+                        className="block font-semibold text-light-neuro hover:underline"
                         href={page.link}
                       >
                         {page.name}
@@ -36,7 +37,8 @@ const Footer = () => {
                       (children) =>
                         children.link && (
                           <a
-                            className="block font-medium font-semibold text-light-neuro hover:underline"
+                            key={children.link}
+                            className="block font-semibold text-light-neuro hover:underline"
                             href={children.link}
                           >
                             {children.name}

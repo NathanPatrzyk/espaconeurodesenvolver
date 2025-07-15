@@ -35,11 +35,11 @@ const NavItem = (props) => {
               />
             </a>
           </div>
-          <div className="left-0 top-[64px] w-screen pb-2 md:absolute md:bg-white md:bg-opacity-90">
+          <div className="left-0 top-[64px] w-screen px-0 py-0 pb-2 md:absolute md:grid md:grid-flow-col-dense md:grid-rows-3 md:justify-around md:gap-2 md:bg-white md:bg-opacity-90 md:px-8 md:py-3">
             {props.childrens.map((children) => (
               <a
                 key={children.link}
-                className="mx-6 my-2 block cursor-pointer text-dark-neuro hover:opacity-80"
+                className="block cursor-pointer p-2 text-dark-neuro hover:opacity-80 md:p-0"
                 href={children.link}
               >
                 {children.name}
