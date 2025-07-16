@@ -88,6 +88,37 @@ const FonoaudiologiaBobath = () => {
           </section>
         </div>
       </Motion>
+      <LinkGoToProfessionals />
+      <section className="flex w-full justify-center bg-light-cyan-neuro">
+        <Flex className="flex-col md:flex-row">
+          <div className="flex items-center justify-center p-4 md:p-12">
+            <Motion>
+              <img
+                src={ImageFonoaudiologiaBobathAlternative}
+                className="size-[90vw] max-h-[300px] max-w-[300px] sm:size-[300px]"
+              ></img>
+            </Motion>
+          </div>
+          <div className="flex flex-1 flex-col justify-center p-4 md:p-12">
+            <Motion>
+              <p className="pt-6 text-dark-neuro">
+                Na fonoaudiologia, o método Bobath é essencial para:{" "}
+                <ul className="flex list-disc flex-col gap-1 ps-8 pt-4 font-bold">
+                  <li>
+                    Analisar a postura global e as habilidades orais
+                    específicas.
+                  </li>
+                  <li>Melhorar a qualidade da postura e dos movimentos.</li>
+                  <li>
+                    Potencializar habilidades de comunicação, alimentação,
+                    respiração e fala.
+                  </li>
+                </ul>
+              </p>
+            </Motion>
+          </div>
+        </Flex>
+      </section>
 
       <Nav />
       <Footer />

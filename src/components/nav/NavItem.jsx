@@ -1,18 +1,18 @@
 import { useState } from "react";
 import IconSeeMore from "../../assets/see-more.svg";
 
-const NavItem = ({ childrens, link, name }) => {
+const NavItem = (props) => {
   let [open, setOpen] = useState(false);
-  if (childrens) {
+  if (props.childrens) {
     if (!open) {
       return (
         <div className="p-2 md:p-0">
           <a
             className="block cursor-pointer font-medium text-dark-neuro hover:opacity-80"
-            href={link}
+            href={props.link}
             onClick={() => setOpen(!open)}
           >
-            {name}
+            {props.name}
             <img className="inline pb-0.5 ps-2" src={IconSeeMore} />
           </a>
         </div>
@@ -23,10 +23,10 @@ const NavItem = ({ childrens, link, name }) => {
           <div className="p-2 md:p-0">
             <a
               className="block cursor-pointer font-medium text-dark-neuro hover:opacity-80"
-              href={link}
+              href={props.link}
               onClick={() => setOpen(!open)}
             >
-              {name}
+              {props.name}
               <img
                 className={`inline pb-0.5 ${
                   open ? "rotate-180 pe-2" : "rotate-0 ps-2"
@@ -35,11 +35,11 @@ const NavItem = ({ childrens, link, name }) => {
               />
             </a>
           </div>
-          <div className="right-[109px] top-[64px] pb-2 md:absolute md:bg-white md:bg-opacity-90">
-            {childrens.map((children) => (
+          <div className="left-0 top-[64px] w-screen px-0 py-0 pb-2 md:absolute md:grid md:grid-flow-col-dense md:grid-rows-3 md:justify-around md:gap-2 md:bg-white md:bg-opacity-90 md:px-8 md:py-3">
+            {props.childrens.map((children) => (
               <a
                 key={children.link}
-                className="mx-6 my-2 block cursor-pointer text-dark-neuro hover:opacity-80"
+                className="block cursor-pointer p-2 text-dark-neuro hover:opacity-80 md:p-0"
                 href={children.link}
               >
                 {children.name}
@@ -54,9 +54,9 @@ const NavItem = ({ childrens, link, name }) => {
       <div className="p-2 md:p-0">
         <a
           className="block cursor-pointer font-medium text-dark-neuro hover:opacity-80"
-          href={link}
+          href={props.link}
         >
-          {name}
+          {props.name}
         </a>
       </div>
     );
