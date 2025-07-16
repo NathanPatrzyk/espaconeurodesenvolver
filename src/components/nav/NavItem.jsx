@@ -7,7 +7,6 @@ const NavItem = ({ childrens, link, name }) => {
     if (!open) {
       return (
         <div className="p-2 md:p-0">
-        <div className="p-2 md:p-0">
           <a
             className="block cursor-pointer font-medium text-dark-neuro hover:opacity-80"
             href={link}
@@ -22,7 +21,6 @@ const NavItem = ({ childrens, link, name }) => {
       return (
         <div>
           <div className="p-2 md:p-0">
-          <div className="p-2 md:p-0">
             <a
               className="block cursor-pointer font-medium text-dark-neuro hover:opacity-80"
               href={link}
@@ -31,7 +29,6 @@ const NavItem = ({ childrens, link, name }) => {
               {name}
               <img
                 className={`inline pb-0.5 ${
-                  open ? "rotate-180 pe-2" : "rotate-0 ps-2"
                   open ? "rotate-180 pe-2" : "rotate-0 ps-2"
                 }`}
                 src={IconSeeMore}
@@ -54,7 +51,6 @@ const NavItem = ({ childrens, link, name }) => {
     }
   } else {
     return (
-      <div className="p-2 md:p-0">
       <div className="p-2 md:p-0">
         <a
           className="block cursor-pointer font-medium text-dark-neuro hover:opacity-80"
