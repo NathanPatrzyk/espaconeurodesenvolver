@@ -4,23 +4,10 @@ import Link from "./link/Link";
 import IconWhatsappAlternative from "../assets/whatsappAlternative.svg";
 import ImageLogo from "../assets/logo-big.webp";
 import Flex from "./layout/Flex";
-import { useState, useEffect } from "react";
 
 const Main = () => {
-  const [loaded, setLoaded] = useState(true);
-
-  const bgImage = "bg-[url('/cloud.svg')]";
-
-  useEffect(() => {
-    const img = new Image();
-    img.src = "/cloud.svg";
-    img.onload = () => setLoaded(false);
-  }, []);
-
   return (
-    <main
-      className={`flex w-full justify-center bg-dark-cyan-neuro bg-[url('/cloud.svg')] bg-cover bg-bottom bg-no-repeat pt-16 ${loaded ? "bg-dark-cyan-neuro" : bgImage}`}
-    >
+    <main className="flex w-full justify-center bg-dark-cyan-neuro bg-[url('/cloud.svg')] bg-cover bg-bottom bg-no-repeat pt-16">
       <Flex className="flex-col md:flex-row">
         <div className="flex flex-col p-4 md:p-12">
           <Motion>
@@ -40,7 +27,7 @@ const Main = () => {
             </div>
           </Motion>
         </div>
-        <div className="flex items-center justify-center p-4 duration-500 hover:scale-105 active:scale-105 md:p-12">
+        <div className="flex w-full items-center justify-center p-4 duration-500 md:w-auto md:p-12">
           <Motion>
             <div className="mx-auto size-[300px] rounded-[60px] bg-transparent">
               <img

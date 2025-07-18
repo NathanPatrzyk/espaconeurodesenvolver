@@ -1,28 +1,24 @@
 import LinkSmall from "./LinkSmall";
 
-const LinksSmall = (props) => {
-  if (props.next) {
+const LinksSmall = ({ previous, next }) => {
+  if (next) {
     return (
       <div className="flex justify-between">
         <LinkSmall
-          textColor="dark-neuro"
-          name={props.previous.name}
-          link={props.previous.link}
+          textColor="white"
+          name={previous.name}
+          link={previous.link}
         />
-        <LinkSmall
-          textColor="dark-neuro"
-          name={props.next.name}
-          link={props.next.link}
-        />
+        <LinkSmall textColor="white" name={next.name} link={next.link} />
       </div>
     );
   } else {
     return (
       <div className="flex justify-between">
         <LinkSmall
-          textColor="dark-neuro"
-          name={props.previous.name}
-          link={props.previous.link}
+          textColor="white"
+          name={previous.name}
+          link={previous.link}
         />
       </div>
     );

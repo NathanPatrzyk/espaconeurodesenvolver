@@ -26,16 +26,20 @@ const EstimulacaoVisual = () => {
             page.childrens &&
             page.childrens.map((children) =>
               children.name == name ? (
-                <LinksSmall previous={children.previous} next={children.next} />
-              ) : null
-            )
+                <LinksSmall
+                  key={children.link}
+                  previous={children.previous}
+                  next={children.next}
+                />
+              ) : null,
+            ),
         )}
       </div>
-      <main className="bg-light-cyan-neuro flex md:flex-row flex-col-reverse">
-        <div className="flex-1 flex flex-col md:py-12 md:px-16 md:pt-4 py-8 px-4 pt-4">
+      <main className="flex flex-col-reverse bg-light-cyan-neuro md:flex-row">
+        <div className="flex flex-1 flex-col px-4 py-8 pt-4 md:px-16 md:py-12 md:pt-4">
           <Motion>
-            <h1 className="text-dark-neuro text-3xl pb-4">
-              <span className="font-bold bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro text-transparent bg-clip-text text-3xl">
+            <h1 className="pb-4 text-3xl text-dark-neuro">
+              <span className="bg-gradient-to-r from-dark-cyan-neuro to-cyan-neuro bg-clip-text text-3xl font-bold text-transparent">
                 Estimulação Visual:
               </span>{" "}
               Potencializando o Desenvolvimento Global da Visão
@@ -48,23 +52,23 @@ const EstimulacaoVisual = () => {
         </div>
       </main>
       <Motion>
-        <section className="flex md:flex-row flex-col gap-8 md:px-16 px-4 md:py-12 py-8">
-          <div className="flex-1 px-8 py-4 border-4 border-dark-neuro hover:border-cyan-neuro border-opacity-20 rounded-lg">
-            <img className="mx-auto w-20 h-20" src={IconZoom} />
-            <p className="text-dark-neuro pt-4">
+        <section className="flex flex-col gap-8 px-4 py-8 md:flex-row md:px-16 md:py-12">
+          <div className="flex-1 rounded-lg border-4 border-dark-neuro border-opacity-20 px-8 py-4 hover:border-cyan-neuro">
+            <img className="mx-auto h-20 w-20" src={IconZoom} />
+            <p className="pt-4 text-dark-neuro">
               Criação de novas conexões neurais, possibilitando o cérebro a ver,
               mesmo que ocorram alterações nas funções visuais.
             </p>
           </div>
-          <div className="flex-1 px-8 py-4 border-4 border-dark-neuro hover:border-cyan-neuro border-opacity-20 rounded-lg">
-            <img className="mx-auto w-20 h-20" src={IconCamera} />
-            <p className="text-dark-neuro pt-4">
+          <div className="flex-1 rounded-lg border-4 border-dark-neuro border-opacity-20 px-8 py-4 hover:border-cyan-neuro">
+            <img className="mx-auto h-20 w-20" src={IconCamera} />
+            <p className="pt-4 text-dark-neuro">
               Auxílio no aprendizado e desenvolvimento global da visão.
             </p>
           </div>
-          <div className="flex-1 px-8 py-4 border-4 border-dark-neuro hover:border-cyan-neuro border-opacity-20 rounded-lg">
-            <img className="mx-auto w-20 h-20" src={IconGlasses} />
-            <p className="text-dark-neuro pt-4">
+          <div className="flex-1 rounded-lg border-4 border-dark-neuro border-opacity-20 px-8 py-4 hover:border-cyan-neuro">
+            <img className="mx-auto h-20 w-20" src={IconGlasses} />
+            <p className="pt-4 text-dark-neuro">
               Indicada para qualquer indivíduo, independente da idade ou
               alteração visual apresentada.
             </p>
@@ -72,20 +76,20 @@ const EstimulacaoVisual = () => {
         </section>
       </Motion>
       <LinkGoToProfessionals />
-      <section className="flex md:flex-row flex-col">
-        <div className="flex-1 flex items-center justify-center md:px-16 md:py-12 py-8 md:bg-gradient-to-r md:from-light-cyan-neuro md:to-light-cyan-neuro md:rounded-none md:rounded-tr-[800px] rounded-none">
+      <section className="flex flex-col md:flex-row">
+        <div className="flex flex-1 items-center justify-center rounded-none py-8 md:rounded-none md:rounded-tr-[800px] md:bg-gradient-to-r md:from-light-cyan-neuro md:to-light-cyan-neuro md:px-16 md:py-12">
           <Motion>
             <img
               src={ImageEstimulacaoVisualAlternative}
-              className="sm:size-[300px] size-[90vw] max-w-[300px] max-h-[300px]"
+              className="size-[90vw] max-h-[300px] max-w-[300px] sm:size-[300px]"
             ></img>
           </Motion>
         </div>
-        <div className="flex-1 flex flex-col justify-center md:py-32 md:px-16 px-4 py-8 ">
+        <div className="flex flex-1 flex-col justify-center px-4 py-8 md:px-16 md:py-32">
           <Motion>
-            <p className="text-dark-neuro pt-6">
+            <p className="pt-6 text-dark-neuro">
               As principais indicações para a Estimulação Visual são:{" "}
-              <ul className="list-disc font-bold text-dark-cyan-neuro flex flex-col gap-1 ps-8 pt-4">
+              <ul className="flex list-disc flex-col gap-1 ps-8 pt-4 font-bold text-dark-cyan-neuro">
                 <li>Estrabismo</li>
                 <li>Nistagmo</li>
                 <li>Dificuldades de Atenção e Foco</li>
@@ -103,10 +107,10 @@ const EstimulacaoVisual = () => {
         </div>
       </section>
       <section>
-        <div className="flex md:flex-row flex-col-reverse bg-light-cyan-neuro">
-          <div className="flex-1 flex flex-col justify-center md:py-32 md:px-16 px-4 py-8">
+        <div className="flex flex-col-reverse bg-light-cyan-neuro md:flex-row">
+          <div className="flex flex-1 flex-col justify-center px-4 py-8 md:px-16 md:py-32">
             <Motion>
-              <h1 className="text-dark-neuro text-2xl">
+              <h1 className="text-2xl text-dark-neuro">
                 O Espaço Neurodesenvolver disponibiliza as melhores metodologias
                 no processo de fisioterapia e reabilitação. Venha conhecer!
               </h1>
@@ -120,25 +124,29 @@ const EstimulacaoVisual = () => {
               </div>
             </Motion>
           </div>
-          <div className="flex-1 flex items-center justify-center md:px-16 md:py-12 py-8 md:rounded-none md:rounded-bl-[800px] rounded-none">
+          <div className="flex flex-1 items-center justify-center rounded-none py-8 md:rounded-none md:rounded-bl-[800px] md:px-16 md:py-12">
             <Motion>
               <img
                 src={ImageEstimulacaoVisualAlternative2}
-                className="sm:size-[300px] size-[90vw] max-w-[300px] max-h-[300px]"
+                className="size-[90vw] max-h-[300px] max-w-[300px] sm:size-[300px]"
               ></img>
             </Motion>
           </div>
         </div>
       </section>
-      <div className="bg-light-cyan-neuro ">
+      <div className="bg-light-cyan-neuro">
         {json.pages.map(
           (page) =>
             page.childrens &&
             page.childrens.map((children) =>
               children.name == name ? (
-                <LinksSmall previous={children.previous} next={children.next} />
-              ) : null
-            )
+                <LinksSmall
+                  key={children.link}
+                  previous={children.previous}
+                  next={children.next}
+                />
+              ) : null,
+            ),
         )}
       </div>
       <Nav />

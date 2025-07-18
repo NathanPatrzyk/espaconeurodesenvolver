@@ -37,8 +37,7 @@ const Footer = () => {
                       (children) =>
                         children.link && (
                           <a
-                            key={children.link}
-                            className="block font-semibold text-light-neuro hover:underline"
+                            className="block font-medium font-semibold text-light-neuro hover:underline"
                             href={children.link}
                           >
                             {children.name}

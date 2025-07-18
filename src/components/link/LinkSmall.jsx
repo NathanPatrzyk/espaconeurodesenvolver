@@ -4,7 +4,7 @@ const LinkSmall = ({ textColor, name, link }) => {
   return (
     <Motion>
       <a
-        className={`text-${textColor} font-bold text-left underline inline-block my-2 md:my-8 md:mx-16 mx-4`}
+        className={`text-${textColor} inline-block p-4 text-left font-bold underline md:p-8`}
         href={link}
       >
         {name}
