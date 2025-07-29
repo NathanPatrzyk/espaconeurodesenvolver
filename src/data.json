@@ -125,41 +125,6 @@
               "item": "PediaSuit Básico, Avançado e Baby"
             }
           ]
-        },
-        {
-          "title": "Cursos de:",
-          "items": [
-            {
-              "item": "Comunicação Alternativa para TGD/TEA"
-            },
-            {
-              "item": "Estimulação Transcraniana por Corrente Contínua"
-            },
-            {
-              "item": "Estimulação Visual"
-            },
-            {
-              "item": "Fisioterapia Respiratória"
-            },
-            {
-              "item": "Fisioterapia Traumato-Ortopédica"
-            },
-            {
-              "item": "Neuropsicomotricidade"
-            },
-            {
-              "item": "Psicomotricidade Básica e Avançada"
-            },
-            {
-              "item": "Psicomotricidade Institucional, Clínica e TGD/TEA"
-            },
-            {
-              "item": "Reequilíbrio Tóraco-Abdominal (RTA)"
-            },
-            {
-              "item": "Treinamento Locomotor na Paralisia Cerebral"
-            }
-          ]
         }
       ]
     },
@@ -226,56 +191,6 @@
               "item": "Conceito Neuroevolutivo Bobath"
             }
           ]
-        },
-        {
-          "title": "Cursos de:",
-          "items": [
-            {
-              "item": "Tratamento Fisioterapêutico nas Disfunções Neurológicas e Ortopédicas"
-            },
-            {
-              "item": "Dry Needling"
-            },
-            {
-              "item": "Neurofisiologia"
-            },
-            {
-              "item": "Auriculoterapia"
-            },
-            {
-              "item": "Pediasuit Protocol e Terapia Intensiva com a Gaiola de Habilidades"
-            },
-            {
-              "item": "Capacitação em Análise do Comportamento Aplicada (ABA) Voltada ao Transtorno do Espectro do Autismo (TEA) para Pais, Cuidadores e Educadores"
-            },
-            {
-              "item": "Psicomotricidade"
-            },
-            {
-              "item": "Atualidades na Terapia Intensiva, Neurologia e Autismo"
-            },
-            {
-              "item": "ABA: Análise Comportamental do Espectro Autista"
-            },
-            {
-              "item": "Estimulação Transcraniana por Corrente Contínua"
-            },
-            {
-              "item": "Classificação Internacional de Funcionalidade, Incapacidade e Saúde"
-            },
-            {
-              "item": "Transtorno do Espectro Autista e Proposta de Intervenção"
-            },
-            {
-              "item": "Suporte Básico de Vidas"
-            },
-            {
-              "item": "Atualizações em Fisioterapia Pediatrica: Ênfase na Cintura Escapular, Pélvica, Torcicolo Congênito e Assimetria Craniana"
-            },
-            {
-              "item": "Estimulação Visual Básico, Intermediário e Avançado"
-            }
-          ]
         }
       ]
     },
@@ -333,9 +248,6 @@
           "title": "Cursos de:",
           "items": [
             {
-              "item": "Especialização em Fisioterapia"
-            },
-            {
               "item": "Traumatoortopédica em Ênfase em Terapias Manuais e Posturais"
             },
             {
@@ -348,31 +260,10 @@
               "item": "Reequilíbrio Tóraco-Abdominal (RTA)"
             },
             {
-              "item": "Atualizações em Fisioterapia Pediátrica: Ênfase na Cintura Escapular"
-            },
-            {
-              "item": "Conceitos e Aplicação da Terapia de Restrição e Indução do Movimento"
-            },
-            {
-              "item": "Envelhecimento e Saúde: em Defesa do SUS e da Democracia"
-            },
-            {
               "item": "Psicomotricidade"
             },
             {
-              "item": "Fisioterapia Vestibular"
-            },
-            {
               "item": "PediaSuit Protocolo e Terapia Intensiva com a Gaiola de Habilidades"
-            },
-            {
-              "item": "Técnicas Funcionais de Aplicação das Bandagens Elásticas Terapêuticas"
-            },
-            {
-              "item": "Ariculoacupuntura e Cranioacupuntura"
-            },
-            {
-              "item": "Fisioterapia na Síndrome Pós-Covid-19"
             }
           ]
         }
@@ -401,9 +292,6 @@
         {
           "title": "Cursos de:",
           "items": [
-            {
-              "item": "Avaliação do Assoalho Pélvico"
-            },
             {
               "item": "Drenagem Linfática Manual"
             },
@@ -468,37 +356,13 @@
           "title": "Cursos de:",
           "items": [
             {
-              "item": "Reabilitação no Pós AVC: da Avaliação a Intervenção Terapêutica Ocupacional"
-            },
-            {
-              "item": "Desenvolvimento Infantil de 0 a 06 Anos: Avaliação e Intervenção na Perspectiva da Terapia Ocupacional"
-            },
-            {
-              "item": "Bandagem Neuromuscular"
-            },
-            {
-              "item": "Introdução a Prematuridade: Fundamentos e Conceitos Básicos"
-            },
-            {
-              "item": "Seletividade Alimentar para Profissionais"
-            },
-            {
-              "item": "Desfralde e Seletividade Alimentar"
-            },
-            {
-              "item": "Shantala"
+              "item": "Desenvolvimento Infantil de 0 a 6 Anos: Avaliação e Intervenção na Perspectiva da Terapia Ocupacional"
             },
             {
               "item": "Desenvolvimento da Pessoa com Síndrome de Down"
             },
             {
-              "item": "Terapia Ocupacional e a Escola"
-            },
-            {
               "item": "Transtorno do Espectro Autista"
-            },
-            {
-              "item": "Marcos do Desenvolvimento e Intervenção Precoce"
             },
             {
               "item": "Integração Sensorial (Básico)"
@@ -531,9 +395,6 @@
           "title": "Cursos de:",
           "items": [
             {
-              "item": "Certificado Edu-TO"
-            },
-            {
               "item": "Neurociência Aplicada à Educação"
             },
             {
@@ -547,9 +408,6 @@
             },
             {
               "item": "Jornada da Terapia ABA no TEA"
-            },
-            {
-              "item": "Seletividade Alimentar para Profissionais"
             }
           ]
         }
