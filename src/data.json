@@ -154,6 +154,39 @@
       ]
     },
     {
+      "name": "Jessica Luisa Mendes",
+      "role": "Fisioterapeuta",
+      "formations": [
+        {
+          "title": "Pós-Graduada em:",
+          "items": [
+            {
+              "item": "Fisioterapia Neuropediátrica"
+            }
+          ]
+        },
+        {
+          "title": "Formação em:",
+          "items": [
+            {
+              "item": "PediaSuit Básico"
+            }
+          ]
+        },
+        {
+          "title": "Cursos de:",
+          "items": [
+            {
+              "item": "Ventilação Mecânica Invasiva e Não-invasiva na Pediatria e na Neonatologia"
+            },
+            {
+              "item": "Método Neuroevolutivo Bobath e Facilitação Neuromuscular Peoprioceptiva"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "image": "/marcieli.png",
       "name": "Marcieli Riskowski",
       "role": "Fisioterapeuta",
@@ -443,6 +476,45 @@
             },
             {
               "item": "Aplicador ABA no Autismo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Karin Eduarda Chepluski Pavelski",
+      "role": "Psicopedagoga",
+      "formations": [
+        {
+          "title": "Graduada em:",
+          "items": [
+            {
+              "item": "Licenciatura em Pedagogia"
+            }
+          ]
+        },
+        {
+          "title": "Pós-Graduada em:",
+          "items": [
+            {
+              "item": "Educação Especial e Inclusiva"
+            },
+            {
+              "item": "Psicomotricidade"
+            },
+            {
+              "item": "A"
+            }
+          ]
+        },
+        {
+          "title": "Cursos de:",
+          "items": [
+            {
+              "item": "A"
+            },
+            {
+              "item": "A"
             }
           ]
         }
