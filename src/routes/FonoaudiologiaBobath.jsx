@@ -20,7 +20,7 @@ const FonoaudiologiaBobath = () => {
   const name = "Fonoaudiologia Bobath";
   return (
     <div>
-      <div className="flex w-full flex-col items-center bg-dark-cyan-neuro bg-[url('/cloud.svg')] bg-cover bg-bottom bg-no-repeat pt-16">
+      <div className="flex w-full flex-col items-center bg-dark-cyan-neuro bg-[url('/cloud2.svg')] bg-cover bg-bottom bg-no-repeat pt-16">
         <div className="flex w-full max-w-7xl flex-col flex-wrap justify-center gap-4 px-4 md:px-12">
           {json.pages.map(
             (page) =>
