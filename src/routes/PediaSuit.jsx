@@ -10,6 +10,7 @@ import LinkGoToProfessionals from "../components/link/LinkGoToProfessionals";
 
 import IconWhatsapp from "../assets/whatsapp.svg";
 import ImagePediasuit from "../assets/pediasuit.webp";
+import ImagePediasuitAlternative from "../assets/pediasuitAlternative.webp";
 
 import Flex from "../components/layout/Flex";
 import { BicepsFlexed, Bike, Footprints, Medal } from "lucide-react";
@@ -105,7 +106,44 @@ function PediaSuit() {
         <Flex className="flex-col-reverse md:flex-row">
           <div className="flex items-center justify-center p-4 md:p-12">
             <Motion>
-              <h1 className="text-center text-2xl text-dark-neuro md:text-left">
+              <p className="pt-6 text-center text-dark-neuro md:text-left">
+                Além da Fisioterapia Método Pediasuit, também atendemos as
+                seguintes especialidades de fisioterapia:{" "}
+                <ul className="flex list-disc flex-col gap-1 ps-8 pt-4 text-left font-bold">
+                  <li>Fisioterapia Método RTA</li>
+                  <li>Fisioterapia Método ABA</li>
+                  <li>Fisioterapia Método Bobath</li>
+                  <li>Cuervas Medek Exercises</li>
+                  <li>Psicomotricidade</li>
+                  <li>Fisioterapia Neurológica</li>
+                  <li>Fisioterapia Neuropediatrica</li>
+                  <li>Fisioterapia de Reabilitação Vestibular</li>
+                  <li>Fisioterapia Método Dir-Floortime</li>
+                  <li>
+                    Fisioterapia para Torcicolo Congênito e Assimetrias
+                    Cranianas
+                  </li>
+                  <li>Estimulação Visual</li>
+                  <li>Fisioterapia Respiratória</li>
+                </ul>
+              </p>
+            </Motion>
+          </div>
+          <div className="flex flex-1 flex-col justify-center p-4 md:p-12">
+            <Motion>
+              <img
+                src={ImagePediasuitAlternative}
+                className="size-[90vw] max-h-[300px] max-w-[300px] sm:size-[300px]"
+              ></img>
+            </Motion>
+          </div>
+        </Flex>
+      </section>
+      <section className="flex w-full justify-center bg-light-cyan-neuro">
+        <Flex className="flex-col-reverse md:flex-row">
+          <div className="flex items-center justify-center p-4 md:p-12">
+            <Motion>
+              <h1 className="pt-6 text-center text-dark-neuro md:text-left">
                 Agende uma avaliação conosco e descubra como o PediaSuit pode
                 ser a chave para conquistar novos horizontes na
                 neuroreabilitação de seu filho(a)!
