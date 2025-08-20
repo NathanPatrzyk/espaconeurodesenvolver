@@ -139,9 +139,17 @@ function PediaSuit() {
           </div>
         </Flex>
       </section>
-      <section className="flex w-full justify-center bg-light-cyan-neuro">
-        <Flex className="flex-col-reverse md:flex-row">
+      <section className="flex w-full justify-center bg-light-neuro">
+        <Flex className="flex-col md:flex-row">
           <div className="flex items-center justify-center p-4 md:p-12">
+            <Motion>
+              <img
+                src={ImagePediasuit}
+                className="size-[90vw] max-h-[300px] max-w-[300px] sm:size-[300px]"
+              ></img>
+            </Motion>
+          </div>
+          <div className="flex flex-1 flex-col justify-center p-4 md:p-12">
             <Motion>
               <h1 className="pt-6 text-center text-dark-neuro md:text-left">
                 Agende uma avaliação conosco e descubra como o PediaSuit pode
@@ -158,18 +166,10 @@ function PediaSuit() {
               </div>
             </Motion>
           </div>
-          <div className="flex flex-1 flex-col justify-center p-4 md:p-12">
-            <Motion>
-              <img
-                src={ImagePediasuit}
-                className="size-[90vw] max-h-[300px] max-w-[300px] sm:size-[300px]"
-              ></img>
-            </Motion>
-          </div>
         </Flex>
       </section>
 
-      <div className="flex w-full flex-col items-center bg-light-cyan-neuro">
+      <div className="flex w-full flex-col items-center bg-light-neuro">
         <div className="gap-4px-0 flex w-full max-w-7xl flex-col flex-wrap justify-center md:px-4">
           {json.pages.map(
             (page) =>
