@@ -1,19 +1,14 @@
 import json from "../data.json";
-
 import Motion from "../components/Motion";
 import Nav from "../components/nav/Nav";
 import Footer from "../components/Footer";
-
 import Link from "../components/link/Link";
 import LinksSmall from "../components/link/LinksSmall";
 import LinkGoToProfessionals from "../components/link/LinkGoToProfessionals";
-
 import IconWhatsapp from "../assets/whatsapp.svg";
-
 import ImageFonoaudiologiaBobathAlternative from "../assets/fonoaudiologiaBobathAlternative.webp";
 import ImageFonoaudiologiaBobathAlternative2 from "../assets/fonoaudiologiaBobathAlternative2.webp";
 import Flex from "../components/layout/Flex";
-
 import { Footprints, MessagesSquare, FileText } from "lucide-react";
 
 const FonoaudiologiaBobath = () => {
