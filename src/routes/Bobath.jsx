@@ -19,7 +19,7 @@ function Bobath() {
   const name = "Bobath";
   return (
     <div>
-      <div className="flex w-full flex-col items-center bg-dark-cyan-neuro bg-[url('/cloud2.svg')] bg-cover bg-bottom bg-no-repeat pt-16">
+      <div className="flex w-full flex-col items-center bg-dark-cyan-neuro bg-[url('/cloud4.svg')] bg-cover bg-bottom bg-no-repeat pt-16">
         <div className="flex w-full max-w-7xl flex-col flex-wrap justify-center px-4 md:px-12">
           {json.pages.map(
             (page) =>
@@ -111,13 +111,24 @@ function Bobath() {
           <div className="flex items-center justify-center p-4 md:p-12">
             <Motion>
               <p className="pt-6 text-center text-dark-neuro md:text-left">
-                Além da Fonoaudilogia Bobath, também atendemos as seguintes
-                especialidades de fonoaudiologia:{" "}
+                Além da Fisioterapia Método Bobath, também atendemos as
+                seguintes especialidades de fisioterapia:{" "}
                 <ul className="flex list-disc flex-col gap-1 ps-8 pt-4 text-left font-bold">
-                  <li>Fonoaudiologia ABA</li>
-                  <li>Fonoaudiologia Disfagia</li>
-                  <li>Fonoaudiologia Atraso na Fala</li>
-                  <li>Fonoaudiologia Prompt</li>
+                  <li>Fisioterapia Método RTA</li>
+                  <li>Fisioterapia Método ABA</li>
+                  <li>Fisioterapia Método Pediasuit</li>
+                  <li>Cuervas Medek Exercises</li>
+                  <li>Psicomotricidade</li>
+                  <li>Fisioterapia Neurológica</li>
+                  <li>Fisioterapia Neuropediatrica</li>
+                  <li>Fisioterapia de Reabilitação Vestibular</li>
+                  <li>Fisioterapia Método Dir-Floortime</li>
+                  <li>
+                    Fisioterapia para Torcicolo Congênito e Assimetrias
+                    Cranianas
+                  </li>
+                  <li>Estimulação Visual</li>
+                  <li>Fisioterapia Respiratória</li>
                 </ul>
               </p>
             </Motion>
@@ -125,7 +136,7 @@ function Bobath() {
           <div className="flex flex-1 flex-col justify-center p-4 md:p-12">
             <Motion>
               <img
-                src={ImageFonoaudiologiaBobathAlternative2}
+                src={ImageBobath}
                 className="size-[90vw] max-h-[300px] max-w-[300px] sm:size-[300px]"
               ></img>
             </Motion>
@@ -137,9 +148,9 @@ function Bobath() {
           <div className="flex items-center justify-center p-4 md:p-12">
             <Motion>
               <h1 className="text-center text-2xl text-dark-neuro md:text-left">
-                Agora o Espaço Neurodesenvolver conta com profissionais
-                especializados em diversas áreas da fonoaudiologia para melhor
-                te atender!
+                O objetivo final do Bobath é melhorar a qualidade de vida e a
+                participação do indivíduo em suas atividades diárias. Agende uma
+                avaliação conosco!
               </h1>
               <div className="pt-6">
                 <Link
