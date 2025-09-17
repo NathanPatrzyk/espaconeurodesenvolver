@@ -113,7 +113,7 @@ const TerapiaOcupacional = () => {
           </div>
           <div className="flex flex-1 flex-col justify-center p-4 md:p-12">
             <Motion>
-              <h1 className="pt-6 text-center text-dark-neuro md:text-left">
+              <h1 className="pt-6 text-center text-2xl text-dark-neuro md:text-left">
                 Entre em contato com nossa equipe e realize uma avaliação, para
                 que a Terapia Ocupacional possa ajudar nas atividades diárias do
                 seu filho(a)!
