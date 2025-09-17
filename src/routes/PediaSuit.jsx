@@ -151,7 +151,7 @@ function PediaSuit() {
           </div>
           <div className="flex flex-1 flex-col justify-center p-4 md:p-12">
             <Motion>
-              <h1 className="pt-6 text-center text-dark-neuro md:text-left">
+              <h1 className="pt-6 text-center text-2xl text-dark-neuro md:text-left">
                 Agende uma avaliação conosco e descubra como o PediaSuit pode
                 ser a chave para conquistar novos horizontes na
                 neuroreabilitação de seu filho(a)!
