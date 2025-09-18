@@ -18,7 +18,7 @@ const EstimulacaoVisual = () => {
   const name = "Estimulação Visual";
   return (
     <div>
-      <div className="flex w-full flex-col items-center bg-dark-cyan-neuro bg-[url('/cloud4.svg')] bg-cover bg-bottom bg-no-repeat pt-16">
+      <div className="flex w-full flex-col items-center bg-dark-cyan-neuro bg-[url('/cloud6.svg')] bg-cover bg-bottom bg-no-repeat pt-16">
         <div className="flex w-full max-w-7xl flex-col flex-wrap justify-center px-4 md:px-12">
           {json.pages.map(
             (page) =>
